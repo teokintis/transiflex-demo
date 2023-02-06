@@ -1,0 +1,2673 @@
+{
+  "common": {
+    "days": {
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday",
+      "sunday": "Sunday"
+    },
+    "languages": {
+      "el": "Ελληνικά",
+      "en": "English",
+      "de": "Deutsch",
+      "es": "Español",
+      "bg": "Bŭlgarski",
+      "fi": "Suomi",
+      "pt": "Portuguese"
+    },
+    "monthsArr": [
+      "Januar",
+      "Februar",
+      "März",
+      "April",
+      "Mai",
+      "Juni",
+      "Juli",
+      "August",
+      "September",
+      "Oktober",
+      "November",
+      "Dezember"
+    ],
+    "months": {
+      "month01": "Januar",
+      "month02": "Februar",
+      "month03": "März",
+      "month04": "April",
+      "month05": "Mai",
+      "month06": "Juni",
+      "month07": "Juli",
+      "month08": "August",
+      "month09": "September",
+      "month10": "Oktober",
+      "month11": "November",
+      "month12": "Dezember"
+    },
+    "bonusSchemes": {
+      "nobonus": "Kein Bonus",
+      "novicasino": "Casino Willkommenbonus",
+      "novicasinogb": "Casino Willkommenbonus",
+      "novicasinogr": "Casino Willkommenbonus",
+      "novicasinoie": "Casino Willkommenbonus",
+      "novisportsbookgr": "Sportwetten Willkommenbonus",
+      "novicasinofirstdepositdefault": "Einzahlungsbonus",
+      "novicasinofirstdepositgr": "Einzahlungsbonus",
+      "novisportsbookfirstdepositgr": "Einzahlungsbonus",
+      "novidecasinofirstdepositde": "Einzahlungsbonus",
+      "novidesportsbookfirstdepositde": "Einzahlungsbonus",
+      "novimxsportsbookfirstdepositmx": "Einzahlungsbonus",
+      "novimxcasinofirstdepositmx": "Einzahlungsbonus",
+      "novisportsbooknorollovergb": "Sportwetten Willkommenbonus",
+      "novisportsbooknorollovergbsep18": "Sportwetten Willkommenbonus",
+      "novisportsbooknorolloverie": "Sportwetten Willkommenbonus",
+      "noviiesportsbookie": "Einzahlungsbonus"
+    },
+    "navigation": {
+      "live": "Live-Wetten",
+      "liveSidenav": "Live-Wetten",
+      "liveSeo": "Live-Wetten",
+      "sports": "Sportwetten",
+      "sportsSidenav": "Sportwetten",
+      "casino": "Online spiele",
+      "liveCasino": "LIVE-CASINO",
+      "casinoSidenav": "Online Spiele",
+      "liveCasinoSidenav": "Live Casino",
+      "noviLadies": "Noviladies",
+      "noviLadiesSidenav": "Noviladies",
+      "noviLeague": "Novileague",
+      "noviboard": "Rock n' Reel",
+      "virtuals": "Virtuals",
+      "liveSchedule": "Live-zeitplan",
+      "sportsbookPromotions": "Aktionen",
+      "casinoSkillzGames": "Skillz Games",
+      "casinoPromotions": "Aktionen",
+      "casinoGiftwheel": "Giftwheel",
+      "euroCalendar": "Eurocalendar",
+      "celebratingPackage": "Celebrating Package",
+      "company": "Gesellschaft",
+      "complaints": "Complaints",
+      "tncs": "Allgemeine Geschäftsbedingungen",
+      "promotionTerms": "Allgemeine Bedingungen für Werbeaktionen",
+      "rules": "Reglementierung",
+      "responsible": "Verantwortungsvolles Spielen",
+      "support": "Kontakt",
+      "kyc": "Identitätsüberprüfung",
+      "privacy": "Datenschutzrichtlinie",
+      "taxOnWinnings": "Tax Over Profit",
+      "desktop": "Desktop-Version",
+      "careers": "Arbeitsplätze",
+      "calendar": "Kalender",
+      "roadmap": "Roadmap",
+      "tournaments": "Tournaments",
+      "payout": "Auszahlung",
+      "blog": "Blog",
+      "affiliation": "Affiliateprogramm",
+      "dailyCoupon": "Heutige wettprogramme",
+      "statistics": "statistics",
+      "odds": {
+        "decimal": "Dezimal",
+        "fractional": "Fraktional",
+        "moneyline": "Amerikanisch",
+        "caption": "Leistung"
+      },
+      "goalmap": "Goalmap",
+      "poker": "Poker",
+      "pokerRules": "Rules",
+      "pokerLiveEvents": "Live Events",
+      "pokerCommunityLeague": "Community League",
+      "pokerOnlineSeries": "Online Series",
+      "pokerTerminology": "Poker Terminology"
+    },
+    "navigationBadge": {
+      "new": "NEW",
+      "hot": "HOT"
+    },
+    "bottomNavigation": {
+      "live": "Live",
+      "prelive": "Matches",
+      "dailyCoupon": "Heutige",
+      "bets": "Wetten",
+      "casino": "Casino",
+      "liveCasino": "Live Casino",
+      "noviLadies": "Noviladies"
+    },
+    "header": {
+      "menu": {
+        "anonymous": {
+          "buttons": {
+            "login": "Anmelden",
+            "register": "Registrieren"
+          }
+        },
+        "authenticated": {
+          "walletDetails": {
+            "totalBalance": "Total Balance",
+            "withdrawable": "Auszahlbar",
+            "withHeldForTax": "Steuerabzug",
+            "bonusMoney": "Bonusgeld",
+            "achievedRollover": "Erreichter Umsatz",
+            "waitingApproval": "Auf Genehmigung Warten",
+            "deposit": "Einzahlung",
+            "quickLinks": "Quick Links",
+            "kycStatus": "KYC Status"
+          },
+          "buttons": {
+            "deposit": "Einzahlung"
+          }
+        }
+      }
+    },
+    "headerBanners": {
+      "casino": {
+        "taxation": {
+          "info1": "Wir teilen Ihnen hiermit mit, dass auf Netto-Spielgewinne im Casino im Wert von zwischen {{from}} und {{to}} pro Spielsitzung ein Steuersatz von {{rate}}% erhoben wird (login-logout).",
+          "info2": "Wir teilen Ihnen hiermit mit, dass auf Netto-Spielgewinne im Casino im Wert von mehr als {{from}} pro Spielsitzung (login-logout) ein Steuersatz von {{rate}}% erhoben wird.",
+          "dontShowAgainText": "Ich möchte diese Nachricht nicht mehr sehen"
+        }
+      },
+      "kycDocument": {
+        "caption": "Ihr Konto wurde nicht vollständig dokumentiert.",
+        "action": "Bitte folgen Sie den Anweisungen."
+      },
+      "kycMessage": {
+        "caption": "Ihr Konto ist nicht voll verifiziert.",
+        "action": "Jetzt verifizieren"
+      },
+      "kycStatus": {
+        "caption": "Ihr Konto wurde verifiziert!"
+      },
+      "lastLogin": {
+        "caption": "Letzte Anmeldung:"
+      },
+      "responsibleGambling": {
+        "link": "Verantwortungsvolles Spielen",
+        "textPrimary": "<b>Spielen Sie verantwortungsbewusst:</b> Glücksspiele dienen nicht als Einnahmequelle und sollten mit Vorsicht und als Form der Unterhaltung ausgeübt werden. Lesen Sie hier ",
+        "textSecondary": " die Richtlinien zum verantwortungsbewussten Spielen bei Novibet."
+      },
+      "limitNotifications": {
+        "link": "Kontoeinstellungen",
+        "monthlyLosslink": "here",
+        "deposit": {
+          "case80": {
+            "daily": {
+              "text": "Sie haben 80 % Ihres täglichen Einzahlungslimits erreicht ",
+              "title": "Sie haben 80 % des täglichen Einzahlungslimits erreicht"
+            },
+            "weekly": {
+              "text": "Sie haben 80 % Ihres wöchentlichen Einzahlungslimits erreicht ",
+              "title": "Sie haben 80 % des wöchentlichen Einzahlungslimits erreicht"
+            },
+            "monthly": {
+              "text": "Sie haben 80 % Ihres monatlichen Einzahlungslimits erreicht ",
+              "title": "Sie haben 80 % des monatlichen Einzahlungslimits erreicht"
+            },
+            "commonText": " Wir benachrichtigen Sie erneut, wenn Sie 100 % erreichen."
+          },
+          "case100": {
+            "daily": {
+              "text": "Sie haben 100 % des täglichen Einzahlungslimits erreicht ",
+              "title": "100 % des täglichen Einzahlungslimits erreicht"
+            },
+            "weekly": {
+              "text": "Sie haben 100 % des wöchentlichen Einzahlungslimits erreicht ",
+              "title": "100 % des wöchentlichen Einzahlungslimits erreicht"
+            },
+            "monthly": {
+              "text": "Sie haben 100 % des monatlichen Einzahlungslimits erreicht ",
+              "title": "100 % des monatlichen Einzahlungslimits erreicht"
+            },
+            "commonText": " Einzahlungen auf Ihr Konto sind erst nach Ablauf des aktuellen Limits erlaubt."
+          }
+        },
+        "time": {
+          "case80": {
+            "daily": {
+              "text": "Sie haben 80 % Ihres täglichen Zeitlimits für die Teilnahme an Casino-, Live-Casino- und Virtuals-Spielen erreicht ",
+              "title": "Sie haben 80 % des täglichen Zeitlimits erreicht"
+            },
+            "weekly": {
+              "text": "Sie haben 80 % Ihres wöchentlichen Zeitlimits für die Teilnahme an Casino-, Live-Casino- und Virtuals-Spielen erreicht ",
+              "title": "Sie haben 80 % des wöchentlichen Zeitlimits erreicht"
+            },
+            "monthly": {
+              "text": "Sie haben 80 % Ihres monatlichen Zeitlimits für die Teilnahme an Casino-, Live-Casino- und Virtuals-Spielen erreicht ",
+              "title": "Sie haben 80 % des monatlichen Zeitlimits erreicht"
+            },
+            "commonText": " Wir benachrichtigen Sie erneut, wenn Sie 100 % erreichen."
+          },
+          "case100": {
+            "daily": {
+              "text": "Ihre Teilnahme am Casino, Live Casino und den Virtuals wird innerhalb von 2 Minuten beendet, da das tägliche Zeitlimit erreicht wurde ",
+              "title": "Sie haben das Zeitlimit erreicht | Die Spielsitzung wird in 2' beendet"
+            },
+            "weekly": {
+              "text": "Ihre Teilnahme am Casino, Live Casino und den Virtuals wird innerhalb von 2 Minuten beendet, da das wöchentliche Zeitlimit erreicht wurde ",
+              "title": "Sie haben das Zeitlimit erreicht | Die Spielsitzung wird in 2' beendet"
+            },
+            "monthly": {
+              "text": "Ihre Teilnahme am Casino, Live Casino und den Virtuals wird innerhalb von 2 Minuten beendet, da das monatliche Zeitlimit erreicht wurde ",
+              "title": "Sie haben das Zeitlimit erreicht | Die Spielsitzung wird in 2' beendet"
+            },
+            "commonText": " Bitte schließen Sie Ihre offenen Runden und Wetten ab."
+          }
+        },
+        "loss": {
+          "case80": {
+            "daily": {
+              "text": "Sie haben 80 % Ihres täglichen Verlustlimits erreicht ",
+              "title": "Sie haben 80 % des täglichen Verlustlimits erreicht"
+            },
+            "weekly": {
+              "text": "Sie haben 80 % Ihres wöchentlichen Verlustlimits erreicht ",
+              "title": "Sie haben 80 % des wöchentlichen Verlustlimits erreicht"
+            },
+            "monthly": {
+              "text": "Sie haben 80 % Ihres monatlichen Verlustlimits erreicht ",
+              "title": "Sie haben 80 % des monatlichen Verlustlimits erreicht"
+            },
+            "commonText": " Wir benachrichtigen Sie erneut, wenn Sie 100 % erreichen."
+          },
+          "case100": {
+            "daily": {
+              "text": "Sie haben 100 % Ihres täglichen Verlustlimits erreicht ",
+              "title": "100 % des täglichen Verlustlimits erreicht"
+            },
+            "weekly": {
+              "text": "Sie haben 100 % Ihres wöchentlichen Verlustlimits erreicht ",
+              "title": "100 % des wöchentlichen Verlustlimits erreicht"
+            },
+            "monthly": {
+              "text": "Sie haben 100 % Ihres monatlichen Verlustlimits erreicht ",
+              "title": "100 % des monatlichen Verlustlimits erreicht"
+            },
+            "commonText": " Wetten sind erst nach Ablauf des aktuellen Limits erlaubt."
+          }
+        },
+        "session": {
+          "case80": {
+            "text": "Sie haben 80 % des maximalen Spielsitzungslimits (24 Stunden) erreicht. Wir benachrichtigen Sie erneut, wenn Sie 100 % erreichen.",
+            "title": "Sie haben 80 % des Spielsitzungslimits erreicht"
+          },
+          "case100": {
+            "text": "Sie haben 100 % des maximalen Sitzungslimits (24 Stunden) erreicht. Loggen Sie sich erneut ein, um weiterzuspielen.",
+            "title": "100 % des Spielsitzungslimits erreicht"
+          }
+        }
+      }
+    },
+    "auth": {
+      "login": {
+        "headerTitle": "Anmelden",
+        "inputs": {
+          "username": "Benutzername",
+          "password": "Passwort",
+          "rememberMe": "Login merken"
+        },
+        "buttons": {
+          "login": "Anmelden"
+        },
+        "links": {
+          "passwordRecovery": "Passwort vergessen"
+        }
+      },
+      "passwordRecovery": {
+        "headerTitle": "Passwort vergessen",
+        "tab1": {
+          "title": "Ihr Passwort vergessen?",
+          "subtitle": "Geben Sie Ihren Benutzernamen ein, um Ihr Passwort zu erhalten.",
+          "inputUsernameCaption": "Benutzername",
+          "inputUsernamePlaceholder": "Benutzername",
+          "inputEmailCaption": "Sähköpostia",
+          "inputEmailPlaceholder": "Sähköpostia",
+          "nextButton": "Senden"
+        }
+      }
+    },
+    "accountMenu": {
+      "deposit": "Einzahlung",
+      "withdraw": "Auszahlen",
+      "cancelWithdraw": "Auszahlung Stornieren",
+      "account": "Konto",
+      "kycVerification": "KYC-Verifizierung",
+      "transactions": "Geldtasche",
+      "bets": "Wettverlauf",
+      "historyCasino": "Casino-Verlauf",
+      "liveChat": "LIVE CHAT",
+      "needHelp": "Need help?"
+    },
+    "userMenu": {
+      "deposit": "Einzahlung",
+      "messages": "Nachrichten",
+      "withdraw": "Auszahlen",
+      "cancelWithdraw": "Auszahlung Stornieren",
+      "account": "Konto",
+      "kycVerification": "KYC-Verifizierung",
+      "transactions": "Transaktionen",
+      "bets": "Wetten",
+      "historyCasino": "Casino-Verlauf",
+      "logout": "ABMELDEN",
+      "history": "History",
+      "visibility": "Unsichtbar",
+      "depositLower": "Einzahlung",
+      "settings": "Kontoeinstellungen"
+    },
+    "subMenu": {
+      "casinoCalendar": "Kalender",
+      "casinoRoadmap": "Roadmap",
+      "casinoTournaments": "Tournaments",
+      "company": "Gesellschaft",
+      "customerSupport": "Kontakt",
+      "giftWheelCasino": "Giftwheel",
+      "kyc": "Identitätsüberprüfung",
+      "noviGoal": "NOVIGOAL",
+      "privacyPolicy": "Datenschutzrichtlinie",
+      "promotionsCasino": "Αktionen",
+      "promotionsSports": "Aktionen",
+      "promotionsTerms": "Allgemeine Bedingungen für Werbeaktionen",
+      "regulations": "Reglementierung",
+      "responsibleGambling": "Verantwortungsvolles Spielen",
+      "rtp": "Auszahlung",
+      "tnc": "Allgemeine Geschäftsbedingungen",
+      "downloadApp": "DIE APP HERUNTERLADEN",
+      "liveChat": "Live Chat"
+    },
+    "footer": {
+      "aboutUs": "Über uns",
+      "usefulLinks": "Nützliche Links",
+      "downloadApp": "Laden Sie die App herunter",
+      "social": "Social",
+      "awards": "Preise und Auszeichnungen",
+      "paymentMethods": "Zahlungsmethoden",
+      "payout": "*100 % faire Quoten ohne Quotenschlüsselabzug auf das Matchergebnis. Für ausgewählte Spiele, die mit dem speziellen Hinweis auf 100 % Auszahlung markiert sind.",
+      "payoutgb": "* 100% fair odds, without oddskey deduction on Match Result. For selected games marked with the special indication of Super Odds.",
+      "payoutde": "*100 % faire Quoten ohne Quotenschlüsselabzug auf das Matchergebnis. Für ausgewählte Spiele, die mit dem speziellen Hinweis auf Super Quote markiert sind.",
+      "legalInfo": {
+        "header": "Hinweis zur angezeigten Information",
+        "body": "Obwohl wir uns stets bemühen, dass sämtliche auf unserer Webseite dargestellten Informationen bezüglich eines Events korrekt sind, sollten diese lediglich als Leitfaden gesehen und genutzt werden. Falls eine bestimmte Information (Ergebnis/Spielstand, Spielzeit usw.) inkorrekt sein sollte, übernehmen wir keine Haftung."
+      }
+    },
+    "components": {
+      "datepicker": {
+        "from": "Datum von",
+        "to": "Datum bis",
+        "options": {
+          "Last_24": "Letzte 24 Std.",
+          "Last_48": "Letzte 48 Std.",
+          "Last_Week": "Letzte Woche",
+          "Last_Month": "Letzter Monat",
+          "Dates_Range": "Von - Bis"
+        }
+      }
+    },
+    "dialogs": {
+      "pendingWithdraws": {
+        "title": "Ausstehende Auszahlungen zurückziehen",
+        "totalAmount": "Gesamtbetrag der zurückgezogenen Auszahlungen:",
+        "idText": "ID:",
+        "acceptButton": "Zurücknehmen",
+        "depositText": "Gehen Sie an die Einzahlungsseite",
+        "errorMessage1": "Anfrage fehlgeschlagen, versuchen Sie es bitte erneut oder kontaktiere",
+        "errorMessage2": "Auszahlung nicht gefunden oder nicht ausstehend.",
+        "errorMessage3": "Stornierung nicht erlaubt, bitte überprüfen Sie Ihre Einstellungen!",
+        "text": "Requested a withdrawal but changed your mind?",
+        "subText": "One click and your funds will be back in your account instantly."
+      },
+      "cancelWithdraw": {
+        "title": "Stornierung der Auszahlung",
+        "subTitle": "Möchten Sie Ihre Auszahlung wirklich stornieren?",
+        "subTitleSuccess": "Auszahlung wurde storniert!",
+        "confirmationYes": "Ja",
+        "confirmationNo": "Nein"
+      },
+      "forcePasswordChange": {
+        "title": "Passwort ändern",
+        "description": "Die Passwortänderung ist nach der Passwortwiederherstellung obligatorisch",
+        "currentPassword": "Passwort",
+        "newPassword": "Neues Passwort",
+        "repeatPassword": "Neues Passwort Bestätigen",
+        "sendButton": "Senden",
+        "currentPasswordRequired": "Passwort erforderlich",
+        "newPasswordRequired": "Neues Passwort erforderlich",
+        "repeatPasswordRequired": "Verification code wird benötigt",
+        "passwordRegex": "Passwort ist ungültig"
+      },
+      "selfExclusion": {
+        "title": "Your account is inactive",
+        "infoMessage": "Your account is inactive as you have either requested a break or self-excluded yourself. You can, at any point in time, partially or fully withdraw the funds available for withdrawal in your balance.",
+        "actionWithdraw": "WITHDRAW"
+      },
+      "kycRestriction": {
+        "title": "Ihr Konto wurde noch nicht verifiziert",
+        "link": "Auszahlung beantragen",
+        "infoMessage1": "Eine Kontoverifizierung ist erforderlich, um weiterspielen zu können. Alternativ können Sie eine ",
+        "infoMessage2": " und Ihr Konto wird geschlossen.",
+        "actionVerify": "KYC-VERIFIZIERUNG",
+        "actionWithdraw": "AUSZAHLUNG"
+      },
+      "kycRestriction60": {
+        "text": "Ihr Konto wurde deaktiviert, da Ihre Daten nicht verifiziert wurden. Um es erneut zu aktivieren und wieder spielen zu können, senden Sie uns bitte ein Foto Ihres Personalausweises oder Reisepasses (Vorder- und Rückseite) und einen aktuellen Adressnachweis (z. B. eine Nebenkostenabrechnung) an documents@novibet.gr."
+      },
+      "newTncVersion": {
+        "title": "Aktualisierung unserer Allgemeinen Geschäftsbedingungen",
+        "action": "AKZEPTIEREN",
+        "acceptAndContinue": "Accept and continue",
+        "ignoreAndLogout": "Ignore and logout"
+      },
+      "noDepositors": {
+        "welcomeFirstName": "Hallo {{firstName}}",
+        "infoMessage": "MACHEN SIE MIT!",
+        "depositButton": "SCHNELLEINZAHLUNG",
+        "kycButton": "DOKUMENTE SENDEN",
+        "chatButton": "LIVE CHAT",
+        "emailButton": "EMAIL"
+      },
+      "noRealPlayAllowed": {
+        "info": "Leider können wir keine Wetten akzeptieren, da Ihr Konto noch nicht verifiziert wurde.",
+        "verificationAction": "Verifizieren Sie Ihr Konto hier."
+      },
+      "quickLogin": {
+        "title": "LOGIN - REGISTER",
+        "username": "Username",
+        "password": "Password",
+        "login": "Login",
+        "passwordRecovery": "Password Recovery",
+        "registerText": "New Customer?",
+        "description": "Please login first, in order to place your bet",
+        "registerButton": "Sign up here!"
+      },
+      "registerOrLogin": {
+        "email": "EMAIL",
+        "liveChat": "LIVE CHAT",
+        "login": "ANMELDEN",
+        "loginText": "Haben Sie bereits ein Konto?",
+        "register": "REGISTRIEREN",
+        "registerText": "Haben Sie noch kein Konto?"
+      },
+      "registrationRefusal": {
+        "infoPrefix": "Ihr Konto ist deaktiviert. Für weitere Informationen wenden Sie sich bitte an unseren ",
+        "infoMessage": "Kundenservice",
+        "infoSuffix": ".",
+        "actionButton": "OK"
+      },
+      "userVerification": {
+        "contactText1": "Bitte kommen Sie im Kontakt mit",
+        "contactText2": "24 Stunden am Tag, 7 Tage die Woche",
+        "contactSupport": " Novibet-Kundendienst ",
+        "genericText": "Die Bestätigungscodes bestätigen Ihre Identität und schützen Ihr KontoType a message",
+        "genericText2": "Didn’t receive the code? Please check that your phone number is correct to receive your bonus.",
+        "mobileGuideline": "(Enter a valid mobile to receive an activation code)",
+        "question1": "Ich habe das Passwort nicht erhalten?",
+        "question2": "Haben Sie ein Problem?",
+        "resend": "Bitte senden Sie es erneut",
+        "textEmail": "Bitte geben Sie den Bestätigungscode ein, den wir an Ihre E-Mail-Adresse gesendet haben",
+        "textMobile": "Bitte geben Sie den Bestätigungscode ein, den wir an Ihr Handy gesendet haben",
+        "title": "Schützen Sie sich!",
+        "verifyButton": "BESTÄTIGUNG & WEITER",
+        "changeNumberButton": "CHANGE NUMBER",
+        "saveNumberButton": "SAVE NUMBER & GET SMS"
+      },
+      "registration": {
+        "shared": {
+          "paymentMethods": "Zahlungsmethoden",
+          "tncs": "Terms & Conditions",
+          "generalRules": "General Rules"
+        },
+        "intro": {
+          "alreadyMember": "Haben Sie bereits ein Konto?",
+          "createAccount": "Eröffnen Sie ein Novibet Konto!",
+          "login": "Login",
+          "next": "WEITER MIT",
+          "back": "ZURÜCK",
+          "emailText": "Geben Sie eine gültige Email-Adresse ein, um den Aktivierungscode zu erhalten",
+          "mobileText": "Verwenden Sie eine gültige Handynummer, um den Aktivierungscode zu erhalten"
+        },
+        "firstStep": {
+          "next": "WEITER MIT",
+          "back": "ZURÜCK"
+        },
+        "secondStep": {
+          "openAccount": "KONTO ERÖFFNEN",
+          "back": "ZURÜCK"
+        },
+        "fields": {
+          "gender": {
+            "female": "Weiblich",
+            "male": "Männlich",
+            "caption": "Geschlecht"
+          },
+          "dateOfBirth": {
+            "caption": "Geburtsdatum"
+          },
+          "promoCode": {
+            "caption": "Haben Sie einen Promotion-Code?"
+          },
+          "mobileHelpText": {
+            "mobile30": "69xxxxxxxx",
+            "mobile44": "07xxxxxxxxx"
+          },
+          "receiveNews": {
+            "captionSingleStep": "Ich würde gerne alle exklusive Angebote und Bonusaktionen erhalten. Ich kann mich jederzeit abmelden",
+            "caption": "Ich würde gerne alle exklusive Angebote und Bonusaktionen erhalten. Ich kann mich jederzeit abmelden",
+            "caption2": "Ich möchte Tickets und Geschenke für meine Lieblingsmannschaft gewinnen und exklusive personalisierte Angebote, Freispiele, Aufwertungen und Mitteilungen erhalten. Ich weiß, dass ich mich jederzeit abmelden kann",
+            "call": "anrufen",
+            "email": "email",
+            "sms": "SMS"
+          },
+          "tncs": {
+            "captionSingleStep1": "By clicking \"Open Account\" I confirm that I am over {{age}} and I agree and accept Novibet's ",
+            "captionSingleStep2": " & ",
+            "captionSingleStep3": "",
+            "caption": "By clicking \"Open Account\" I confirm that I am over {{age}} and I agree and accept Novibet's ",
+            "tncsLink": "Terms & Conditions",
+            "privacyPolicyLink": "Privacy Policy"
+          }
+        },
+        "guidelines": {
+          "password": {
+            "caption": "Mindestens ein Buchstabe und eine Ziffer"
+          },
+          "username": {
+            "caption": "Darf Ziffern aber keine Symbole oder Leerzeichen enthalten"
+          }
+        },
+        "errors": {
+          "common": {
+            "requiredText": "Bitte füllen Sie dieses Feld aus",
+            "latinError": "Bitte verwenden Sie nur lateinische Zeichen",
+            "serverError": "Leider ist etwas schief gelaufen"
+          },
+          "date": {
+            "errorText": "Das von Ihnen eingegebene Datum ist ungültig",
+            "invalidDate": "Nur Benutzer ab {{age}} Jahren können ein Novibet-Konto erstellen"
+          }
+        }
+      },
+      "bonusBasic": {
+        "title": "Claim your Welcome Bonus",
+        "serverError": "Unfortunately something went wrong",
+        "depositAndClaimBonus": "Deposit & Get your Bonus",
+        "noWelcomeBonus": "I don't want a Welcome Bonus"
+      },
+      "limitsAndBonus": {
+        "errorText": "Dokumentnummer ist ungültig",
+        "greekError": "Please use only greek characters",
+        "latinError": "Bitte verwenden Sie nur lateinische Zeichen",
+        "requiredText": "Bitte füllen Sie dieses Feld aus",
+        "title": "Wählen Sie Ihren Willkommensbonus",
+        "documentTypeTitle": "Dokumenttyp",
+        "documentTypeSubTitle": "Please enter a valid type and number of document",
+        "documentNumber": "Nummer des Dokuments",
+        "favouriteTeam": "Lieblingsmannschaft",
+        "receiveNews": "Ich möchte Tickets und Geschenke für meine Lieblingsmannschaft gewinnen und exklusive personalisierte Angebote, Freispiele, Aufwertungen und Mitteilungen erhalten. Ich weiß, dass ich mich jederzeit abmelden kann",
+        "depositLimitsCaption": "Einzahlungslimits",
+        "deposit": "EINZAHLUNG",
+        "daily": "Täglich",
+        "weekly": "Wöchentlich",
+        "monthly": "Monatlich",
+        "noLimit": "Keine Begrenzung",
+        "serverError": "Leider ist etwas schief gelaufen"
+      },
+      "limits": {
+        "deposit": "Einzahlungslimits",
+        "loss": "Verlustlimits",
+        "time": "Zeitlimits",
+        "depositPrevious": "Sie haben ein aktives Einzahlungslimit",
+        "lossPrevious": "Sie haben ein aktives Verlustlimit",
+        "timePrevious": "Sie haben ein aktives Zeitlimit",
+        "daily": "Tägliches",
+        "dailyLabel": "Die täglichen Limits sind sofort wirksam",
+        "dailyLabelSingle": "Das tägliche Limit ist sofort wirksam",
+        "weekly": "Wöchentliches",
+        "weeklyLabel": "Die wöchentlichen Limits sind sofort wirksam",
+        "weeklyLabelSingle": "Das wöchentliche Limit ist sofort wirksam",
+        "monthly": "Monatliches",
+        "monthlyLabel": "Die monatlichen Limits sind sofort wirksam",
+        "monthlyLabelSingle": "Das monatliche Limit ist sofort wirksam",
+        "submit": "BESTÄTIGUNG",
+        "hours": "stunden",
+        "otherOption": "Andere",
+        "noLimits": "No limits",
+        "userSettingsLabel": "Sie können dieses in den <b>Kontoeinstellungen</b> ändern",
+        "serverError": "Leider ist etwas schief gelaufen",
+        "validationErrors": {
+          "empty": "Das Feld darf nicht leer sein",
+          "deposit": {
+            "daily": "Das tägliches einzahlungslimits darf nicht weniger als {0} und nicht mehr als {1} betragen",
+            "weekly": "Das wöchentliches einzahlungslimits darf nicht weniger als {0} und nicht mehr als {1} betragen",
+            "monthly": "Das monatliches einzahlungslimits darf nicht weniger als {0} und nicht mehr als {1} betragen"
+          },
+          "time": {
+            "daily": "Das tägliches zeitlimits darf nicht weniger als {0} und nicht mehr als {1} betragen",
+            "weekly": "Das wöchentliches zeitlimits darf nicht weniger als {0} und nicht mehr als {1} betragen",
+            "monthly": "Das monatliches zeitlimits darf nicht weniger als {0} und nicht mehr als {1} betragen"
+          },
+          "loss": {
+            "daily": "Das tägliches verlustlimits darf nicht weniger als {0} und nicht mehr als {1} betragen",
+            "weekly": "Das wöchentliches verlustlimits darf nicht weniger als {0} und nicht mehr als {1} betragen",
+            "monthly": "Das monatliches verlustlimits darf nicht weniger als {0} und nicht mehr als {1} betragen"
+          }
+        }
+      },
+      "cma": {
+        "title": "Kontoinformations-Verfügbarkeit",
+        "message": "Auf Ihrem Konto befinden sich <strong>{{money}}</strong> (auszahlbares) Cash und <strong>{{bonusMoney}}</strong> (nicht auszahlbares) Bonus-Cash.<br/><br/>Momentan ist der Bonus aktiv: <strong>{{bonus}}</strong>.<br/><br/>Es gelten die allgemeinen Geschäftsbedingungen:",
+        "tncButton": "T&Cs",
+        "accept": "OK"
+      },
+      "transition": {
+        "before": {
+          "content1": "Dear player,</br></br>We would like to inform you that with effect from _/__21, Novibet.gr will no longer operate under Logflex Limited, but under Gamart Limited.</br></br>Gamart Limited is a member of our group, incorporated in Malta, with company number C95282 and registered office at 170, Pater House, Level 1 (Suite A271),  Psaila Street, Birkirkara, BKR 9077, Malta.</br></br>Gamart Limited is licensed and regulated by the Hellenic Gaming Commission (license number XXXXX).</br></br>This change will not affect any of the services we provide you with. Your account,including balances, non-settled bets and on-going bonuses, will remain the same.</br></br>To continue using our services, you will need to agree to our new ",
+          "content2": " and ",
+          "content3": ". As part of this process, your personal data will be transferred from Logflex Limited to Gamart Limited. In addition, you must also agree that all of your balance will now be held by Gamart Limited.</br></br>Please tick the box below to confirm that you agree to: </br></br>a)the Terms and Conditions and Privacy Policy</br>b)the transfer of your personal data</br>c)the transfer of your funds"
+        },
+        "after": {
+          "content1": "Dear player,</br></br>We would like to inform you that with effect from 5/8/21, Novibet.gr is no longer operating under Logflex Limited, but under Gamart Limited.</br></br>Gamart Limited is a member of our group, incorporated in Malta, with company number C95282 and registered office at 170, Pater House, Level 1 (Suite A271), Psaila Street, Birkirkara, BKR 9077, Malta.</br></br>Gamart Limited is licensed and regulated by the Hellenic Gaming Commission (HGC) under the Type 1 license: HGC-000022-LH and Type 2 license: HGC-000023-LH issued on 15th of June 2021 and valid until the 15th of June 2028.</br></br>This change does not affect any of the services we provide you with. Your account, including balances, non-settled bets and on-going bonuses, remains the same.</br></br>To continue using our services, you will need to agree to our new ",
+          "content2": " and ",
+          "content3": ". As part of this process, your personal data will be transferred from Logflex Limited to Gamart Limited. In addition, you must also agree that all of your balance will now be held by Gamart Limited.</br></br>Please tick the box below to confirm that you agree to:</br></br>a) the Standard Form Contract (Terms and Conditions) and Privacy Policy</br>b) the transfer of your personal data</br>c)the transfer of your funds",
+          "footer": {
+            "content1": "If you do not agree, please contact our ",
+            "content2": " "
+          }
+        },
+        "agree": "I agree",
+        "accept": "Accept",
+        "save": "Save",
+        "remindLater": "Ask me later",
+        "tncsLink": "Standard Form Contract",
+        "privacyPolicyLink": "Privacy Policy",
+        "support": "Customer Support"
+      },
+      "resetPassword": {
+        "reminder": {
+          "title": "Passwort ändern",
+          "text": "Ihr aktuelles Passwort läuft am {0} ab",
+          "button": "Passwort ändern"
+        },
+        "form": {
+          "title": "Passwort ändern",
+          "text": "Füllen Sie das Formular unten aus, um es zu ändern",
+          "oldPassword": "Passwort",
+          "newPassword": "Neue Passwort",
+          "repeatPassword": "Wiederhole das neue Passwort",
+          "button": "Bestätigen",
+          "success": "Das passwort wurde erfolgreich geändert",
+          "errors": {
+            "required": "Bitte füllen Sie dieses Feld aus",
+            "invalid": "Der von Ihnen eingegebene Benutzername ist ungültig",
+            "latin": "Bitte verwenden Sie nur lateinische Zeichen",
+            "sameAsOld": "Neuer Code muss sich vom alten unterscheiden",
+            "newMatchRepeat": "Der Code in beiden Feldern muss identisch sein"
+          }
+        }
+      },
+      "rgNotification": {
+        "title": "One hour of continous playing reached",
+        "message": "One hour has elapsed since you logged in and we want to make sure your activity is under control. Learn more about our Responsible Gambling Policy",
+        "rglink": "here",
+        "continue": "Continue Playing",
+        "stop": "Stop Playing"
+      },
+      "allowNotification": {
+        "text": "I wish to be updated on exclusive bonuses and offers!",
+        "decline": "No, thank you.",
+        "accept": "Yes, please."
+      }
+    },
+    "cookiesPopup": {
+      "buttonText": "Verstanden!",
+      "learnMore": "Mehr ...",
+      "text": "Nur Cookies verwenden, die für den normalen Betrieb der Website und das sichere Browsen erforderlich sind. Durch die Nutzung der Website akzeptieren Sie die Verwendung von Cookies."
+    },
+    "account": {
+      "newsletter": {
+        "email": "email",
+        "sms": "SMS",
+        "mobile": "anrufen"
+      }
+    },
+    "errorPage": {
+      "notFound": {
+        "button": "Startseite",
+        "description": "Leider existiert diese Seite nicht. Bitte überprüfen Sie die URL oder rufen Sie die Startseite auf.",
+        "subTitleUp": "Hoppla!",
+        "subTitleDown": "Diese Seite existiert nicht."
+      }
+    },
+    "selfExcludedPage": {
+      "liveChat": "Live Chat",
+      "email": "Email",
+      "skype": "Skype",
+      "descriptionUp": "Aufgrund Ihres Selbstausschlusses ist der Zugriff auf Novibet nicht erlaubt.",
+      "descriptionDown": "Brauchen Sie Hilfe? Kontaktieren Sie uns.",
+      "subTitle": "Selbstausschluss aktiv"
+    },
+    "bannedCountryPage": {
+      "liveChat": "Live Chat",
+      "email": "Email",
+      "skype": "Skype",
+      "descriptionUp": "Anscheinend versuchen Sie, von einem nicht autorisierten Standort auf Novibet zuzugreifen.",
+      "descriptionDown": "Nicht sicher, warum Sie diese Nachricht erhalten? Bitte kontaktieren Sie uns.",
+      "subTitle": "Standortwarnung"
+    },
+    "info": {
+      "selfEvaluation": {
+        "title": "Self Εvaluation Test",
+        "link": "https://formfaca.de/sm/rBrrszTh6"
+      },
+      "support": {
+        "defaultSubject": "Customer support working hours.",
+        "timeMessage": "(Customer Support working hours : 24 hours a day, 7 days a week)",
+        "anyTime": "Any Time.",
+        "callBetween": "Call Me Between:",
+        "categoryPlaceholder": "Select a category",
+        "phoneNumberPlaceholder": "Please input your phone number",
+        "callbackButton": "Call Back",
+        "anyTimeMessage": "Customer support working hours.",
+        "successMessageGreece": "Your request has been recorded successfully. On your mobile phone with number {0} you will receive a phone call from one of the following numbers: +30 21 1198 5707. The call will take place: {1}",
+        "successMessageDefault": "Your request has been recorded successfully. On your mobile phone with number {0} you will receive a phone call from one of the following numbers: +44 141 280 5221. The call will take place: {1}",
+        "categories": {
+          "sportsbook": "Sportsbook",
+          "kycVerification": "KYC/Verification",
+          "transactions": "Transactions",
+          "casino": "Casino",
+          "technicalIssue": "Technical Issue",
+          "loginProblem": "Login Problem",
+          "bonusOffers": "Bonus/Offers"
+        },
+        "messagePlaceholder": "Leave a message",
+        "categoryLabel": "Need assistance for:",
+        "leaveMessageButton": "Leave your message",
+        "success": {
+          "text": "Your message has been sent!"
+        }
+      }
+    }
+  },
+  "account": {
+    "settings": {
+      "common": {
+        "save": "Speichern",
+        "close": "Schließen",
+        "cancel": "Abbrechen",
+        "disable": "Deaktivieren",
+        "activate": "Aktivieren",
+        "edit": "Bearbeiten",
+        "enterPassword": "Passwort",
+        "cancelAndClose": "Cancel And Close",
+        "loadMore": "Load More"
+      },
+      "playerAccount": {
+        "headerTitle": "PERSÖNLICHE EINSTELLUNGEN",
+        "headerDescription": "Verwalten Sie Ihr Konto und Ihre Persönlichen Einstellungen",
+        "title": "Spielerkonto",
+        "username": "Benutzername",
+        "password": "Passwort",
+        "newPassword": "Neues Passwort",
+        "confirmPassword": "Neues Passwort Bestätigen",
+        "changePassword": "Passwort ändern",
+        "securityQuestion": "Sicherheitsfrage",
+        "changePasswordQuestion": "Passwort-Frage ändern",
+        "newAnswer": "Neue Antwort",
+        "language": "Sprache",
+        "odds": "Odds",
+        "changeLanguage": "Sprache ändern",
+        "selectLanguage": "Sprache wählen",
+        "passwordRequired": "Passwort erforderlich",
+        "newPasswordRequired": "Neues Passwort erforderlich",
+        "repeatPasswordRequired": "Passwortwiederholung erforderlich",
+        "newPasswordMinLength": "Neues Passwort muss aus mindestens 6 Zeichen bestehen",
+        "repeatPasswordNotMatch": "Neues Passwort stimmt nicht mit wiederholtem Passwort überein",
+        "passwordChangedCompleted": "Ihr Passwort wurde erfolgreich geändert!",
+        "languageChangedCompleted": "Ihre Sprache wurde erfolgreich geändert!",
+        "invalidUntilDate": "The start date cannot be earlier than the current date.",
+        "passwordHint": "It's a good idea to use a strong password that you don't use elsewhere"
+      },
+      "personalDetails": {
+        "title": "Persönliche Daten",
+        "gender": "Geschlecht",
+        "country": "Country",
+        "firstName": "Vorname",
+        "lastName": "Nachname",
+        "city": "Stadt",
+        "birthday": "Geburtstag",
+        "address": "Adresse",
+        "email": "Email",
+        "postCode": "Postleitzahl",
+        "mobile": "Telefon",
+        "taxId": "RFC",
+        "curp": "CURP",
+        "nationality": "Nationality",
+        "jobTitle": "Job Title",
+        "district": "Neighborhood, Quarter or Settlement",
+        "municipality": "Municipality, State"
+      },
+      "accountManagement": {
+        "title": "Kontoverwaltung",
+        "timeOut": "Auszeit",
+        "timeOutDetails": "Wenn Sie eine Pause von allen Spielaktivitäten einlegen möchten, können Sie eine Auszeit nehmen.Während dieses Zeitraums wird Ihr Spielerkonto nicht verfügbar sein. Es wird nicht möglich sein, Ihr Konto vor dem Ablauf des gewählten Zeitraums wiederzueröffnen.Um Ihre Auszeit zu aktivieren, wählen Sie bitte die Auszeitperiode aus der unteren Liste:",
+        "selectTimeOutDuration": "Auszeit-Dauer wählen",
+        "timeOutOptions": ["24 Stunden", "7 Tage", "30 Tage", "6 Wochen"],
+        "bettingTimeoutConfirmText": "Sind Sie sicher, dass Sie eine Auszeit möchten?",
+        "selfExclusion": "Selbstausschluss",
+        "selfExclusionDetails": "Der Selbstausschluss ist ein formaler Vorgang, bei dem Sie uns bitten, Ihnen den Zugang zu Ihrem Konto zu verwehren. Wenn der Selbstausschluss einmal von Ihnen aktiviert wurde, kann dieser Vorgang nicht rückgängig gemacht werden und Sie dürfen auch kein neues Konto anlegen. Während des Selbstausschluss-Zeitraums werden wir alles in unserer Macht stehende unternehmen, um zu verhindern, dass Sie sich neue Konten anlegen.Falls Sie weitere Informationen zum Selbstausschluss benötigen, kontaktieren Sie uns bitte und unser geschulter Kundendienst wird sich freuen, Ihnen weiterzuhelfen.Wenn Sie aus einem anderem Grund mit dem Spielen aufhören möchten, wählen Sie bitte die Konto-Schließung-Option.Um Ihren Selbstausschluss zu aktivieren, wählen Sie bitte den Selbstausschluss-Zeitraum aus der Liste unterhalb:",
+        "selectSelfExclusionDuration": "Dauer des Selbstausschlusses wählen",
+        "selectSelfExclusion": "Dauer des Selbstausschlusses wählen",
+        "selfExclusionConfirmText": "Sind Sie sich sicher, dass Sie sich selbst ausschließen möchten?",
+        "accountClosure": "Kontoschließung",
+        "accountClosureDetails": "Falls Sie mit dem Spielen aufhören möchten, können Sie dies tun, indem Sie Ihr Konto schließen.Wenn Sie Ihr Konto einmal geschlossen haben, haben Sie keinen Zugang mehr darauf. Falls Sie Ihr Konto reaktivieren möchten, müssen Sie zu Ihrer eigenen Sicherheit zusätzliche Sicherheitsfragen beantworten.Falls Sie Bedenken hinsichtlich Ihres Spielverhaltens haben oder glauben, dass Sie gefährdet sind und Hilfe beim verantwortungsbewussten Spielen benötigen, besuchen Sie bitte den Selbstausschluss-Bereich oder kontaktieren Sie unseren Kundendienst.Um Ihr Konto zu schließen, wählen Sie bitte den Schließungs-Zeitraum und den Grund für Ihren Entschluss:",
+        "selectAccountClosureDuration": "Dauer der Kontoschließung wählen",
+        "accountClosureDurationOptions": [
+          "1 Woche",
+          "1 Monat",
+          "3 Monate",
+          "6 Monate",
+          "12 Monate",
+          "Unbestimmt",
+          "Bis"
+        ],
+        "selectAccountClosureReason": "Grund für Kontoschließung wählen",
+        "accountClosureReasonOptions": [
+          "Ich habe keine Zeit",
+          "Ich bin mit Ihrer Seite/Ihrem Service unzufrieden",
+          "Ich bin mit Ihren Angeboten unzufrieden",
+          "Ich möchte bei einer anderen Seite/einem anderen Anbieter spielen"
+        ],
+        "closeAccountConfirmText": "Sind Sie sicher, dass Sie Ihr Konto schließen möchten?"
+      },
+      "responsibleGambling": {
+        "title": "Verantwortungsvolles Spielen",
+        "depositLimits": "Einzahlungslimits",
+        "depositLimitsDetails": "Um Limits festzulegen, geben Sie einfach einen Betrag in das entsprechende Feld ein, tippen Ihr Passwort ein und klicken auf Speichern. Sie können Ihr Einzahlungslimit jederzeit und mit sofortiger Wirkung verringern.  Sie können außerdem eine Erhöhung oder Stornierung Ihres Einzahlungslimits beantragen. Um Ihre Einzahlungslimits zu entfernen/stornieren, muss das entsprechende Feld leer sein.  Bitte beachten Sie, dass Sie Ihre Anfrage nach 7 Tagen in den Kontoeinstellungen bestätigen müssen.",
+        "dailyLimit": "Tägliches Limit",
+        "weeklyLimit": "Wöchentliches Limit",
+        "monthlyLimit": "Monatliches Limit",
+        "newLimit": "Neues Limit:",
+        "disableLimit": "Entfernen des Limits",
+        "confirmNewLimit": "Neues Limit bestätigen:",
+        "changeDepositLimitsCompleted": "Der Vorgang war erfolgreich!",
+        "depositLimitsGreaterThan": "Der Mindestbetrag für Einzahlungslimits ist {{min}}",
+        "genericError": "Etwas ist schiefgelaufen.",
+        "depositLimitsConfirmText": "Sind Sie sicher, dass Sie Ihre Limits ändern möchten?",
+        "deposit": {
+          "title": "Einzahlungslimits",
+          "details": "Das Festlegen von Einzahlungslimits ist für mindestens einen der folgenden Zeiträume (täglich, wöchentlich, monatlich) obligatorisch",
+          "subDetails": "Sie können die Einzahlungslimits jederzeit ändern. Wenn die Limits erhöht werden sollen, wird die Änderung erst wirksam, wenn das vorherige Limit abgelaufen ist",
+          "confirmText": "Sind Sie sicher, dass Sie Ihre Einzahlungslimits ändern möchten?",
+          "systemLimit": {
+            "title": "Einzahlungslimit: <b>{{value}}</b><br>",
+            "text": "Das Systemlimit für Einzahlungen bis zu {{value}} ist bis zur erfolgreichen Verifizierung Ihres Kontos aktiv."
+          }
+        },
+        "time": {
+          "title": "Zeitlimits",
+          "details": "Das Festlegen von Zeitlimits für Spielsitzungen ist für mindestens einen der folgenden Zeiträume (täglich, wöchentlich, monatlich) obligatorisch",
+          "subDetails": "Sie können die Zeitlimits jederzeit ändern. Wenn die Limits erhöht werden sollen, wird die Änderung erst wirksam, wenn das vorherige Limit abgelaufen ist",
+          "confirmText": "Sind Sie sicher, dass Sie Ihre Zeitlimits ändern möchten?"
+        },
+        "loss": {
+          "title": "Verlustlimits",
+          "details": "Das Festlegen von Verlustlimits ist für mindestens einen der folgenden Zeiträume (täglich, wöchentlich, monatlich) obligatorisch",
+          "subDetails": "Sie können die Verlustlimits jederzeit ändern. Wenn die Limits erhöht werden sollen, wird die Änderung erst wirksam, wenn das vorherige Limit abgelaufen ist",
+          "confirmText": "Sind Sie sicher, dass Sie Ihre Verlustlimits ändern möchten?"
+        },
+        "userRequests": {
+          "newLimit": "<b>Neues Limit: {{limit}}</b> <br/>an: {{actionDate}}",
+          "resetLimit": "<b>Entfernen des Limits</b> <br/>an:  {{actionDate}}",
+          "cancel": "ABBRECHEN",
+          "accept": "AKZEPTIEREN",
+          "hoursLabel": "stunden"
+        },
+        "enforced": {
+          "tag": "Festgelegte Limit:",
+          "info": {
+            "text": "Based on your betting activity, the following limit/limits has/have been imposed on your account. In the event that you have already set or you wish to set new limit/limits (for the same time period), the limit/limits with the lower value shall always apply.",
+            "title": "Festgelegte Limits"
+          }
+        },
+        "netDeposit": {
+          "title": "Net Deposit Limits"
+        },
+        "selectionOther": "Andere",
+        "daily": "Täglich",
+        "weekly": "Wöchentlich",
+        "monthly": "Monatlich",
+        "infoCommon": "Nachdem Sie die Limits festgelegt haben, geben Sie Ihr Passwort ein und klicken Sie auf speichern",
+        "currentPassword": "Geben Sie Ihr Passwort ein",
+        "notSet": "Not Set"
+      },
+      "withdraw": {
+        "title": "Auszahlen",
+        "withdrawalRequestCancelling": "Auszahlungsantrag stornieren",
+        "disableWithdrawCancellationDescription": "Die Option zur Stornierung der Auszahlung wurde für Ihr Konto deaktiviert. Wenn Sie sie erneut aktivieren möchten, klicken Sie bitte auf «Aktivieren».",
+        "enableWithdrawCancellationDescription": "Die Option zur Stornierung der Auszahlung ist für Ihr Konto aktiviert. Wenn Sie dies ändern möchten, klicken Sie bitte auf «Deaktivieren» und sie wird mit sofortiger Wirkung von Ihrem Konto entfernt.<br/>Hinweis: Wenn Sie mit dieser Änderung fortfahren und sie die Option später wieder aktivieren, haben Sie die Möglichkeit, Ihre ausstehenden Auszahlungen eine Woche nach Ihrer Anfrage zu stornieren.",
+        "remainingCooloffMessage": "Die Reaktivierung Ihrer Option zur Stornierung der Auszahlung wird aktiviert in: {{timespan}}",
+        "timespan": {
+          "days": "Tage",
+          "hours": "Stunden",
+          "minutes": "Minuten",
+          "seconds": "Sekunden",
+          "and": " und "
+        },
+        "responseMessage": {
+          "enable": "Die Option zur Stornierung der Auszahlung wurde erfolgreich aktiviert",
+          "disable": "Die Option zur Stornierung der Auszahlung wurde erfolgreich deaktiviert",
+          "sameSettings": "Vorhandene und neue Einstellungen sind gleich",
+          "error": "Es tut uns leid, aber etwas ist schief gelaufen. Bitte versuchen Sie es erneut"
+        }
+      },
+      "communicationSettings": {
+        "title": "Kommunikationseinstellungen",
+        "titleDetails": "Welche Marketing-Kommunikation bevorzugen Sie?",
+        "email": "E-mail",
+        "sms": "SMS",
+        "phone": "Anruf",
+        "communicationSettingsChanged": "Mitteilungsoptionen erfolgreich geändert!"
+      },
+      "additionalPrivacySettings": {
+        "title": "Zusätzliche Privatsphäreeinstellungen",
+        "privacySettings": "Privatsphäreeinstellungen",
+        "privacySettingsDetails": "Ändern Sie die Einstellungen zu Ihren persönlichen Daten",
+        "marketingProfiling": "Marketing-Profiling",
+        "socialMediaCookies": "Cookies für soziale Netzwerke"
+      },
+      "casinoSettings": {
+        "title": "Casino-Einstellungen",
+        "realityCheckSettings": {
+          "title": "Spielzeit-Erinnerung ändern",
+          "mtTitle": "Realitäts-Check-Feature anpassen",
+          "details": "Spielzeit-Erinnerung wählen",
+          "mtDetails": "Auslösen des Realitäts- Check - Features alle:",
+          "realityCheckOptions": {
+            "option30": "30'",
+            "option45": "45'",
+            "option60": "60'",
+            "option120": "120'",
+            "option0": "Unbegrenzt"
+          },
+          "successMessage": "Spielzeit-Erinnerung erfolgreich geändert!",
+          "mtSuccessMessage": "Das Realitäts- Check - Feature wurde erfolgreich angepasst!",
+          "pnLNegative": "From your activity up till now you have lost {0}. Your new Reality Check option has been enabled.",
+          "pnLPositive": "From your activity up till now you have won {0}. Your new Reality Check option has been enabled."
+        }
+      },
+      "complaintTickets": {
+        "title": "Complaint History",
+        "category": "Category",
+        "description": "Description",
+        "status": "Status",
+        "date": "Date",
+        "subject": "Subject",
+        "buttonMore": "More",
+        "buttonLess": "Less",
+        "loadMore": "Load More",
+        "noMoreComplaints": "There are no more complaints"
+      }
+    },
+    "casinoHistory": {
+      "title": "Casino Bonus",
+      "bonus500": "Bonus 500",
+      "bonusVIP": "Bonus VIP",
+      "prizes": "Prizes",
+      "points": "points",
+      "datepickerTitle": "Daten",
+      "datepickerSearch": "SUCHE",
+      "datesFrom": "From:",
+      "datesTo": "To:",
+      "pointsTitle": "Casino-Punkte",
+      "monthPoints": "Monats-Punkte:",
+      "VIPPoints": "VIP",
+      "previousMonthPoints": "Monats-Punkte:",
+      "noResultsFound": "Keine Runden für ausgewählten Zeitraum gefunden",
+      "durationSearchExceeded": "Datumsbereich darf nicht früher sein als 6 Monate.",
+      "result": {
+        "title": "Ergebnisse",
+        "id": "ID",
+        "date": "Datum",
+        "game": "Spiel",
+        "stake": "Einsatz",
+        "returns": "Erträge",
+        "casinoPoints": "Casino-Punkte"
+      },
+      "page": "Seite",
+      "totalOfStake": "Gesamteinsatz",
+      "totalOfReturns": "Summe:",
+      "totalPoints": "Gesamtpunkte:",
+      "total": "Total"
+    },
+    "betHistory": {
+      "details": "Details:",
+      "title": "BET HISTORY",
+      "filters": {
+        "type": "Type",
+        "status": "Status:",
+        "dates": "Dates",
+        "from": "From:",
+        "to": "To:",
+        "search": "SEARCH"
+      },
+      "noResults": "No Results Found",
+      "durationExceeded": "Date range can not be older than six months",
+      "id": "ID",
+      "type": "Type",
+      "status": "Status",
+      "date": "Date",
+      "amount": "Amount",
+      "returns": "Returns",
+      "tax": "Tax",
+      "discountTax": "Tax bonus",
+      "page": "Page",
+      "sum": "Sum:",
+      "accumulator": "Accumulator",
+      "single": "Single",
+      "multiple": "Multiple",
+      "betBuilder": "Bet Builder",
+      "live": "LIVE",
+      "cashout": "Cash Out",
+      "banker": "B",
+      "partialWin": "Partial Cashout:",
+      "win": "Won:",
+      "results": {
+        "won": "Won",
+        "lost": "Lost",
+        "pending": "Pending",
+        "void": "Void",
+        "partialCashout": "Partial Cash out",
+        "cashoutPartial": "Partial Cash out",
+        "cashout": "Cash out",
+        "autoCashout": "Auto Cash out",
+        "cashedOutAuto": "Auto Cash out",
+        "deadHeat": "Dead Heat",
+        "eachWay": "Each Way",
+        "eachWayWin": "Each Way Win",
+        "eachWayPlace": "Each Way Place",
+        "halfLostHalfVoid": "Half Lost Half Void",
+        "halfWonHalfVoid": "Half Won Half Void",
+        "stopLossCashout": "Stop Loss Cash Out",
+        "cashedOutStopLoss": "Stop Loss Cash Out"
+      },
+      "statuses": {
+        "status0": "All",
+        "status1": "Pending",
+        "status2": "Settled",
+        "status3": "Won",
+        "status4": "Lost",
+        "status5": "Cashed Out"
+      },
+      "types": {
+        "type0": "All",
+        "type1": "Single",
+        "type2": "Multiple"
+      }
+    },
+    "walletHistory": {
+      "title": "TRANSAKTIONEN",
+      "filters": {
+        "dates": "Dates",
+        "from": "From:",
+        "to": "To:",
+        "search": "Search"
+      },
+      "noResultsFound": "Keine Transkationen gefunden",
+      "durationSearchExceeded": "Datumsbereich darf nicht früher sein als 6 Monate.",
+      "id": "ID",
+      "date": "Datum",
+      "type": "Typ:",
+      "amount": "Betrag",
+      "description": "Beschreibung",
+      "page": "Seite",
+      "totalSum": "Gesamtbetrag:",
+      "netDepositsDescription": "Einzahlungsbetrag minus Auszahlungsbetrag.",
+      "netDepositsTitle": "NETTO BETRAG:",
+      "netDepositsButton": "Berechnen",
+      "walletActionTypes": {
+        "balancetransfer": "Überweisung",
+        "bonus": "Bonus",
+        "casinobonus": "Casinobonus",
+        "deposit": "Einzahlung",
+        "feesrefundbonus": "Erstattung der Einzahlungsgebühren",
+        "firstdepositbonus": "1. Einzahlungsbonus",
+        "fundsadjust": "Guthaben-Anpassung",
+        "seconddepositbonus": "2. Einzahlungsbonus",
+        "thirddepositbonus": "2. Einzahlungsbonus",
+        "transferin": "Überweisung eingehend",
+        "transferout": "Überweisung ausgehend",
+        "voidbonus": "Bonus stornieren",
+        "voidcasinobonus": "Casinobonus stornieren",
+        "voiddeposit": "Bonus stornieren",
+        "voided": "Stornieren",
+        "voidfirstdepositbonus": "Ersteinzahlungsbonus stornieren",
+        "voidwithdraw": "Auszahlung stornieren",
+        "withdraw": "Auszahlen",
+        "casinotaxationbonus": "Steuerbonus",
+        "casinotaxation": "Spielbankabgabe",
+        "casinotaxationbonusrollback": "Steuerbonus",
+        "casinotaxationrollback": "Spielbankabgabe",
+        "pokerbonus": "Pokerbonus",
+        "voidpokerbonus": "Pokerbonus stornieren"
+      }
+    },
+    "cancelWithdraw": {
+      "title": "Stornierung der Auszahlung",
+      "info": "In this field you can cancel your withdrawal if the payment is not completed. For more information view ",
+      "infoLink": "withdrawal cancellation settings",
+      "page": "Seite",
+      "amountTitle": "Gesamter auszahlbarer Betrag",
+      "method": "Methode",
+      "amount": "Betrag",
+      "date": "Datum",
+      "id": "ID",
+      "cancelWithdrawButton": "Meine Auszahlung stornieren",
+      "noResults": "Keine Runden für ausgewählten Zeitraum gefunden",
+      "subTitle": "In diesem Feld können Sie Ihre Auszahlung stornieren, wenn die Zahlung noch nicht abgeschlossen ist.",
+      "coolOffPeriod": "Es ist Wartezeit. Sie können Ihre Auszahlungen nicht stornieren",
+      "cancelWithdrawCaptionMethods": {
+        "diasdtm": {
+          "caption": "DIAS"
+        },
+        "diasmybank": {
+          "caption": "Iris"
+        },
+        "envoy": {
+          "caption": "Bank Transfer"
+        },
+        "moneybookers": {
+          "caption": "Skrill"
+        },
+        "pscpaysafecard": {
+          "caption": "paysafecard"
+        },
+        "skrill": {
+          "caption": "Skrill"
+        },
+        "skrill1tap": {
+          "caption": "Skrill"
+        },
+        "visacard": {
+          "caption": "Card"
+        },
+        "vivabank": {
+          "caption": "Viva Bank"
+        },
+        "vivacash": {
+          "caption": "Viva Cash"
+        },
+        "vivawallet": {
+          "caption": "Viva Wallet"
+        },
+        "openapi": {
+          "caption": "Bank Transfer"
+        }
+      }
+    },
+    "nonKycNotification": {
+      "message": "Leider können wir keine Wetten akzeptieren, da Ihr Konto noch nicht verifiziert wurde.",
+      "ctaButton": "Verifizieren Sie Ihr Konto hier."
+    },
+    "kycVerification": {
+      "title": "KYC-VERIFIZIERUNG",
+      "kycStatus": "KYC Status:",
+      "kyc": "KYC",
+      "status": {
+        "verified": "Verifiziert",
+        "pending": "Ausstehend",
+        "upload": "Hochladen",
+        "temporary": "KYC (min)"
+      },
+      "notification": {
+        "age": "Entsprechend der UKGC-Vorschriften müssen wir Spielerkonten verifizieren. Vor dem Abschluss dieses Vorgangs können Sie keine Einzahlungen tätigen und unsere Produkte und Dienste nicht nutzen. Bitte verifizieren Sie Ihr Konto gemäß den nachstehenden Anweisungen.",
+        "kyc": "Entsprechend der UKGC-Vorschriften müssen wir Spielerkonten verifizieren. Vor dem Abschluss dieses Vorgangs können Sie unsere Produkte nicht nutzen. Bitte verifizieren Sie Ihr Konto gemäß den nachstehenden Anweisungen.",
+        "sowPrefix": "Zusätzliche Dokumente sind erforderlich, um Ihre SOW (Mittelherkunft) zu belegen. Bitte schauen Sie in Ihre E-Mails für weitere Details oder folgen Sie diesem",
+        "sowLink": "link",
+        "sowSuffix": "."
+      },
+      "documentsCaption": "Dokumente",
+      "statusCaption": "Status",
+      "documents": {
+        "id": "Id",
+        "address": "Adresse",
+        "sow": "Sow",
+        "otherDocs": "Other Documents",
+        "uploadText": "Please click on the icon above to add a document",
+        "uploadTextPending": "The processing time of KYC verification may be in a few hours to 24 hours in most cases.",
+        "uploadTextDone": "Your identity has been verified.",
+        "uploadTextId": "Upload an official ID, passport, or driving license",
+        "uploadTextAddress": "Upload a utility bill",
+        "uploadTextSow": "Upload statement of work (SOW)",
+        "uploadTextOther": "Upload Other documents"
+      },
+      "cardsCaption": "Karten",
+      "emptyCards": "Es sind keine Karten mit Ihrem Konto verknüpft",
+      "errorPending": "Ausstehend",
+      "errorVerified": "Verifiziert",
+      "errorFailed": "Der Upload-Dienst ist derzeit nicht verfügbar. Bitte versuchen Sie es erneut oder wenden Sie sich an unseren Kundendienst.",
+      "jumio": {
+        "documentUpload": "Laden Sie zum Abschließen der KYC-Verifikation ein ",
+        "documentUploadButton": "Adressdokument hoch",
+        "idUpload": "Laden Sie zum Abschließen der KYC-Verifikation einen ",
+        "idUploadButton": "Ausweis hoch",
+        "title": "Ihre Dokumente wurden erfolgreich hochgeladen.",
+        "description": "The verification process is in progress and you will be notified as soon as it is completed."
+      },
+      "stepVerification": {
+        "step1": "STEP 1",
+        "step1Title": "Enter your personal information and upload a valid document",
+        "step2": "STEP 2",
+        "step2Title": "Enter your address and upload a recent utility bill",
+        "idUploadTitle": "Upload an official ID, passport or driving license",
+        "documentUploadTitle": "Upload a recent utility bill",
+        "uploadButton": "Submit and Upload",
+        "uploadButtonPending": "Pending for verification",
+        "uploadButtonIdCompleted": "Personal information verified",
+        "uploadButtonAddressCompleted": "Personal information verified",
+        "taxIdErrorReq": "Tax ID (RFC) is required.",
+        "nationalityErrorReq": "Nationality is required.",
+        "jobTitleErrorReq": "Job title is required.",
+        "zipCodeErrorReq": "Zip code is required.",
+        "cityErrorReq": "City is required.",
+        "streetNameErrorReq": "Street name is required.",
+        "streetNumberErrorReq": "Street number is required.",
+        "municipalityErrorReq": "Municipality is required.",
+        "districtErrorReq": "District is required.",
+        "infoCaption": "The status will remain in pending mode until the upload of the required document is complete and the file become verified."
+      },
+      "errorGeneric": "Jumio Frame Failed. Something went wrong!"
+    },
+    "inbox": {
+      "messageHeader": "Nachrichten",
+      "promoHeader": "Aktionen",
+      "emptyMessage": "Sie haben keine Nachrichten",
+      "emptyPromo": "Sie haben keine Aktionen",
+      "notificationInfo": "You have an available promo code",
+      "freeBetMessage": "Sie haben eine Gratiswette im Wert {{price}}",
+      "freeBetsMessage": "Sie haben {{count}} Gratiswette im Wert {{price}}"
+    },
+    "deposit": {
+      "UKGC": {
+        "text": "Kindly note that all customers' accounts are subject to a £500 deposit limit and to a £500 loss limit per calendar month, upon registration. These may be changed at the discretion of Novibet, depending on the assessment of any documentation provided. Should you wish to discuss these limits with us, please contact our Customer Support team."
+      },
+      "kycInfo": {
+        "link": "here",
+        "text": "All deposit methods must be verified before any withdrawal requests will be processed. Learn more "
+      },
+      "promocode": {
+        "tag": "BONUS",
+        "infoselect": "Ein promo code ist für Sie verfügbar",
+        "nobonus": "Ich möchte meinen Aktionscode nicht verwenden",
+        "terms": "Allgemeine Geschäftsbedingungen",
+        "notificationinfo": "You have an available promo code",
+        "bonusfreespins": "Sie erhalten einen {0} Freispiele bei {1}",
+        "bonusfreebet": "Sie bekommen einen {0}-Bonus in Form von Gratiswetten",
+        "bonus": "<b>+{0}</b> {1}% Bonus",
+        "bonusmindeposit": "Die Mindesteinzahlung beträgt {0}",
+        "bonusTitle": "Deposit bonus",
+        "bonusSubTitle": "Activate the bonus of your choice to benefit on your next deposit",
+        "bonusCode": "code {{code}}",
+        "bonusUntilDate": "until {{date}}",
+        "bonusMinimumDeposit": "minimum deposit {{amount}}"
+      },
+      "amounttitle": "Einzahlungsbetrag",
+      "banktransfer": {
+        "description": "Bitte kontaktieren Sie unseren Kundendienst für Einzelheiten.",
+        "descriptionnote": "Sämtliche von Ihrer Bank erhobenen Gebühren.",
+        "title": "Informationen:",
+        "titlenexttoimage": ""
+      },
+      "continue": "Fortfahren",
+      "deposit": "Einzahlung",
+      "depositlimits": "Einzahlungslimits",
+      "description": "Nehmen Sie eine Einzahlung auf Ihr Konto vor",
+      "validateDepositLimit": "Betrag außerhalb des Limits!",
+      "empty": "Das Feld darf nicht leer sein",
+      "diasbankinfo": "Einzahlungsinformationen :",
+      "diasdtm": {
+        "copytoclipboardfail": "Ihr Code konnte nicht kopiert werden, bitte aktualisieren Sie die Seite und versuchen Sie es erneut",
+        "copytoclipboardsuccess": "Ihr Code wurde erfolgreich kopie!",
+        "description": "Zahlen Sie sofort* ein und laden Sie Ihr Novibet -Konto mit Ihrem persönlichen e-Banking auf.<br/>*Aufgrund von technischen Problemen Ihrer Bank, kann die Transaktion in seltenen Fällen 2-3 Werktage benötigen.",
+        "descriptionnote": "",
+        "info": "Wichtiger Hinweis: Einzahlungen von Firmenkonten werden nicht akzeptiert",
+        "diasdescription": "Drücken Sie hier, um Ihren persönlichen Banking-Code zu kopieren.",
+        "select": "Auswählen",
+        "title": "",
+        "code": "RF Code",
+        "titlenexttoimage": "Sofortige Überweisung",
+        "instructions": "Instructions:"
+      },
+      "diasmybank": {
+        "description": "Sichere Zahlungen durch Ihr eigenes e-Banking. Iris bietet Ihnen die Möglichkeit, die vertrauenswürdige und sichere Umgebung Ihrer eigenen Bank für Online-Einkäufe zu verwenden.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": "Direkt durch dein e-banking konto!"
+      },
+      "diasuniqueordercode": "Dein persönlicher Novibet Einzahlungscode",
+      "dineromail": {
+        "description": "Bitte kontaktieren Sie unseren Kundendienst für Einzelheiten.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": ""
+      },
+      "entercash": {
+        "description": "Zahlen Sie direkt auf Ihr Novibet's Konto mit Ihrem persönlichen E-Banking ein.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": ""
+      },
+      "errormessage": "Etwas ist schiefgelaufen.",
+      "envoy": {
+        "description": "Direkte Banküberweisung",
+        "descriptionnote": "",
+        "form": {
+          "accountholdername": "Name des Empfängers",
+          "accountnumber": "Kontonummer",
+          "bankname": "Bankname",
+          "description": "Bitte füllen Sie das folgende Formular aus",
+          "iban": "IBAN",
+          "swiftcode": "Swift",
+          "title": "Direkte Banküberweisung"
+        },
+        "title": "Informationen:",
+        "titlenexttoimage": ""
+      },
+      "giropay": {
+        "description": "Giropay Zahlungsservice bietet Ihnen die Möglichkeit an, die vertrauenswürdige-und-sichere Umgebung Ihrer eigenen Bank für Online-Zahlungen zu nutzen.",
+        "descriptionnote": "Alle Gebühren werden von Ihrer Bank erhoben.",
+        "title": "Informationen:",
+        "titlenexttoimage": ""
+      },
+      "ideal": {
+        "description": "Für mehr Details setzen Sie sich gern im Verbindung mit Novibetskundenservice.",
+        "descriptionnote": "Alle Gebühren werden von Ihrer Bank erhoben.",
+        "title": "Informationen:",
+        "titlenexttoimage": ""
+      },
+      "max": "Max",
+      "mercadopago": {
+        "description": "Bitte kontaktieren Sie unseren Kundendienst für Einzelheiten.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": ""
+      },
+      "min": "Min",
+      "moneybookers": {
+        "description": "Skrill ist die günstige und sichere Art, um umgehend ein- und auszuzahlen und bietet bis zu 100 Zahlungsoptionen und 40 Währungen. 30 Millionen Nutzer in 200 Ländern nutzen bereits Skrill.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": "Skrill"
+      },
+      "paypal": {
+        "description": "Zahlen Sie sofort ein und laden Sie Ihr Novibet -Konto mit PayPal auf.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": "PayPal"
+      },
+      "paypaloneclick": {
+        "description": "Durch die Aktivierung des One-Touch-Dienstes mit Paypal werden Ihre Daten in einer sicheren Umgebung gespeichert und Ihre Transaktionen mit Novibet werden noch einfacher und schneller abgewickelt, ohne dass Sie jedes Mal Ihre Passwörter eingeben müssen.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": "Paypal One Touch"
+      },
+      "moneysafe": {
+        "description": "Einzahlung mit Ihrer Twiga Brieftasche. Der Betrag wird sofort in Ihrem Konto verfügbar sein, sicher und einfach.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": ""
+      },
+      "moreinfo": "Mehr Informationen",
+      "maximumnumberofcards": "Die maximale Anzahl an gespeicherten Karten wurde erreicht. Wenn Sie eine neue Karte hinzufügen möchten, wenden Sie sich bitte an den <a href='javascript:void(bb.pages.navigation.gotoInfoPage(\"support\"));'>Kundenservice</a>.",
+      "neteller": {
+        "confirmation": "Ihre Transaktion war erfolgreich!<br/> Referenz-Nr.: {0}",
+        "description": "Nehmen Sie Ihre erste Einzahlung schnell und einfach ohne Transkationsgebühren vor, indem Sie die elektronische Geldbörse von Neteller benutzen.",
+        "descriptionnote": "",
+        "titlenexttoimage": "Neteller",
+        "frame": {
+          "description": "Nehmen Sie Ihre erste Einzahlung mit Neteller noch schneller vor. Falls Sie noch kein Konto haben, können Sie sich hier kostenlos eins erstellen: <a href='http://www.neteller.com' target='_blank' > http://www.neteller.com</a>.",
+          "email": "Netellerkonto-E-Mail",
+          "emailoraccountiddescription": "E-Mail-Adresse oder Konto-ID",
+          "emailoraccountidplaceholder": "Neteller Account E-Mail oder Konto ID",
+          "emailoraccountidrequired": "E-Mail-Adresse oder Konto-ID ist erforderlich",
+          "invalidemailoraccountid": "Ungültige E-Mail-Adresse oder Konto-ID",
+          "emailrequired": "E-Mail-Adresse ist erforderlich",
+          "invalidemail": "Ungültige E-Mail-Adresse",
+          "secureid": "Neteller Secure Id",
+          "secureiddescription": "Secure ID",
+          "secureidplaceholder": "Netellers sechs-stellige Secure ID oder Zwei-Faktor-Authentifizierung",
+          "secureidrequired": "Secure ID wird benötigt",
+          "submit": "Fortfahren"
+        },
+        "title": "Informationen:"
+      },
+      "okto": {
+        "description": "You choose a deposit amount, you receive a QR code, and you present it within 24h to the nearest store of <a href='https://www.oktopay.eu/store-locator/' target='_blank'>OKTO network</a>. You pay in cash and the respective amount is automatically credited to your Novibet account.",
+        "descriptionnote": "By clicking \"Continue\", you accept the <a href='https://www.oktopay.eu/terms-of-use/' target='_blank'>Terms of Use</a> of the service.",
+        "title": "Info:",
+        "oktoclosestspot": "Find the closest spot",
+        "oktoclosestspotlink": "<a href='https://www.oktopay.eu/el/store-locator/' target='_blank'>Find the closest spot</a>",
+        "titlenexttoimage": "Okto",
+        "frame": {
+          "successtitle": "Successful request",
+          "title": "The following QR code will be active and can be used for the next 24 hours.<br><br>Present your QR code at one of the stores of <a href='https://www.oktopay.eu/store-locator/' target='_blank'>OKTO network</a>. Deposit the cash amount you have chosen and the transaction will be completed simply and quickly by immediately crediting your Novibet account.",
+          "sendqr": "Send QR at ",
+          "downloadqr": "Receive QR",
+          "paymentcode": "Payment code",
+          "scanerror": "If, for any reason, the QR code cannot be scanned, your deposit can be completed by giving the number."
+        }
+      },
+      "nonkycnotification": {
+        "ctabutton": "Jetzt verifizieren",
+        "infomessage": "Erforderliche Dokumente ",
+        "infomessagelink": "hier ",
+        "infomessageend": "ansehen.",
+        "message": "Bitte beachten Sie: Zwar können Sie Einzahlungen vornehmen, aber erst dann Sportwetten oder Casino-Einsätze abgeben, wenn Sie Ihr Konto verifiziert haben."
+      },
+      "oxxo": {
+        "description": "Bitte kontaktieren Sie unseren Kundendienst für Einzelheiten.<br/>OXXO is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXO as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXO store and pay the owing amount in cash.",
+        "descriptionnote": "Important: Please note that deposits via OXXO require a minimum of 48 hours to be processed.",
+        "title": "Informationen:",
+        "titlenexttoimage": "Oxxo"
+      },
+      "password": "Passwort",
+      "paysafecard": {
+        "description": "paysafecard ist eine elektronische Zahlungsmethode vorwiegend für Online-Geldtransaktionen und basiert auf einem Pre-Pay-System.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": "Paysafe"
+      },
+      "pendingwithdraws": {
+        "textStart": "Sie haben ausstehende Auszahlungen und Sie haben die Möglichkeit zur Stornierung der Auszahlung, anstatt eine neue Einzahlung vorzunehmen. Wenn Sie eine Auszahlung stornieren möchten, klicken Sie bitte ",
+        "textLink": "hier",
+        "textEnd": ".",
+        "titlenexttoimage": ""
+      },
+      "pscpaysafecard": {
+        "description": "paysafecard ist eine elektronische Zahlungsmethode vorwiegend für Online-Geldtransaktionen und basiert auf einem Pre-Pay-System.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": "Paysafe"
+      },
+      "safetypay": {
+        "description": "safetypay is an electronic payment method for predominantly online money transactions and is based on a pre-pay system!",
+        "descriptionnote": "",
+        "title": "Information:",
+        "titlenexttoimage": "SafetyPay"
+      },
+      "rapidtransfer": {
+        "description": "Sofortige und sichere Zahlungen mit Ihren bereits bestehenden Online-Banking-Anmeldedaten.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": "RapidTrasfer"
+      },
+      "rapipago": {
+        "description": "Bitte kontaktieren Sie unseren Kundendienst für Einzelheiten.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": ""
+      },
+      "servererror": "Unfortunately something went wrong. Please try later or contact our Customer Support for details.",
+      "skrill": {
+        "description": "Skrill ist die günstige und sichere Art, um umgehend ein- und auszuzahlen und bietet bis zu 100 Zahlungsoptionen und 40 Währungen. 30 Millionen Nutzer in 200 Ländern nutzen bereits Skrill.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": "Skrill"
+      },
+      "skrillonetap": {
+        "description": "Skrill 1-Tap erlaubt es Ihnen, einfach und schnell Zahlungen zu tätigen, indem Sie auf jedem Gerät alles in einem Tipp erledigen und ohne, dass Sie Ihre Login-Daten ständig neu eingeben müssen. Bei der erstmaligen Nutzung geben Sie Ihre Login-Daten wie gewohnt ein und bestätigen folglich, dass Sie bei zukünftigen Einzahlungen die Skrill-1-Tap-Funktion nutzen möchten.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": "Skrill 1 - Tap"
+      },
+      "sofort": {
+        "description": "Machen Sie sofort Ihre Einzahlung mit Ihrem persönlichen E-Banking.  Der Betrag wird automatisch auf  Ihr Novibetskonto gutgeschrieben.",
+        "descriptionnote": "Alle Gebühren werden von Ihrer Bank erhoben.",
+        "title": "Informationen:",
+        "titlenexttoimage": ""
+      },
+      "systemlimitbutton": "Mehr Infos",
+      "systemlimittext": "Wichtiger Hinweis: Das Gesamteinzahlungslimit für unverifizierte Konten ist 800 €. Um Spielunterbrechungen zu minimieren, verifizieren Sie bitte Ihr Konto so schnell wie möglich.",
+      "title": "EINZAHLUNG",
+      "trustly": {
+        "description": "Trustly ist ein schneller, einfacher und sicherer Weg für deutsche Verbraucher, direkt mit ihrem Bankkonto zu zahlen.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": "Sofortige Überweisung",
+        "descriptionimage": "Trustly is a TUV certified company"
+      },
+      "ukash": {
+        "description": "Bitte kontaktieren Sie unseren Kundendienst für Einzelheiten.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": ""
+      },
+      "visacard": {
+        "description": "Laden Sie Ihr Konto direkt über Ihre Kredit-/Debit-/Prepaidkarte auf.",
+        "descriptionnote": "",
+        "dropdowntitle": "Verfügbare Karten",
+        "title": "Informationen:",
+        "titlenexttoimage": "Credit-Debit-Prepaid card"
+      },
+      "purplepay": {
+        "description": "Laden Sie Ihr Konto direkt über Ihre Kredit-/Debit-/Prepaidkarte auf.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "titlenexttoimage": ""
+      },
+      "vivabank": {
+        "description": "Zahlen Sie bei Novibet mit Online-Banking über jede Griechische Bank ein. Novibet wird sich um sämtliche Gebühren kümmern. Verwenden Sie Ihren Bestellcode im Textfeld der Einzahlung. Der Betrag wird Ihrem Konto inneralb von 1 bis 2 Tagen gutgeschrieben. Bitte beachten Sie, dass Sie der Kontoinhaber des Bankkontos sein müssen, andernfalls wird Ihre Einzahlung zurücküberwiesen und es können Gebühren anfallen.",
+        "descriptionnote": "",
+        "title": "Banküberweisung mit Online-Banking",
+        "titlenexttoimage": ""
+      },
+      "vivacash": {
+        "description": "Nehmen Sie eine Bareinzahlung bei Novibet vor. Dieser Vorgang ist einfach und absolut sicher. Sie müssen nur einen von mehr als <a target='_blank' href='https://members.vivawallet.com/en-us/network' style='text-decoration:underline;'>2000 Viva-Standorten</a> besuchen und Bargeld einzahlen, indem Sie Ihren einmaligen Bestellcode verwenden.<br/>Es werden keine Gebühren auf Viva-Bargeld-Einzahlungen erhoben.",
+        "descriptionnote": "",
+        "title": "Bargeld - Anstatt paysafecard",
+        "titlenexttoimage": "Vivaspot",
+        "code": "Viva Code"
+      },
+      "vivauniqueordercode": "Ihr persönlicher Novibet-Bestellcode für Direkteinzahlungen.",
+      "vivauniqueordercodedescription": "Nehmen Sie eine Bareinzahlung bei Novibet an über <a target='_blank' href='https://members.vivawallet.com/en-us/network' style='text-decoration:underline;'>2000 Standorten</a> vor und außerdem durch <b>Online-Banking</b>, <b>Telefon-Banking</b> oder durch kooperierende Banken<u>Eurobank</u>, <u>National&nbsp;Bank&nbsp;von Griechenland</u>, <u>Piraeus&nbsp;Bank</u> und <u>Alpha&nbsp;Bank</u>.<br/><br/><i>Novibet kümmert sich um jegliche Gebühren und Ihrem Konto wird der vollständige, eingezahlte Betrag gutgeschrieben!</i>",
+      "vivawallet": {
+        "description": "Mit Viva Wallet können Sie schnell und einfach bei Novibet einzahlen. Viva Wallet ist eine elektronische Geldbörse, mit der Sie Geld einzahlen und außerdem Ihre Gewinne am selben Tag sicher und ohne Extragebühren empfangen können Falls Sie kein Viva-Wallet-Konto haben, können Sie sich hier kostenlos in weniger als 5 Minuten anmelden: <a target='_blank' href='http://www.vivawallet.com/en-us/personal' style='text-decoration:underline;>hier</a>",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": "VivaWallet"
+      },
+      "withdrawlimits": {
+        "text": "You may set your deposit limits ",
+        "link": "here",
+        "textEnd": ""
+      },
+      "citizen": {
+        "description": "Citizen is the ideal cardless payment method that makes payments easier than ever before. Payments and Account verification via Open Banking. Faster Payments and Great Customer Experience.",
+        "descriptionnote": "",
+        "title": "Information:",
+        "titlenexttoimage": "Sofortige Überweisung"
+      },
+      "applepay": {
+        "description": "Easy, fast, direct and secure deposit without cash.Available in supported iOS(iPhone, iPad, Apple Watch) or Mac devices via Safari.",
+        "descriptionnote": "",
+        "title": "Information:",
+        "titlenexttoimage": "Apple Pay"
+      },
+      "paysafecash": {
+        "title": "Information:",
+        "description": "Novicash provides convenient and secure cash payments online. Selecting this deposit method, a barcode is automatically generated. Present it at your nearest Paysafecash payment point, pay in cash, and the relevant amount is credited to your Novibet account.",
+        "descriptionnote": "",
+        "titlenexttoimage": "Paysafe",
+        "userConsentedText": "To register at Novicash, I give my consent to Novibet sharing with Paysafe the following personal data: full name, address, telephone number, e-mail, date of birth."
+      },
+      "stpmex": {
+        "title": "Information:",
+        "description": "STPMex is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select STPMex as the payment method in checkout. You will receive a barcode which you need to present at your nearest STPMex store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "STPMex"
+      },
+      "oxxopay": {
+        "title": "Information:",
+        "description": "OXXOPAY is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "OxxoPay"
+      },
+      "ecopayz": {
+        "title": "Information:",
+        "description": "EcoPayz is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "EcoPayz"
+      },
+      "astropay": {
+        "title": "Information:",
+        "description": "AstroPay is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "AstroPay"
+      },
+      "boletorapido": {
+        "title": "Information:",
+        "description": "Boleto Rapido is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "Boleto Rapido"
+      },
+      "pix": {
+        "title": "Information:",
+        "description": "Pix is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "Pix"
+      },
+      "pagoefectivo": {
+        "title": "Information:",
+        "description": "PagoEfectivo is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "PagoEfectivo"
+      },
+      "webpay": {
+        "title": "Information:",
+        "description": "WebPay is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "WebPay"
+      }
+    },
+    "depositConfirmation": {
+      "gbcButtonText": "KYC Verification",
+      "gbgAlert": "Please notice that you have reached or exceeded the 2000 GBP in deposits. Proceed with fully verifying your account in order to place any further bets.",
+      "gbgTitle": "Your account has not been verified",
+      "gbgWarning": "Please notice that you are about to exceed the 2000 GBP in deposits. After that you will have to fully verify your account.",
+      "lblAmount": "Betrag",
+      "lblConfirmation": "Hiermit wird Ihre Transaktion bestätigt. Wir empfehlen, diesen Beleg für Ihre Unterlagen auszudrucken.",
+      "lblFailureCancel": "Ihre Transkation wurde abgebrochen!",
+      "lblFailureDeclined": "Ihre Transkation wurde abgelehnt!",
+      "lblFailureDeclinedPaypal": "Your transaction was Declined! Check if you already have a PayPal account connected to your account",
+      "lblFailureDescription": "Fehlercode: {{code}}",
+      "lblFailureFailed": "Ihre Transaktion fehlgeschlagen! Fehlermeldung: {{message}}",
+      "lblFailurePending": "Ihre Transkation wurde genehmigt! Bitte überprüfen Sie zur Bestätigung Ihr Guthaben.",
+      "lblFailureStatus": "Transaktionsstatus",
+      "lblFailureTitle": "Ihre Transaktion ist fehlgeschlagen",
+      "lblOref": "Transaction code",
+      "lblSuccessDescription": "Your deposit completed successfully.",
+      "lblsuccessTitle": "Congratulations!",
+      "mbAmount": "Amount:",
+      "mbDate": "Date:",
+      "mbFailure": "Your transaction failed!",
+      "mbOref": "Reference No:",
+      "mbReturn": "Return",
+      "mbSuccess": "Your transaction was successful!",
+      "ms025": "Die Zahlung konnte zu diesem Zeitpunkt nicht bearbeitet werden. Versuchen Sie es später noch einmal.",
+      "ms552": "Das Zielkonto kann nicht belastet werden.",
+      "msGeneric": "Transaktion konnte aufgrund von Verbindungsproblemen nicht eingeleitet werden. Wenn das Problem weiterhin besteht, wenden Sie sich bitte an unseren Support.",
+      "msS2": "Die Währung wird nicht unterstützt",
+      "msT9": "Ihre Transaktion wurde abgebrochen!",
+      "providers": {
+        "paysafecash": "Please go to the payment point and pay the amount owing.",
+        "paysafecashFail": "Your transaction could not be completed. Please try again."
+      }
+    },
+    "withdraw": {
+      "amounttitle": "Auszahlungsbetrag",
+      "continue": "Fortfahren",
+      "description": "Nehmen Sie eine Auszahlung von Ihrem Konto vor",
+      "disablecancellationsettings": "Auszahlungsantrag stornieren",
+      "withdrawable": "Auszahlbar:",
+      "walletDetails": {
+        "rolloverWarningAccept": "Ja, ich möchte mein Geld auszahlen",
+        "rolloverWarningCancel": "Nein, ich möchte weiterspielen",
+        "rolloverWarningQuestion": "Sind Sie sicher?",
+        "rolloverWarningText": "Sie haben die Umsatzbedingungen für den Willkommensbonus noch nicht erfüllt! Wenn Sie fortfahren, verlieren Sie {{bonusMoney}}"
+      },
+      "entercash": {
+        "description": "",
+        "descriptionnote": "",
+        "formeur": {
+          "beneficiaryname": "Kontoinhaber",
+          "bic": "BIC",
+          "iban": "IBAN",
+          "title": "Entercash"
+        },
+        "formsweeden": {
+          "accountnumber": "Kontonummer",
+          "beneficiaryname": "Kontoinhaber",
+          "clearingnumber": "Clearinghaus",
+          "title": "Entercash"
+        },
+        "title": "Informationen:"
+      },
+      "envoy": {
+        "description": "Direkte Banküberweisung",
+        "descriptionnote": "",
+        "form": {
+          "accountholdername": "Name des Empfängers",
+          "accountnumber": "Kontonummer",
+          "bankname": "Bankname",
+          "description": "Bitte füllen Sie das folgende Formular aus",
+          "iban": "IBAN",
+          "swiftcode": "Swift",
+          "title": "Direkte Banküberweisung"
+        },
+        "title": "Informationen:"
+      },
+      "giropay": {
+        "description": "Giropay",
+        "descriptionnote": "",
+        "form": {
+          "description": "Bitte, füllen Sie das folgende Formular aus",
+          "ibantitle": "IBAN",
+          "title": "Giropay"
+        },
+        "title": "Informationen:"
+      },
+      "ideal": {
+        "description": "iDeal",
+        "descriptionnote": "",
+        "form": {
+          "description": "Bitte, füllen Sie das folgende Formular aus",
+          "ibantitle": "IBAN",
+          "title": "iDeal"
+        },
+        "title": "Informationen:"
+      },
+      "kycrequest": {
+        "button": "KYC VERIFICATION",
+        "text": "In order for the withdrawal request to proceed, you must first verify your account.",
+        "title": "Your account has not been verified",
+        "kyctempalerttext": "Please notice that you have reached or exceeded the 2000 GBP in withdrawals. Your account must be fully verified in order to proceed with your request."
+      },
+      "max": "Max",
+      "min": "Min",
+      "moneybookers": {
+        "description": "Skrill",
+        "descriptionnote": "",
+        "form": {
+          "description": "Bitte füllen Sie das folgende Formular aus",
+          "emailtitle": "E-Mail",
+          "title": "Skrill"
+        },
+        "title": "Informationen:"
+      },
+      "moneysafe": {
+        "description": "Füllen Sie die Mobiltelefonnummer aus, die Sie bei Ihrem Twiga-Konto registriert haben, und Sie erhalten per Text Ihren Bestätigungscode.",
+        "descriptionnote": "",
+        "disclaimer": "Transaktionen unterliegen Geschäftsbedingungen von UCS Group und können heruntergeladen werden unter: <a href='https://twigawallet.com' target='_blank'> www.twigawallet.com</a>. Alle Benutzer müssen ein registriertes KYC sein, das mit Twiga Wallet mit einer registrierten verifizierten Mobiltelefonnummer mit Twiga aktiviert ist, um die Auszahlungstransaktion von dieser Website abzuschließen. Alle Transaktionen unterliegen der Überprüfung auf Anfrage durch den Webbetreiber oder UCS. Für eventuelle Diskrepanzen oder Beschwerden wenden Sie sich bitte an: <a href='mailto:support@twigawallet.com'>support@twigawallet.com</a>",
+        "form": {
+          "description": "Bitte füllen Sie das untenstehende Formular aus.",
+          "phone": "Telefon",
+          "placeholder": "z.B +306987777777",
+          "title": "Twiga"
+        },
+        "popup": {
+          "continue": "Fortsetzen",
+          "description": "Bitte geben Sie den Bestätigungscode ein, der an ihr Handy gesendet wurde.",
+          "title": "Abheben Bestätigungscode",
+          "verificationcodevalidationmessage": "Verification code wird benötigt"
+        },
+        "title": "Informationen:"
+      },
+      "neteller": {
+        "description": "Neteller",
+        "descriptionnote": "",
+        "form": {
+          "description": "Bitte füllen Sie das folgende Formular aus",
+          "emailtitle": "Account E-Mail oder Konto ID",
+          "title": "Neteller"
+        },
+        "title": "Informationen:"
+      },
+      "password": "Passwort",
+      "pscpaysafecard": {
+        "description": "Withdrawal via paysafecard can be made either via bank or ATM, using the prepaid plastic card Paysafe Mastercard.",
+        "descriptionnote": "",
+        "form": {
+          "accounttitle": "Konto",
+          "description1": "Bitte füllen Sie das folgende Formular aus",
+          "description2": "Bitte füllen Sie die E-Mail und den Vor- und Nachname aus, mit dem Sie sich für die myPaysafecard angemeldet haben!",
+          "emailtitle": "Email",
+          "firstnametitle": "Vorname",
+          "lastnametitle": "Familienname, Nachname",
+          "pscidtitle": "Wallet Id",
+          "title": "paysafecard"
+        },
+        "title": "Informationen:"
+      },
+      "paypal": {
+        "description": "Zahlen Sie auf Ihr PayPal-Konto ein.",
+        "descriptionnote": "",
+        "form": {
+          "cardtitle": "PayPal",
+          "description": "Bitte füllen Sie das folgende Formular aus",
+          "emailtitle": "Paypal Email",
+          "title": "PayPal"
+        },
+        "title": "Informationen:"
+      },
+      "rapidtransfer": {
+        "description": "Skrill",
+        "descriptionnote": "",
+        "form": {
+          "description": "Bitte füllen Sie das folgende Formular aus",
+          "transaction": "Transaktion",
+          "title": "Skrill"
+        },
+        "title": "Informationen:"
+      },
+      "servererror": "Unfortunately something went wrong. Please try later or contact our Customer Support for details.",
+      "sofort": {
+        "description": "Klarna",
+        "descriptionnote": "",
+        "form": {
+          "description": "Bitte, füllen Sie das folgende Formular aus",
+          "ibantitle": "IBAN",
+          "title": "Klarna"
+        },
+        "title": "Informationen:"
+      },
+      "submit": "Absenden",
+      "title": "Auszahlen:",
+      "visacard": {
+        "description": "Gutschrift auf Ihre Kredit-/Debit-/Prepaidkarte.",
+        "descriptionnote": "",
+        "form": {
+          "cardtitle": "Karte",
+          "description": "Bitte füllen Sie das folgende Formular aus",
+          "title": "Kredit-/Debit-/Prepaidkarte"
+        },
+        "title": "Informationen:"
+      },
+      "vivawallet": {
+        "description": "Viva-Wallet-Überweisung",
+        "descriptionnote": "",
+        "form": {
+          "description": "Bitte füllen Sie das folgende Formular aus",
+          "title": "Benutzername (Mobiltelefon)",
+          "vivawalletid": "Benutzername (Mobiltelefon)"
+        },
+        "title": "Informationen:"
+      },
+      "trustly": {
+        "description": "Trustly ist ein schneller, einfacher und sicherer Weg für deutsche Verbraucher, direkt mit ihrem Bankkonto zu zahlen.",
+        "descriptionnote": "",
+        "title": "Informationen:",
+        "descriptionimage": "Trustly is a TUV certified company"
+      },
+      "citizen": {
+        "description": "Citizen is the ideal cardless payment method that makes payments easier than ever before. Payments and Account verification via Open Banking. Faster Payments and Great Customer Experience.",
+        "descriptionnote": "",
+        "title": "Information:"
+      },
+      "applepay": {
+        "description": "Credit your ApplePay.",
+        "descriptionnote": "",
+        "form": {
+          "cardtitle": "Card",
+          "description": "Please fill in the form below",
+          "title": "ApplePay card"
+        },
+        "title": "Information:"
+      },
+      "stpmex": {
+        "title": "Information:",
+        "description": "STPMex is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select STPMex as the payment method in checkout. You will receive a barcode which you need to present at your nearest STPMex store and pay the owing amount in cash.",
+        "descriptionnote": ""
+      },
+      "astropay": {
+        "title": "Information:",
+        "description": "AstroPay is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": ""
+      },
+      "pix": {
+        "description": "Pix is the ideal cardless payment method that makes payments easier than ever before. Payments and Account verification via Open Banking. Faster Payments and Great Customer Experience.",
+        "descriptionnote": "",
+        "title": "Information:"
+      },
+      "payretailerspayouts": {
+        "description": "PayRetailersPayouts is the ideal cardless payment method that makes payments easier than ever before. Payments and Account verification via Open Banking. Faster Payments and Great Customer Experience.",
+        "descriptionnote": "",
+        "title": "Information:"
+      },
+      "ecopayz": {
+        "title": "Information:",
+        "description": "EcoPayz is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select STPMex as the payment method in checkout. You will receive a barcode which you need to present at your nearest STPMex store and pay the owing amount in cash.",
+        "descriptionnote": ""
+      },
+      "warningmessage": "Bitte nehmen Sie Ihre Auszahlung mit der für die Einzahlung gewählten Methode vor.",
+      "withdrawtext": "Auszahlen"
+    },
+    "withdrawResult": {
+      "amountTitle": "Betrag:",
+      "description": "Hiermit wird Ihre Transaktion bestätigt. Wir empfehlen, diesen Beleg für Ihre Unterlagen auszudrucken.",
+      "oref": "Transkations-Code:",
+      "successFalse": "Auszahlungsanforderung gescheitert!",
+      "successTrue": "Auszahlungsanforderung erhalten. Dauert bis zu 24 Stunden zu verarbeiten.",
+      "mbReturn": "Return",
+      "title": "Auszahlungs-Beleg",
+      "titleFalse": "Transaktion fehlgeschlagen!",
+      "titleTrue": "Herzlichen Glückwunsch!"
+    },
+    "doWithdraw": {
+      "delete": "Löschen",
+      "addNew": "Neue IBAN",
+      "wrongIban": "IBAN inkorrekt"
+    },
+    "limits": {
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "monthly": "Monthly",
+      "netDeposit": "Net Deposit Limit:"
+    },
+    "inactiveAccount": {
+      "intro": {
+        "title": "Einzahlung fehlgeschlagen"
+      },
+      "ok": "OK",
+      "liveChat": "Live Chat",
+      "email": "Email"
+    }
+  },
+  "casino": {
+    "common": {
+      "promotions": "Aktionen",
+      "providers": "ANBIETER",
+      "selectProviders": "ANBIETER AUSWÄHLEN",
+      "applyFilters": "ANMELDEN",
+      "clearFilters": "ALLES LÖSCHEN",
+      "allGames": "Alle",
+      "jackpotsSum": "Jackpots Summe",
+      "search": "SUCHE",
+      "searchPlaceholder": "Suche",
+      "playNow": "JETZT SPIELEN",
+      "noGames": "In diesem Filter gibt es keine Spiele <br/>Probieren Sie eine andere Suche oder eines unserer beliebten Spiele aus!",
+      "otherCategories": "Andere Kategorien",
+      "searchText": "Search game..."
+    },
+    "mysteryJackpot": {
+      "title": "Mystery Jackpot",
+      "subTitle": "DAILY REWARDS*",
+      "tsCs": "*Ts&Cs Apply"
+    },
+    "tournaments": {
+      "previousButton": "Einzelheiten",
+      "moreButton": "Siehe Mehr"
+    },
+    "roadmap": {
+      "play": "Spiel",
+      "previousButton": "Einzelheiten",
+      "moreButton": "Siehe Mehr"
+    },
+    "dailyOffers": {
+      "tnCs": "T&Cs"
+    },
+    "promotions": {
+      "all": "All"
+    },
+    "game": {
+      "addGame": "Add Game",
+      "searchGame": "Search game...",
+      "backToLobby": "Back to lobby",
+      "fullScreen": "Full screen",
+      "toggleDemo": "DEMO",
+      "toggleReal": "REAL",
+      "liveChat": "LIVE CHAT",
+      "deposit": "Einzahlung",
+      "demoHeaderLabel": "Zum Spaß spielen",
+      "recentGames": "Neueste Spiele",
+      "confirmation": {
+        "message": {
+          "demo": "Zur Demo-Version wechseln",
+          "real": "Zur Real-Version wechseln"
+        },
+        "button": "Bestätigung"
+      }
+    },
+    "miniGames": "Mini games"
+  },
+  "sportsbook": {
+    "common": {
+      "statisticsSeo": {
+        "stats": "Statistics",
+        "live": "Live Scores"
+      },
+      "sidebar": {
+        "title": "SPORTWETTEN",
+        "bettingTools": {
+          "betRadio": "Bet Radio",
+          "blog": "Blog",
+          "livescores": "Live-Spielstände",
+          "statistics": "Statistiken",
+          "title": "WETT-WERKZEUGE"
+        },
+        "virtuals": {
+          "basketball": "Basketball",
+          "casino": "Virtual Wetten",
+          "footballCup": "Fußball Cup",
+          "footballLeague": "Fußball League",
+          "horseRacing": "Pferderennen",
+          "tennis": "Tennis",
+          "title": "VIRTUALS"
+        }
+      },
+      "scoreIntervals": {
+        "periodShortcut": "P",
+        "halfTimeShortcut": "HT",
+        "frameShortcut": "F",
+        "overtimeShortcut": "OT",
+        "set": "Set",
+        "game": "Game",
+        "frame": "Frame",
+        "inning": "Inning"
+      },
+      "home": {
+        "liveNow": "Live-Spiele",
+        "liveNowTooltip": "Wetten auf Live-Sportereignisse. Live-Ergebnisse mit schneller Auszahlung und Top-Quoten.",
+        "liveSchedule": "Live-Zeitplan",
+        "liveScheduleTooltip": "Wetten Sie auf Spiele, die bald beginnen. Top-Quoten mit schneller Auszahlung und Live-Ergebnissen.",
+        "topSoccer": "Beliebte Fußballspiele",
+        "topSoccerTooltip": "Top-Wettquoten auf die beliebtesten Fußballspiele.",
+        "topBasket": "Beliebte Basketballspiele",
+        "topBasketTooltip": "Wettoptionen für Top-NBA-Basketballspiele, Europameisterschaften, Euroleague und andere beliebte Spiele.",
+        "topTennis": "Beliebte Tennisspiele",
+        "topTennisTooltip": "Wetten auf beliebte Tennisspiele wie Roland Garros, Wimbledon und andere Turniere.",
+        "allLiveGames": "Alle Live-Spiele",
+        "allSoccerGames": "Alle Fußballspiele",
+        "allBasketGames": "Alle Basketballspiele",
+        "allTennisMatches": "Alle Tennisspiele",
+        "allUpcomingGames": "Das gesamte Live-Programm",
+        "allVirtualGames": "Alle Virtuals"
+      },
+      "sports": {
+        "all": "Alle",
+        "open": "Anstehend",
+        "football": "Fußball",
+        "basket": "Basketball",
+        "tennis": "Tennis",
+        "virtuals": {
+          "basketball": "Basketball",
+          "footballCup": "Fußball Cup",
+          "footballLeague": "Fußball",
+          "horseRacing": "Pferderennen",
+          "tennis": "Tennis"
+        }
+      },
+      "favoriteMarkets": "Lieblingsmärkte",
+      "marketsConfiguration": {
+        "reset": "Vordefinierte Optionen",
+        "close": "Schließen",
+        "noMarkets": "Märkte sind nicht verfügbar"
+      }
+    },
+    "goalmap": {
+      "play": "Spiel",
+      "previousButton": "Einzelheiten",
+      "moreButton": "Siehe Mehr"
+    },
+    "pushNotifications": {
+      "title": "Push-Benachrichtigungen",
+      "description": "Wählen Sie die Benachrichtigungen für dieses Spiel",
+      "info": "Sie müssen Benachrichtigungen auf Ihrem Gerät zulassen",
+      "ok": "OK",
+      "cancel": "Schließen"
+    },
+    "search": {
+      "placeholder": "Suche",
+      "placeholderSearchInput": "Spiele suchen, Ereignis, Land...",
+      "noResults": "Keine Ergebnisse gefunden",
+      "moreChar": "Geben Sie die obigen Zeichen ein",
+      "popularGames": "Beliebte spiele"
+    },
+    "live": {
+      "schedule": "Zeitplan",
+      "liveStreaming": "Live Streaming",
+      "liveNow": "Jetzt Live",
+      "live": "Live",
+      "noEvents": "There are no available events, for the selected filters",
+      "scheduleNoEvents": "No results found for selected filters",
+      "marketsSelection": {
+        "title": "Konfiguration von Wettmärkten"
+      },
+      "legalInfo": {
+        "header": "Hinweis zur angezeigten Information",
+        "body": "Obwohl wir uns stets bemühen, dass sämtliche auf unserer Webseite dargestellten Informationen bezüglich eines Events korrekt sind, sollten diese lediglich als Leitfaden gesehen und genutzt werden. Falls eine bestimmte Information (Ergebnis/Spielstand, Spielzeit usw.) inkorrekt sein sollte, übernehmen wir keine Haftung."
+      }
+    },
+    "prelive": {
+      "zeroOdds": "100% AUSZAHLUNG",
+      "zero": "0%",
+      "odds": "MARGIN",
+      "zeroOddsMessage": "Market 'Full time Result - Super Odds' / 'Match Winner - Super odds' can’t be combined with any other offer",
+      "topBets": "Top Matches Of The Day",
+      "popular": "Beliebteste",
+      "learnMore": "Mehr Infos",
+      "nativeSteps": {
+        "androidTitle": "ANDROID APP",
+        "description": "Laden Sie die neue Novibet-Mobil-App für Android herunter – schnell, einfach und absolut sicher",
+        "attention": "Achtung: ",
+        "attentionText": "Die Novibet-Mobil-App für Android ist nicht bei Google Play verfügbar, kann aber direkt auf der Novibet-Website heruntergeladen werden. Nachstehend finden Sie detaillierte Anweisungen, wie Sie sie herunterladen können",
+        "rows": [
+          {
+            "title": "Novibet-App herunterladen",
+            "description": "Tippen Sie auf den Android-Download-Link und der Download beginnt. Wenn der Download abgeschlossen ist, erhalten Sie eine Benachrichtigung",
+            "download": "DIE APP HERUNTERLADEN"
+          },
+          {
+            "title": "Aktivieren Sie die Installation von unbekannten Quellen",
+            "descriptions1": "Wenn Sie auf die Datei klicken, die Sie heruntergeladen haben, erhalten Sie eine Benachrichtigung, dass Apps dieser Art Ihr Gerät schädigen können.",
+            "descriptions2Prefix": "Wählen Sie",
+            "descriptions2": " „Einstellungen“ ",
+            "descriptions2Suffix": "aus, um die Installation von Apps zuzulassen, die aus anderen Quellen als dem Google Play Store stammen.",
+            "descriptions3Prefix": "Wichtiger Hinweis: ",
+            "descriptions3": "Wenn in Chrome mehr als ein Fenster geöffnet ist, können Sie die App nicht herunterladen"
+          },
+          {
+            "title": "Installieren Sie die App",
+            "description1": "Wählen Sie die Datei Novibet.apk (aus dem Download-Ordner oder den Dateien auf Ihrem Gerät) aus und klicken Sie auf den „Installieren“-Button.",
+            "description2": "Eine App-Erfolg-Benachrichtigung erscheint auf dem Bildschirm."
+          }
+        ]
+      },
+      "home": {
+        "casinoData": {
+          "jackpots": {
+            "title": "Casino Jackpots",
+            "totalText": "Jackpots Summe"
+          }
+        }
+      }
+    },
+    "dailyCoupon": {
+      "title": "Heutige wettprogramme",
+      "filter": "By time",
+      "allBets": "Alle spiele",
+      "close": "Schließen",
+      "empty": "Für ausgewählte Filter ist kein Ereignis verfügbar",
+      "filters": {
+        "byStartTime": "Zeit Zuerst",
+        "byCompetition": "Populär Zuerst"
+      },
+      "oddRange": "Odd range",
+      "timeFilters": {
+        "filter0": "24 std.",
+        "filter1": "1 stunde",
+        "filter3": "3 std.",
+        "filter6": "6 std.",
+        "filter12": "12 std."
+      },
+      "to": "to"
+    },
+    "liveSchedule": {
+      "title": "Live-zeitplan",
+      "allBets": "All matches"
+    },
+    "couponDefault": {
+      "title": "Erstellen Sie Ihren Coupon",
+      "back": "Zurück",
+      "clear": "Alles löschen",
+      "show": "Zeigen",
+      "competitions": "Competitions",
+      "couponBtn": "Coupon",
+      "newCoupon": "Neuer Coupon",
+      "coupon": "COUPON",
+      "editCoupon": "Bearbeiten",
+      "search": "Region or competition",
+      "itemAdded": "Added to my coupon",
+      "errorMaxBetItems": "Sie können nicht mehr als {{maxBetItems}} Selektionen zu Ihrem Wettschein hinzufügen!",
+      "popular": "Popular competitions",
+      "allCompetitions": "All competitions",
+      "results": "Results",
+      "noResults": "No results",
+      "removeLeague": "Entfernen?",
+      "marketDropdownLabel": "Konfiguration von Wettmärkten"
+    },
+    "couponHorses": {
+      "age": "Age",
+      "breed": "Breed:",
+      "class": "Class",
+      "conditions": "Conditions",
+      "country": "Country:",
+      "form": "Form Figure:",
+      "horse": "Horse",
+      "horseAge": "Horse Age:",
+      "jockey": "Jockey",
+      "lastRun": "Last Run",
+      "place": {
+        "first": "1st",
+        "second": "2nd",
+        "third": "3rd"
+      },
+      "position": "Position",
+      "previousPrice": "Previous Price",
+      "price": "Price",
+      "prizeMoney": "Prize Money",
+      "quantum_FundsText": "Please fund your account.",
+      "quantum_LoginText": "Please Login to your account.",
+      "quantum_RestrictionTitle": "Live-Streaming verfügbar.",
+      "quantum_Title": "horseracing",
+      "raceDistance": "Race Distance",
+      "raceType": {
+        "CHASE": "Chase",
+        "FLAT": "Flat",
+        "HURDLE": "Hurdle",
+        "NATIONALHUNTFLAT": "National Hunt Flat"
+      },
+      "ran": "Ran",
+      "recentRace": "Recent Race",
+      "runners": "runners",
+      "time": "Time",
+      "title": "Horse Racing",
+      "trainer": "Trainer",
+      "weather": {
+        "CLOUDY": "Cloudy",
+        "RAINY": "Rainy",
+        "SNOW": "Snow",
+        "SUNNY": "Sunny"
+      },
+      "weight": "Weight:"
+    },
+    "noviLeague": {
+      "header": {
+        "home": "Home",
+        "history": "Historie",
+        "howTo": "Anleitung",
+        "tncs": "AGB",
+        "leaderboard": "Rangfolge",
+        "tncsFull": "Allgemeine Geschäftsbedingungen (AGB)"
+      },
+      "anonymous": {
+        "registerText": "Neuer Kunde?",
+        "register": "Jetzt registrieren",
+        "login": "Anmelden"
+      },
+      "authenticated": {
+        "score": "DEIN<br />SCORE",
+        "periodScore": "YOUR<br />SCORE",
+        "scorer": "YOUR<br />SCORE",
+        "totalScore": "DEIN SCORE",
+        "yourScore": "Ergebnis",
+        "rank": "Benotung (Tabelle)",
+        "rank2": "RANGLISTE"
+      },
+      "howItWorks": {
+        "title": "ANLEITUNG",
+        "bets": "Bets",
+        "prizes": "Prizes"
+      },
+      "tncs": {
+        "title": "AGB"
+      },
+      "yourAnswers": {
+        "overall": "PRO TAG",
+        "prediction": "VORHERSAGE",
+        "score": "ERGEBNIS",
+        "title": "YOUR PREDICTION",
+        "titleScore": "MATCH RESULT (ROUND {{round}})",
+        "titleTotalScore": "MATCH RESULT (100 Rounds)",
+        "titleScorer": "SCORER (ROUND {{round}})"
+      },
+      "leaderBoards": {
+        "bet": "Wette",
+        "date": "Datum",
+        "game": "Spiel",
+        "hour": "Zeit",
+        "monthTopTitle": "DIE BESTEN SPIELER DES MONATS!",
+        "topTitle": "GESAMTTABELLE",
+        "scoreTopTitle": "TOTAL BEST PLAYERS!",
+        "scoreTotalTopTitle": "MATCH RESULT LEADERBOARD (100 ROUNDS)",
+        "scorerTopTitle": "TOTAL BEST PLAYERS!",
+        "noLeaderBoard": "Die Gesamttabelle wurde noch nicht aktualisiert"
+      },
+      "overview": {
+        "playNow": "Jetzt spielen!",
+        "score": "ERGEBNIS",
+        "league": "MEISTERSCHAFT",
+        "game": "SPIELTAG"
+      },
+      "question": {
+        "submit": "EINREICHEN",
+        "submitInfo": "DAS GENAUE ERGEBNIS DES SPIELS",
+        "update": "UPDATE",
+        "text": "Endergebnis des Spiels?",
+        "edit": "Änderung der Prognose",
+        "addCoupon": "Zum Wettschein hinzufügen",
+        "isInCoupon": "Zum Wettschein hinzugefügt."
+      },
+      "scorerQuestion": {
+        "submit": "EINREICHEN",
+        "update": "UPDATE",
+        "text": ""
+      },
+      "message": {
+        "error": "<b>Oops!</b> Erneut versuchen",
+        "info": "<b>NoviLeague</b> beginnt bald!",
+        "noHistory": "Sie haben keine Prognose!",
+        "success": "<b>Viel Glück!</b> YIhre Vorhersage wurde erfolgreich eingereicht!",
+        "successScore": "<b>Viel Glück!</b> YIhre Vorhersage wurde erfolgreich eingereicht!",
+        "successScorer": "<b>Viel Glück!</b> YIhre Vorhersage wurde erfolgreich eingereicht!",
+        "allSubmitted": "Viel Glück! Alle Spielvorhersagen wurden erfolgreich platziert!",
+        "submitted": "Die Prognose wurde erfolgreich platziert!",
+        "predictionsClosed": "Prognosen geschlossen",
+        "noPrediction": "Sie haben keine Vorhersagen gemacht.",
+        "myNovileague": "Meine Novileague"
+      },
+      "new": {
+        "extraMatch": "EXTRA MATCH",
+        "extra": "EXTRA",
+        "match": "MATCH",
+        "extraQuestion": {
+          "primary": "GUESS CORRECTLY THE EXACT SCORE &",
+          "secondary": "DOUBLE THE CASH PRIZE!"
+        },
+        "submitting": "submitting..."
+      }
+    },
+    "betslip": {
+      "title": "Wettschein",
+      "clear": "Alles löschen",
+      "empty": "Ihr Wettschein ist leer",
+      "return": "Rückgabe",
+      "maxreturn": "Max Rückgabe",
+      "columns": "Spalte",
+      "boost": "Gewinn Verstärker",
+      "bet": "Gesamt",
+      "submit": "Absenden",
+      "acceptChanges": "Änderungen akzeptieren",
+      "multiples": "Systemwetten",
+      "accept": "Akzeptieren",
+      "reject": "Ablehnen",
+      "keepSelections": "Auswahl behalten",
+      "continue": "Fortfahren",
+      "banker": "B",
+      "placed": "Erfolgreiche Platzierung der Wette",
+      "more": "more",
+      "taxation": {
+        "info": "*Novibet covers {0}% of your potential winning tax",
+        "tax": "Steuer",
+        "taxBonus": "Steuerbonus",
+        "taxBonusMessage": "Novibet übernimmt {0}% ({1}) der auf Ihre potenziellen Gewinne anfallenden Steuerabgaben"
+      },
+      "acceptOdds": {
+        "anyTitle": "Annahme einer Änderung der Quoten",
+        "anyText": "Wenn Sie sich für „Annahme einer Änderung der Quoten“ entscheiden, akzeptieren Sie automatisch alle möglichen Erhöhungen oder Verringerungen der Quoten, vom Zeitpunkt der Platzierung bis zur Bestätigung der Annahme Ihrer Wette. Dies kann sich auf mögliche Gewinne auswirken. Wenn Sie auf „Platzieren“ klicken, akzeptieren Sie diese Bedingungen.",
+        "higherTitle": "Annahme höherer Quoten",
+        "higherText": "Wenn Sie sich für „Annahme höherer Quoten“ entscheiden, akzeptieren Sie automatisch alle möglichen Erhöhungen der Quoten, vom Zeitpunkt der Platzierung bis zur Bestätigung der Annahme Ihrer Wette. Dies kann sich auf mögliche Gewinne auswirken. Wenn Sie auf „Platzieren“ klicken, akzeptieren Sie diese Bedingungen.",
+        "unauthenticatedFooterText": "Loggen Sie sich in Ihr Konto ein, um eine Auswahl treffen zu können.",
+        "buttonText": "Zurück"
+      },
+      "bonusProjection": "Add another market with minimum odds of {0} to receive a <span>{1}%</span> boost",
+      "freebet": {
+        "expiration": "Exp.",
+        "notCombinableError": "Free Bets are not available on non-combinable selections"
+      }
+    },
+    "bets": {
+      "title": "Wetten",
+      "selections": "Entscheidungen",
+      "open": "Anstehend",
+      "closed": "Geschlossen",
+      "cashedOut": "Ausgezahlt",
+      "oneDay": "24 Stunden",
+      "twoDays": "48 Stunden",
+      "timeFrame": "Benutzerdefiniertes Datum",
+      "from": "from",
+      "freeBet": "Free bet",
+      "cashoutAmountText": "Auszahlungsbetrag",
+      "stake": "Einsatz",
+      "date": "Datum",
+      "time": "Zeit",
+      "dateFrom": "from",
+      "dateTo": "to",
+      "empty": "Sie haben keine anhängende Wette",
+      "emptyCashedOut": "Sie haben keine ausgezahlten Wette",
+      "emptyClosed": "Sie haben keine geschlossen Wette",
+      "previousHistory": "Bet History",
+      "betsButton": "Alle Wetten",
+      "loading": "Bitte warten",
+      "details": "Einzelheiten",
+      "returns": "Rückgabe",
+      "tax": "MwSt",
+      "taxation": {
+        "info": "*Novibet covers 100% of your potential winning tax",
+        "tax": "Steuer",
+        "taxBonus": "Steuerbonus",
+        "taxBonusMessage": "Novibet übernimmt {0}% ({1}) der auf Ihre potenziellen Gewinne anfallenden Steuerabgaben"
+      },
+      "all": "Alle",
+      "single": "Einzelwetten",
+      "singles": "Einzelwetten",
+      "won": "Gewonnen",
+      "wonMultiple": "Mehrfacher Gewinn",
+      "lost": "Verloren",
+      "lostMultiple": "Mehrfacher Verlustt",
+      "pending": "Ausstehend",
+      "void": "Void",
+      "partialCashout": "Teil- Cash Out",
+      "partialCashoutAmountText": "Teil- Cash Out",
+      "stopLossCashout": "Stop-Loss-Cash Out",
+      "cashout": "Auszahlung",
+      "cashoutReceipt": "Abgeschlossen",
+      "cashoutSuccess": "Erfolgreiche Auszahlung",
+      "cashoutChanged": "Cash Out wurde geändert",
+      "deadHeat": "Dead Heat",
+      "eachWayWin": "Each Way Win",
+      "eachWayPlace": "Each Way Place",
+      "continue": "Fortfahren",
+      "confirm": "Bestätigen",
+      "confirmCashOut": "Auszahlung bestätigen",
+      "cancel": "Abbrechen",
+      "cashoutAmount": "CASH OUT  {{amount}}",
+      "cashoutNotAvailable": "Cash out nicht verfügbar",
+      "cashoutNotAvailableTxt": "Not available",
+      "currentCashout": "Aktuelle Auszahlung",
+      "cashoutOptions": {
+        "autoCashout": {
+          "title": "Auto Cash Out",
+          "message": "Wenn der Wert erreicht",
+          "info": {
+            "title": "Was ist eine automatische Auszahlung?",
+            "description": "Mit der automatischen Auszahlung haben Sie die Möglichkeit, Ihre Wette automatisch auszuzahlen, sobald ihr Wert den Betrag erreicht, den Sie vorher ausgewählt haben."
+          }
+        },
+        "stopLoss": {
+          "title": "Stop-Loss-Cash Out",
+          "message": "Wenn die Rückzahlung unter fällt von",
+          "info": {
+            "title": "Was ist eine Verluststopp-Auszahlung?",
+            "description": "Mit der Verluststopp-Auszahlung haben Sie die Möglichkeit, Ihre Wette automatisch auszuzahlen, sobald ihr Wert unter die Mindestgrenze fällt, die Sie vorher ausgewählt haben."
+          }
+        },
+        "partialCashout": {
+          "title": "Teil-Cash Out",
+          "message": "Wählen Sie den Cash Out Betrag",
+          "stake": " Ihres Einsatzes",
+          "remaining": "Remaining stake",
+          "return": "Balance refund",
+          "info": {
+            "title": "Was ist eine teilweise Auszahlung?",
+            "description": "Mit der teilweisen Auszahlung haben Sie die Möglichkeit, Teile Ihrer Wette auszuzahlen, wobei der verbleibende Betrag weiterhin aktiv bleibt."
+          }
+        },
+        "button": {
+          "apply": "Anwenden",
+          "applyWithPrice": "Teil-Cash Out",
+          "confirm": "Bestätigen",
+          "acceptChanges": "Änderungen akzeptieren",
+          "removeRule": "Regelentfernung",
+          "close": "Schließen"
+        },
+        "error": {
+          "generic": "Leider ist etwas schief gelaufen",
+          "invalidMax": "Die Rückzahlung überschreitet den Maximalbetrag",
+          "invalidMin": "Die Rückzahlung überschreitet den Minimalbetrag",
+          "profitChanged": "Ihr Gewinn wird geändert!"
+        },
+        "min": "Min",
+        "max": "Max"
+      },
+      "upperCase": {
+        "won": "GEWONNEN",
+        "lost": "VERLOREN",
+        "pending": "AUSSTEHEND",
+        "void": "VOID",
+        "partialCashout": "TEIL-CASH OUT",
+        "stopLossCashout": "STOP-LOSS-CASH OUT",
+        "cashout": "CASH OUT",
+        "autoCashout": "AUTO CASH OUT",
+        "deadHeat": "DEAD HEAT",
+        "eachWayWin": "EACH WAY WIN",
+        "eachWayPlace": "EACH WAY PLACE",
+        "selections": "ENTSCHEIDUNGEN"
+      },
+      "liveNow": "Jetzt live",
+      "placementTime": "Uhrzeit der Platzierung",
+      "highestBet": "Höchster Einsatz",
+      "highestReturn": "Höchste Gewinnchancen"
+    },
+    "betBuilder": {
+      "new": "NEW",
+      "info": {
+        "question1": "What is Bet Builder?",
+        "question2": "How do I use Bet Builder?",
+        "answer1": "Bet Builder gives you the possibility to create your own unique bet choosing from 2 to 7 markets of the same match",
+        "answer2": "After choosing the match you are interested in, press the Bet Builder setting (where availiable). You can combine from 2 to 7 markets to create your own accumulator bet of the same match",
+        "tncsTitle": "Όροι και Προϋποθέσεις",
+        "tncsText": "Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel"
+      },
+      "notification": {
+        "message": "You will lose your current bets. </br>Are you sure you want to change mode?",
+        "yes": "Yes",
+        "no": "No"
+      },
+      "title": "Bet Builder",
+      "text": "Combine up to 12 markets of the same match in one bet!"
+    },
+    "betradio": {
+      "title": "Schedule",
+      "bannerTitle": "Listen Now on Bet",
+      "radio": "radio"
+    },
+    "captions": {
+      "basketball": {
+        "quarterScore0": "1",
+        "quarterScore1": "2",
+        "quarterScore2": "HT",
+        "quarterScore3": "3",
+        "quarterScore4": "4"
+      },
+      "volleyball": {
+        "setScore0": "1",
+        "setScore1": "2",
+        "setScore2": "3",
+        "setScore3": "4",
+        "setScore4": "5",
+        "set": "Set"
+      }
+    },
+    "rightSection": {
+      "allLiveEvents": "All live events"
+    }
+  },
+  "seo": {},
+  "poker": {
+    "rules": {
+      "pageTitle": "Poker Rules",
+      "header": "Poker Rules - How to play Poker - Winning Hands & Strategy",
+      "primaryText": "If we were to write in detail Poker rules, it might require a whole book. Especially if we include the variations on how poker is played in different parts of the world, such as the case of poka in Greece or Chinese Poker, which is super-popular in Asia. The winning hands and strategy also vary depending on where and with whom the game is played, but the diversity and variety that poker offers is the main reason why it is so beloved around the world. At its core, however, the game has some basic rules that you need to know, regardless of the variant you will play.",
+      "pokerIntroductionTitle": "How to play Poker",
+      "pokerIntroductionText": "Studying how Poker is played in the different variations of the game, we will discover that there are some basic rules. Rules that do not change, regardless of geography or name of the game. For example, Poker is always played with one deck, whether you play Hold'Em or Omaha. And the ranking of the cards based on their strength is almost the same everywhere. Although in some very rare cases, we have found tables that had unusual rules, especially for chop pot, the card-ranking of the kicker card and the winner based on the strength of the card. The big debate, however, and one of the reasons why those who invented the game's rules deal with it differently from country to country, is whether poker is a game of luck or not. There is no doubt that there are better players than others, who over time are becoming winning players. And that alone says a lot about the nature of poker and how decisive luck is in it.",
+      "pokerRulesTitle": "Poker Rules",
+      "pokerRulesText1": "The discussion about the rules of Poker for all its variations is a never-ending story. That's why we will set as ground rules the rules of Texas Hold'Em, the most popular type of Poker, to explain the specifics of the game.",
+      "pokerRulesText2": "Up to 10 people can sit at the table. Although most tables both in casinos and online poker are for 6 or 9 players. While there are also Heads-up tables, where two players play against each other.",
+      "pokerRulesText3": "The goal of the game is for the player to form a strong hand, which is stronger than any other on the table. What a strong hand is will be reviewed later in our text. To form the player's hand, they will first receive two closed cards from the dealer and will need to use some (or even all) of the cards that are shared openly on the table (Community Cards).",
+      "pokerRulesText4": "The game begins when the cards are dealt by the dealer starting from the player to their right. This player has placed a small bet (Small Blind), while the next player to the right has placed double that amount (Big Blind). The role of the Blinds in Poker is to ensure that not everyone folds and that there is some action in all hands. Once players receive two closed cards each, the first betting round begins. Depending on the type of Poker we are playing (Limit or No-Limit), each player can choose:",
+      "pokerRulesFold": "to fold",
+      "pokerRulesCheck": "to check",
+      "pokerRulesRaise": "to raise",
+      "pokerRulesReraise": "to re-raise",
+      "pokerRulesText5": "In terms of betting pre-flop, you should refer to the rules of the table, as different variations allow bets equal to the blind or multiple of it or without any limit. Once all players have made their move, it is the dealer's turn to start dealing the community cards. Players can use these cards according to what they have been previously dealt in order to form strong hands. The community cards will be revealed in three streets, each followed by a corresponding round of betting. These stages are:",
+      "pokerRulesFlop": "Flop",
+      "pokerRulesTurn": "Turn",
+      "pokerRulesRiver": "River",
+      "pokerRulesText6": "Once the hand is completed, players know how many cards they will need from the Community in combination with the two they have in hand to make a strong hand. In some cases, it is not unlikely that the cards in hand are so bad that players will need to use the 5 open cards of the table. The final street follows. Here, players, having seen the cards being played on the table and having studied the behaviour of their opponents, are called to decide whether to go all-in more dynamically. If a player is left alone at the table, i.e. if all the others fold, then he wins the pot. But if other players have remained, then these must show their cards, starting with the one who \"spoke\" first in this round. If the remaining players who \"speak\" after him realise that they have lost the game, they may not even open their cards. The same applies to the player who wins while all the others at the table have gone all-in. Either way, the player who wins in both cases will take the entire pot that has been accumulated.",
+      "pokerCombinationsTitle": "Poker Winning Hands",
+      "pokerCombinationsText1": "In any variation of the game, poker combinations are the key to the player's victory. In poker, all the cards of the deck are involved and the game is always played with one deck. Let's see the ranking of combinations, starting with the strongest.",
+      "pokerCombinationsFlushRoyalTitle": "Flush Royal",
+      "pokerCombinationsFlushRoyalText": "The strongest hand in poker that cannot be beaten. Many players who play for years have never encountered it live. If you form it however you are very lucky, as there is no way to lose. It is a Royal Flush (TJQKA) with all the cards of the same suit.",
+      "pokerCombinationsStraightFlushTitle": "Straight Flush",
+      "pokerCombinationsStraightFlushText": "A Straight Flush, which is five cards in sequence and the same suit, gives us the strongest hand - flush. It only loses to a Royal Flush or to a flush that ends higher.",
+      "pokerCombinationsFourOfaKindTitle": "Four of a kind/Quads",
+      "pokerCombinationsFourOfaKindText": "Four of a Kind, which is four cards of the same rank. One of the best hands in poker. It's also known as \"quads\".",
+      "pokerCombinationsFullHouseTitle": "Full House",
+      "pokerCombinationsFullHouseText": "Three of a kind and a pair. It is known as Queens full of Tens (QQQTT)",
+      "pokerCombinationsFlushTitle": "Flush",
+      "pokerCombinationsFlushText": "Five cards of the same suit.",
+      "pokerCombinationsStraightTitle": "Straight",
+      "pokerCombinationsStraightText": "Five cards in sequence but not in suit. For example, 6, 7, 8, 9, 10. If the cards are of the same suit, then it is referred to as a Straight Flush.",
+      "pokerCombinationsThreeOfaKindTitle": "Three of a Kind",
+      "pokerCombinationsThreeOfaKindText": "Three cards of the same rank, a fairly common hand, capable and responsible for making good bets at the table.",
+      "pokerCombinationsTwoPairsTitle": "Two Pairs",
+      "pokerCombinationsTwoPairsText": "A hand that consists of one pair of same-ranked cards along with a second pair of same-ranked cards.",
+      "pokerCombinationsPairTitle": "Pair",
+      "pokerCombinationsPairText": "A hand that consists of one pair of same-ranked cards",
+      "pokerCombinationsHighCardTitle": "High Card",
+      "pokerCombinationsHighCardText": "If there is no combination on the table, the player holding the strongest hand can win. It is also used as a kicker, i.e. the decisive card if players hold exactly the same combinations and thus a chop pot is declared.",
+      "pokerCombinationsText2": "Here is a useful chart with the ranking of hands, so you can save it and always have it with you.",
+      "pokerNoviTitle": "Poker Games",
+      "pokerNoviText1": "When we discuss about poker games, we don't just mean Hold'em. We just focus more on it as it is the easiest and most popular in the world. Greeks, of course, boast of Poca, the poker variations that only exist in our country and tend to be extremely exciting and fun.",
+      "pokerNoviText2": "Aside from Poca, we cannot ignore how the rest of the world has adopted (and loved) some other forms of poker.",
+      "pokerNoviOmahaTitle": "Omaha (Hi & Hi/Lo)",
+      "pokerNoviOmahaText": "A variant in which 4 cards are shared in the hand instead of two. It's quite creative and has its own philosophy in betting. It is, not coincidentally, the second most popular poker game in the world.",
+      "pokerNoviStudTitle": "Stud Poker",
+      "pokerNoviStudText": "In Stud, players are dealt 7 cards each and one in the middle for all. The hand must be made with 5 cards, 2 of which are face down and 5 are face up.",
+      "pokerNoviRazzTitle": "Razz",
+      "pokerNoviRazzText": "Variant of Stud but here the lowest card wins. Also known as lowball poker, it has its own set of enthusiasts.",
+      "pokerNoviFiveCardDrawTitle": "5 Card Draw",
+      "pokerNoviFiveCardDrawText": "The poker seen in Westerns. Five cards for each player with consecutive betting rounds and card changes as players see fit. Quite exciting and an old favorite, before the total domination of Texas Hold'em.",
+      "pokerNoviEightOrBetterTitle": "Eight or Better",
+      "pokerNoviEightOrBetterText": "In this peculiar poker game, you need to make the best low hand, with cards that are below 8. It's unknown who came up with it, but nonetheless it has some faithful followers around the world.",
+      "pokerNoviHorseTitle": "HORSE",
+      "pokerNoviHorseText": "This is a version that combines Hold'em, Omaha, Razz, Seven Card Stud, and Eight or Better.",
+      "pokerDictionaryTitle": "Poker Glossary",
+      "pokerDictionaryText1": "To write a",
+      "pokerDictionaryLink": "complete and thorough Poker Glossary",
+      "pokerDictionaryText2": "is for sure a massive project. And that is because the many game variations, local slang, along with the study around poker have revealed definitions beyond imagination. Despite the complexity of the subject, the guide aims to be inclusive and informative. Although the authors do not believe that the subject can be fully covered in a few pages, they are hopeful that their work will be helpful to even advanced poker players.",
+      "pokerStrategyTitle": "Poker Strategy",
+      "pokerStrategyText": "The basic poker strategy has become the subject of thousands of books and websites while there are many television and internet productions that offer a deep study of the game, especially on the variations of Hold’Em and Omaha, which are also the most popular worldwide. To help you, we will give you some points that can guide you and direct you towards adopting a logical and correct strategy. More in detail:",
+      "pokerStrategyOption1": "Use the tools available on the internet. Whether it's player profiles, hand history trackers, odds calculators, or anything else, make sure you are taking advantage of everything the web has to offer. Don't forget to also use the statistics presented live at your poker table and the current player in the game.",
+      "pokerStrategyOption2": "Read the best books/articles or watch educational videos on poker. It is a common secret that good poker players, who play systematically with the goal of long-term profits, spend a lot of time studying. They lead the way. Won't you follow?",
+      "pokerStrategyOption3": "Practice at tables without money (or with virtual money). Whether you play at a table with friends or online, you always have the option to play without real money. Especially in online poker, the experience of the game with virtual chips is exactly the same as that of real money. Thus, it constitutes an excellent field of training, before entering into serious play.",
+      "pokerStrategyOption4": "Learn the poker face. The technique of hiding or managing your expressions, which is also your opponents' best tool to beat you. Clearly, the application of this technique/tactic is only effective in live games.",
+      "pokerStrategyOption5": "Understanding bankroll management is crucial in poker. It's not just about the mathematics and odds of the different hands, but also about managing your money effectively. Good players are experts in this, and you should aim to imitate them.",
+      "pokerOddsTitle": "Poker Odds",
+      "pokerOddsText": "Understanding the list of Poker Odds is not particularly difficult. At least if you are a methodical player who wants to play correctly over time and improve your performance at the tables. What you want to study is both the odds of winning based on the first two cards you are dealt (pre-flop) and your odds after forming your final hand. At your disposal, at least in online poker, there are several software types that do exactly this: they give you the win probabilities at any given time. At Novibet Poker, the odds - both yours and your opponent's - are always displayed during a showdown.",
+      "pokerChipsTitle": "Poker Chips",
+      "pokerChipsText1": "The game is always played with special poker chips. Unlike the chips in Roulette and Blackjack, in poker each player receives chips of different colour and value. This is because the bets can represent significant increases and it is not easy to play the game if the practice of chips of the same colour and value is adopted.",
+      "pokerChipsText2": "Poker chips have become the subject of study and writing of several articles, as managing them during the game requires significant experience and skill. Bankroll Management, as it is called, will allow you to make better and more rational decisions both for betting and for the amounts you keep at the table and in your account.",
+      "pokerHistoryTitle": "Poker History",
+      "pokerHistoryText1": "Several versions have been written about the history of poker. Some things correspond to reality, others belong to the sphere of fantasy. What's certain is that poker wasn't always the bright game that entered our lives through television productions in the 2000s.",
+      "pokerHistoryText2": "The roots of poker can be traced back to Europe during the Renaissance. Although similarities exist with older games played in China and Persia, the most prominent ancestors of poker are the Spanish Primero, the French Pocque, and the German Pochen. These games were played with three face down cards initially dealt to each player and a strong element of bluffing was involved in each hand. The Europeans who immigrated to America brought the game to the New World, where it eventually came to dominate casino and internet gaming from the 20th century onwards.",
+      "faqTitle": "Poker FAQs",
+      "faq": [
+        {
+          "question": "Is it difficult to learn poker?",
+          "answer": "No, playing poker is not difficult! You just need to know the basic rules to start playing, while the rules of most variations of the game are also simple. Learning to play good poker is the complex part, but you don't need to worry about it if you're just playing for fun."
+        },
+        {
+          "question": "Are the cards you are dealt at the start of a poker hand the only determining factor in the game?",
+          "answer": "No, not at all. Of course, these cards play a fundamental role in determining who wins and who loses but poker is not just about these cards. The decisions made by players, including tactical betting, are equally important part of the game. Good cards will help you win, but skilled players can find ways to win even if they don't have a good starting hand."
+        },
+        {
+          "question": "What is the best type of poker to play?",
+          "answer": "There are several different versions of poker and none of them can be considered as \"the best\". However, most beginners start playing Texas Hold'em. It is the most popular form of the game today and one of the easiest to learn. Once you're comfortable with Texas Hold'em, you can easily start learning the other versions."
+        },
+        {
+          "question": "What is the difference between fixed limit and no limit?",
+          "answer": "Limit and No Limit are two different betting structures in poker. There are some other variations as well but these two dominate the space. The betting structure essentially sets the betting limits for each player when it is their turn at the table. In fixed limit poker, a player can only bet or raise a predetermined amount. In no limit, however, a player can bet or raise any amount they want, which of course is limited by their chip stack."
+        },
+        {
+          "question": "Which Poker Games can I play online?",
+          "answer": "All popular poker variations are available online. Texas Hold’em is by far the most popular and widely played. But most online sites offer a variety of choices including Omaha, Razz, Seven Card Stud and some other mixed formats."
+        }
+      ]
+    },
+    "home": {
+      "pageTitle": "Poker",
+      "header": {
+        "title": "Welcome to Novibet's online poker",
+        "secondaryText": "Welcome to the most thrilling online poker tables. Play Texas Hold'em & Omaha and enjoy our promotions",
+        "onlineTables": "Online Tables",
+        "activeTournaments": "Active Tournaments",
+        "onlinePlayers": "Online Players",
+        "onlineGame": "Play Online",
+        "clientApp": "Download Client"
+      },
+      "offers": {
+        "caption": "Poker Promotions"
+      },
+      "categories": {
+        "caption": "Poker Categories"
+      },
+      "tournaments": {
+        "caption": "Poker Tournaments",
+        "sections": {
+          "lateRegistration": "Late Registration",
+          "buyIn": "Buy-In",
+          "players": "Players",
+          "prizePool": "Prize Pool"
+        }
+      }
+    }
+  }
+}

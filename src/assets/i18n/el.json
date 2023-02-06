@@ -1,9 +1,2729 @@
 {
-    "welcomeMessage": "Καλωσήρθες, {{ firstName }}!",
-    "login": {
-      "username": "όνομα χρήστη",
-      "password": "Κωδικός",
-      "forgotPassword": "Ξέχασες τον κωδικό σου?",
-      "changePasswrd": "Αλλαγή κωδικού!!!"
+  "common": {
+    "days": {
+      "monday": "Δευτέρα",
+      "tuesday": "Τρίτη",
+      "wednesday": "Τετάρτη",
+      "thursday": "Πέμπτη",
+      "friday": "Παρασκευή",
+      "saturday": "Σάββατο",
+      "sunday": "Κυριακή"
+    },
+    "languages": {
+      "el": "Ελληνικά",
+      "en": "English",
+      "de": "Deutsch",
+      "es": "Español",
+      "bg": "Bŭlgarski",
+      "fi": "Suomi",
+      "pt": "Portuguese"
+    },
+    "monthsArr": [
+      "Ιανουάριος",
+      "Φεβρουάριος",
+      "Μάρτιος",
+      "Απρίλιος",
+      "Μάιος",
+      "Ιούνιος",
+      "Ιούλιος",
+      "Αύγουστος",
+      "Σεπτέμβριος",
+      "Οκτώβριος",
+      "Νοέμβριος",
+      "Δεκέμβριος"
+    ],
+    "months": {
+      "month01": "Ιανουαρίου",
+      "month02": "Φεβρουαρίου",
+      "month03": "Μαρτίου",
+      "month04": "Απριλίου",
+      "month05": "Μαίου",
+      "month06": "Ιουνίου",
+      "month07": "Ιουλίου",
+      "month08": "Αυγούστου",
+      "month09": "Σεπτεμβρίου",
+      "month10": "Οκτωβρίου",
+      "month11": "Νοεμβρίου",
+      "month12": "Δεκεμβρίου"
+    },
+    "bonusSchemes": {
+      "nobonus": "Κανένα μπόνους",
+      "novicasino": "Μπόνους εγγραφής στο Καζίνο",
+      "novicasinogb": "Μπόνους εγγραφής στο Καζίνο",
+      "novicasinogr": "Μπόνους εγγραφής στο Καζίνο",
+      "novicasinoie": "Μπόνους εγγραφής στο Καζίνο",
+      "novisportsbookgr": "Μπόνους εγγραφής στο Στοίχημα",
+      "novicasinofirstdepositdefault": "Μπόνους κατάθεσης",
+      "novicasinofirstdepositgr": "Μπόνους κατάθεσης",
+      "novisportsbookfirstdepositgr": "Μπόνους κατάθεσης",
+      "novidecasinofirstdepositde": "Μπόνους κατάθεσης",
+      "novidesportsbookfirstdepositde": "Μπόνους κατάθεσης",
+      "novimxsportsbookfirstdepositmx": "Μπόνους κατάθεσης",
+      "novimxcasinofirstdepositmx": "Μπόνους κατάθεσης",
+      "novisportsbooknorollovergb": "Μπόνους εγγραφής στο Στοίχημα",
+      "novisportsbooknorollovergbsep18": "Μπόνους εγγραφής στο Στοίχημα",
+      "novisportsbooknorolloverie": "Μπόνους εγγραφής στο Στοίχημα",
+      "noviiesportsbookie": "Μπόνους κατάθεσης"
+    },
+    "navigation": {
+      "live": "Live Στοίχημα",
+      "liveSidenav": "Live Στοίχημα",
+      "liveSeo": "Live Στοίχημα",
+      "sports": "Στοίχημα",
+      "sportsSidenav": "Στοίχημα",
+      "casino": "Casino",
+      "liveCasino": "Live Casino",
+      "casinoSidenav": "Καζινο",
+      "liveCasinoSidenav": "Live Καζινο",
+      "noviLadies": "Noviladies",
+      "noviLadiesSidenav": "Noviladies",
+      "noviLeague": "Novileague",
+      "noviboard": "Rock n' Reel",
+      "virtuals": "Virtuals",
+      "liveSchedule": "Live πρόγραμμα",
+      "sportsbookPromotions": "Προσφορές",
+      "casinoSkillzGames": "Skillz Παιχνίδια",
+      "casinoPromotions": "Προσφορές",
+      "casinoGiftwheel": "Δωροτροχός",
+      "euroCalendar": "Eurocalendar",
+      "celebratingPackage": "Γιορτινό Πακέτο",
+      "company": "Η Εταιρεία",
+      "complaints": "Παράπονα",
+      "tncs": "Όροι και Προϋποθέσεις",
+      "promotionTerms": "Γενικοί Όροι Προσφορών",
+      "rules": "Κανονισμοί",
+      "responsible": "Υπεύθυνο Παιχνίδι",
+      "support": "Εξυπηρέτηση",
+      "kyc": "Ταυτοποίηση",
+      "privacy": "Πολιτική Απορρήτου",
+      "taxOnWinnings": "Φορολογία Κερδών",
+      "desktop": "Desktop Version",
+      "careers": "Θέσεις Εργασίας",
+      "calendar": "Ημερολόγιο",
+      "roadmap": "Roadmap",
+      "tournaments": "Τουρνουά",
+      "payout": "Ποσοστά Payout",
+      "blog": "Blog",
+      "affiliation": "Affiliates",
+      "dailyCoupon": "Κουπόνι ημέρας",
+      "statistics": "statistics",
+      "odds": {
+        "decimal": "Δεκαδικές",
+        "fractional": "Κλασματικές",
+        "moneyline": "Αμερικάνικες",
+        "caption": "Αποδόσεις"
+      },
+      "goalmap": "Goalmap",
+      "poker": "Poker",
+      "pokerRules": "Κανόνες",
+      "pokerLiveEvents": "Live Events",
+      "pokerCommunityLeague": "Community League",
+      "pokerOnlineSeries": "Online Series",
+      "pokerTerminology": "Ορολογία Πόκερ"
+    },
+    "navigationBadge": {
+      "new": "NEW",
+      "hot": "HOT"
+    },
+    "bottomNavigation": {
+      "live": "Live",
+      "prelive": "Αγώνες",
+      "dailyCoupon": "Ημέρας",
+      "bets": "Στοιχήματα",
+      "casino": "Casino",
+      "liveCasino": "Live Casino",
+      "noviLadies": "Noviladies"
+    },
+    "header": {
+      "menu": {
+        "anonymous": {
+          "buttons": {
+            "login": "Εισοδος",
+            "register": "Εγγραφη"
+          }
+        },
+        "authenticated": {
+          "walletDetails": {
+            "totalBalance": "Διαθέσιμο ποσό",
+            "withdrawable": "Αναλήψιμο ποσό",
+            "withHeldForTax": "Δεσμευμένο από φόρο",
+            "bonusMoney": "Χρήματα Μπόνους",
+            "achievedRollover": "Ολοκληρωμένος Τζίρος",
+            "waitingApproval": "Αναμονή Έγκρισης",
+            "deposit": "ΚΑΤΑΘΕΣΗ",
+            "quickLinks": "Σύνδεσμοι",
+            "kycStatus": "Κατάσταση KYC"
+          },
+          "buttons": {
+            "deposit": "ΚΑΤΑΘΕΣΗ"
+          }
+        }
+      }
+    },
+    "headerBanners": {
+      "casino": {
+        "taxation": {
+          "info1": "Σε ενημερώνουμε πως στα παιχνίδια καζίνο εφαρμόζεται φόρος {{rate}}% σε καθαρά κέρδη από {{from}} έως {{to}} ανά παικτική συνεδρία (login-logout).",
+          "info2": "Σε ενημερώνουμε πως στα παιχνίδια καζίνο εφαρμόζεται φόρος {{rate}}% σε καθαρά κέρδη πάνω από {{from}} ανά παικτική συνεδρία (login-logout).",
+          "dontShowAgainText": "Δεν θέλω να εμφανιστεί ξανά αυτό το μήνυμα"
+        }
+      },
+      "kycDocument": {
+        "caption": "Ο λογαριασμός σας δεν έχει τεκμηριωθεί πλήρως.",
+        "action": "Παρακαλούμε ακολουθήστε τις οδηγίες."
+      },
+      "kycMessage": {
+        "caption": "O λογαριασμός σου δεν έχει επαληθευτεί πλήρως.",
+        "action": "Ταυτοποίηση"
+      },
+      "kycStatus": {
+        "caption": "Ο λογαριασμός σου ταυτοποιήθηκε!"
+      },
+      "lastLogin": {
+        "caption": "Τελευταία σύνδεση:"
+      },
+      "responsibleGambling": {
+        "link": "Υπεύθυνος Στοιχηματισμός",
+        "textPrimary": "<b>Παίξε Υπεύθυνα:</b> Η συμμετοχή στα τυχερά παιχνίδια θα πρέπει να γίνεται με σύνεση, ως ένας τρόπος διασκέδασης και όχι κερδοσκοπίας. Διάβασε εδώ ",
+        "textSecondary": " για την Πολιτική Υπεύθυνου Στοιχηματισμού της Novibet."
+      },
+      "limitNotifications": {
+        "link": "ρυθμίσεις λογαριασμού",
+        "monthlyLosslink": "here",
+        "deposit": {
+          "case80": {
+            "daily": {
+              "text": "Έχεις φτάσει στο 80% του ημερήσιου ορίου κατάθεσης ",
+              "title": "Ενημέρωση για το ημερήσιο όριο κατάθεσης"
+            },
+            "weekly": {
+              "text": "Έχεις φτάσει στο 80% του εβδομαδιαίου ορίου κατάθεσης ",
+              "title": "Ενημέρωση για το εβδομαδιαίο όριο κατάθεσης"
+            },
+            "monthly": {
+              "text": "Έχεις φτάσει στο 80% του μηνιαίου ορίου κατάθεσης ",
+              "title": "Ενημέρωση για το μηνιαίο όριο κατάθεσης"
+            },
+            "commonText": " Θα σε ειδοποιήσουμε ξανά αν φτάσεις στο 100%."
+          },
+          "case100": {
+            "daily": {
+              "text": "Έχεις φτάσει στο 100% του ημερήσιου ορίου καταθέσεων ",
+              "title": "Το ημερήσιο όριο καταθέσεων έχει καλυφθεί"
+            },
+            "weekly": {
+              "text": "Έχεις φτάσει στο 100% του εβδομαδιαίου ορίου καταθέσεων ",
+              "title": "Το εβδομαδιαίο όριο καταθέσεων έχει καλυφθεί"
+            },
+            "monthly": {
+              "text": "Έχεις φτάσει στο 100% του μηνιαίου ορίου καταθέσεων ",
+              "title": "Το μηνιαίο όριο καταθέσεων έχει καλυφθεί"
+            },
+            "commonText": " Μέχρι τη λήξη του ισχύοντος ορίου, δεν επιτρέπονται καταθέσεις στον λογαριασμό σου."
+          }
+        },
+        "time": {
+          "case80": {
+            "daily": {
+              "text": "Έχεις φτάσει στο 80% του ημερήσιου χρονικού ορίου συμμετοχής στα Casino, Live Casino & Virtuals παιχνίδια ",
+              "title": "Ενημέρωση για το ημερήσιο χρονικό όριο"
+            },
+            "weekly": {
+              "text": "Έχεις φτάσει στο 80% του εβδομαδιαίου χρονικού ορίου συμμετοχής στα Casino, Live Casino & Virtuals παιχνίδια ",
+              "title": "Ενημέρωση για το εβδομαδιαίο χρονικό όριο"
+            },
+            "monthly": {
+              "text": "Έχεις φτάσει στο 80% του μηνιαίου χρονικού ορίου συμμετοχής στα Casino, Live Casino & Virtuals παιχνίδια ",
+              "title": "Ενημέρωση για το μηνιαίο χρονικό όριο"
+            },
+            "commonText": " Θα σε ειδοποιήσουμε ξανά αν φτάσεις στο 100%."
+          },
+          "case100": {
+            "daily": {
+              "text": "Η συμμετοχή σου στα Casino, Live Casino & Virtuals παιχνίδια θα διακοπεί εντός 2 λεπτών, καθώς καλύφθηκε το ημερήσιο χρονικό όριο ",
+              "title": "Το χρονικό όριο εξαντλήθηκε | Το παιχνίδι σου θα διακοπεί σε 2'"
+            },
+            "weekly": {
+              "text": "Η συμμετοχή σου στα Casino, Live Casino & Virtuals παιχνίδια θα διακοπεί εντός 2 λεπτών, καθώς καλύφθηκε το εβδομαδιαίο χρονικό όριο ",
+              "title": "Το χρονικό όριο εξαντλήθηκε | Το παιχνίδι σου θα διακοπεί σε 2'"
+            },
+            "monthly": {
+              "text": "Η συμμετοχή σου στα Casino, Live Casino & Virtuals παιχνίδια θα διακοπεί εντός 2 λεπτών, καθώς καλύφθηκε το μηνιαίο χρονικό όριο ",
+              "title": "Το χρονικό όριο εξαντλήθηκε | Το παιχνίδι σου θα διακοπεί σε 2'"
+            },
+            "commonText": " Παρακαλούμε ολοκλήρωσε το παιχνίδι σου."
+          }
+        },
+        "loss": {
+          "case80": {
+            "daily": {
+              "text": "Έχεις φτάσει στο 80% του ημερήσιου ορίου απωλειών ",
+              "title": "Ενημέρωση για το ημερήσιο όριο απωλειών"
+            },
+            "weekly": {
+              "text": "Έχεις φτάσει στο 80% του εβδομαδιαίου ορίου απωλειών ",
+              "title": "Ενημέρωση για το εβδομαδιαίο όριο απωλειών"
+            },
+            "monthly": {
+              "text": "Έχεις φτάσει στο 80% του μηνιαίου ορίου απωλειών ",
+              "title": "Ενημέρωση για το μηνιαίο όριο απωλειών"
+            },
+            "commonText": " Θα σε ειδοποιήσουμε ξανά αν φτάσεις στο 100%."
+          },
+          "case100": {
+            "daily": {
+              "text": "Έχεις φτάσει στο 100% του ημερήσιου ορίου απωλειών ",
+              "title": "Το ημερήσιο όριο απωλειών έχει καλυφθεί"
+            },
+            "weekly": {
+              "text": "Έχεις φτάσει στο 100% του εβδομαδιαίου ορίου απωλειών ",
+              "title": "Το εβδομαδιαίο όριο απωλειών έχει καλυφθεί"
+            },
+            "monthly": {
+              "text": "Έχεις φτάσει στο 100% του μηνιαίου ορίου απωλειών ",
+              "title": "Το μηνιαίο όριο απωλειών έχει καλυφθεί"
+            },
+            "commonText": " Μέχρι τη λήξη του ισχύοντος ορίου, δεν επιτρέπεται η τοποθέτηση στοιχημάτων."
+          }
+        },
+        "session": {
+          "case80": {
+            "text": "Έχεις φτάσει στο 80% του μεγίστου ορίου παικτικής συνεδρίας (24 ώρες). Θα σε ειδοποιήσουμε ξανά αν φτάσεις στο 100%.",
+            "title": "Ενημέρωση για το όριο παικτικής συνεδρίας"
+          },
+          "case100": {
+            "text": "Έχεις φτάσει στο 100% του μεγίστου ορίου παικτικής συνεδρίας (24 ώρες). Συνδέσου ξανά για να συνεχίσεις το παιχνίδι.",
+            "title": "Το όριο παικτικής συνεδρίας έχει καλυφθεί"
+          }
+        }
+      },
+      "forceLogoutMessage": {
+        "text": "Βάσει της ισχύουσας νομοθεσίας, η παικτική συνεδρία θα τερματιστεί εντός ολίγων δευτερολέπτων."
+      }
+    },
+    "auth": {
+      "login": {
+        "headerTitle": "Εισοδος",
+        "inputs": {
+          "username": "Όνομα Χρήστη",
+          "password": "Κωδικός",
+          "rememberMe": "Απομνημόνευση"
+        },
+        "buttons": {
+          "login": "Είσοδος"
+        },
+        "links": {
+          "passwordRecovery": "Ανάκτηση Κωδικού"
+        }
+      },
+      "passwordRecovery": {
+        "headerTitle": "Ανάκτηση κωδικού",
+        "tab1": {
+          "title": "Ξέχασες τον Κωδικό Πρόσβασής σου;",
+          "subtitle": "Συμπλήρωσε το όνομα χρήστη σου για να λάβεις τον κωδικό πρόσβασής σου",
+          "inputUsernameCaption": "Όνομα Χρήστη",
+          "inputUsernamePlaceholder": "Όνομα Χρήστη",
+          "inputEmailCaption": "Email",
+          "inputEmailPlaceholder": "Email",
+          "nextButton": "Αποστολή"
+        }
+      }
+    },
+    "accountMenu": {
+      "deposit": "Κατάθεση",
+      "withdraw": "Ανάληψη",
+      "cancelWithdraw": "Ακύρωση Ανάληψης",
+      "account": "Λογαριασμός",
+      "kycVerification": "KYC Ταυτοποίηση",
+      "transactions": "Συναλλαγές",
+      "bets": "Ιστορικό",
+      "historyCasino": "Ιστορικό Καζίνο",
+      "liveChat": "LIVE CHAT",
+      "needHelp": "Need help?"
+    },
+    "userMenu": {
+      "deposit": "Κατάθεση",
+      "messages": "Μηνύματα",
+      "withdraw": "Ανάληψη",
+      "cancelWithdraw": "Ακύρωση Ανάληψης",
+      "account": "Λογαριασμός",
+      "kycVerification": "KYC Ταυτοποίηση",
+      "transactions": "Συναλλαγές",
+      "bets": "Ιστορικό",
+      "historyCasino": "Ιστορικό Καζίνο",
+      "logout": "Αποσύνδεση",
+      "history": "Ιστορικό",
+      "visibility": "Ορατό",
+      "depositLower": "Κατάθεση",
+      "settings": "Ρυθμίσεις"
+    },
+    "subMenu": {
+      "casinoCalendar": "Ημερολόγιο",
+      "casinoRoadmap": "Roadmap",
+      "casinoTournaments": "Τουρνουά",
+      "company": "Η Εταιρεία",
+      "customerSupport": "Εξυπηρέτηση",
+      "giftWheelCasino": "Δωροτροχός",
+      "kyc": "Ταυτοποίηση",
+      "noviGoal": "NOVIGOAL",
+      "privacyPolicy": "Πολιτική Απορρήτου",
+      "promotionsCasino": "Προσφορές Καζίνο",
+      "promotionsSports": "Προσφορές Στοιχήματος",
+      "promotionsTerms": "Γενικοί Όροι Προσφορών",
+      "regulations": "Κανονισμοί",
+      "responsibleGambling": "Υπεύθυνο Παιχνίδι",
+      "rtp": "Ποσοστά Payout",
+      "tnc": "Όροι και Προϋποθέσεις",
+      "downloadApp": "ΚΑΤΕΒΑΣΕ ΤΗΝ ΕΦΑΡΜΟΓΗ",
+      "liveChat": "Live Chat"
+    },
+    "footer": {
+      "aboutUs": "Σχετικά με εμάς",
+      "usefulLinks": "Χρήσιμα Links",
+      "downloadApp": "Κατέβασε την Εφαρμογή",
+      "social": "Social",
+      "awards": "Διεθνείς Διακρίσεις",
+      "paymentMethods": "Μέθοδοι πληρωμής",
+      "payout": "* Αφορά την επιλογή ''Νικητής αγώνα'' πριν την έναρξη σε επιλεγμένα παιχνίδια, με την ειδική ένδειξη.",
+      "payoutgb": "* 100% fair odds, without oddskey deduction on Match Result. For selected games marked with the special indication of Super Odds.",
+      "payoutde": "* 100% fair odds, without oddskey deduction on Match Result. For selected games marked with the special indication of Super Quote.",
+      "legalInfo": {
+        "header": "Σημείωση για τις εμφανιζόμενες πληροφορίες",
+        "body": "Στη Novibet προσπαθούμε πάντα να εξασφαλίζουμε ότι οι πληροφορίες που εμφανίζονται στο site μας σχετικά με έναν αγώνα είναι ακριβείς. Παρόλα αυτά, θα πρέπει να χρησιμοποιούνται μόνο ως οδηγός. Σε περίπτωση που κάποια από τις πληροφορίες (σκορ, ώρα του αγώνα, κ.λπ.) δεν είναι σωστή, δεν δεχόμαστε καμιά ευθύνη."
+      }
+    },
+    "components": {
+      "datepicker": {
+        "from": "Από Ημερομηνία",
+        "to": "Έως Ημερομηνία",
+        "options": {
+          "last24": "24 ώρες",
+          "last48": "48 ώρες",
+          "lastWeek": "Εβδομάδα",
+          "lastMonth": "Μήνας",
+          "datesRange": "Από - Εως"
+        }
+      }
+    },
+    "dialogs": {
+      "pendingWithdraws": {
+        "title": "Ακύρωση Ανάληψης",
+        "totalAmount": "Συνολικές εκκρεμείς αναλήψεις:",
+        "idText": "ID:",
+        "acceptButton": "Ακύρωση",
+        "depositText": "Συνέχεια στις Καταθέσεις.",
+        "errorMessage1": "Η ακύρωση απέτυχε! Παρακαλούμε προσπάθησε ξανά ή επικοινώνησε με το Τμήμα Εξυπηρέτησής μας.",
+        "errorMessage2": "Η ανάληψη δεν βρέθηκε ή έχει ολοκληρωθεί.",
+        "errorMessage3": "Δεν επιτρέπεται η ακύρωση βάση των ρυθμίσεών σου.",
+        "text": "Requested a withdrawal but changed your mind?",
+        "subText": "One click and your funds will be back in your account instantly."
+      },
+      "cancelWithdraw": {
+        "title": "Ακύρωση Ανάληψης",
+        "subTitle": "Είσαι σίγουρος/η ότι θέλεις να ακυρώσεις την ανάληψη;",
+        "subTitleSuccess": "Επιτυχής ακύρωση ανάληψης!",
+        "confirmationYes": "ΝΑΙ",
+        "confirmationNo": "ΟΧΙ"
+      },
+      "forcePasswordChange": {
+        "title": "Αλλαγή κωδικού πρόσβασης",
+        "description": "Η αλλαγή κωδικού πρόσβασης είναι υποχρεωτική μετά την ανάκτηση του κωδικού.",
+        "currentPassword": "Κωδικός Πρόσβασης",
+        "newPassword": "Νέος Κωδικός Πρόσβασης",
+        "repeatPassword": "Επιβεβαίωση Νέου Κωδικού Πρόσβασης",
+        "sendButton": "Αποστολή",
+        "currentPasswordRequired": "Ο κωδικός πρόσβασης είναι απαραίτητος",
+        "newPasswordRequired": "Ο Νέος Κωδικός Πρόσβασης είναι απαραίτητος",
+        "repeatPasswordRequired": "Ο κωδικός επιβεβαίωσης είναι απαραίτητος",
+        "passwordRegex": "Ο κωδικός δεν είναι έγκυρος"
+      },
+      "selfExclusion": {
+        "title": "Ο λογαριασμός σου είναι ανενεργός",
+        "infoMessage": "Ο λογαριασμός σου είναι ανενεργός καθώς έχεις αιτηθεί διάλειμμα ή αυτοαποκλεισμό. Μπορείς ανά πάσα στιγμή να προβείς σε ανάληψη μέρους ή ολόκληρου του αναλήψιμου υπολοίπου του λογαριασμού σου.",
+        "actionWithdraw": "ΑΝΑΛΗΨΗ"
+      },
+      "kycRestriction": {
+        "title": "Ο λογαριασμός σου δεν έχει ταυτοποιηθεί",
+        "link": "ανάληψη",
+        "infoMessage1": "Η ταυτοποίηση του λογαριασμού σου είναι απαραίτητη για να ξαναμπείς στο παιχνίδι. Διαφορετικά, μπορείς να αιτηθείς ",
+        "infoMessage2": " και ο λογαριασμός σου θα κλείσει.",
+        "actionVerify": "ΤΑΥΤΟΠΟΙΗΣΗ",
+        "actionWithdraw": "ΑΝΑΛΗΨΗ"
+      },
+      "kycRestriction60": {
+        "text": "Ο λογαριασμός σου έχει απενεργοποιηθεί, καθώς δεν έχει γίνει ταυτοποίηση των στοιχείων σου. Για να τον ενεργοποιήσεις και να ξαναμπείς στο παιχνίδι, στείλε μας στο documents@novibet.gr φωτογραφία ταυτότητας (μπρος/πίσω) ή διαβατηρίου, και πρόσφατο αποδεικτικό διεύθυνσης (π.χ. αντίγραφο λογαριασμού ηλεκτρικού ρεύματος/νερού)."
+      },
+      "newTncVersion": {
+        "title": "Αλλαγές στους Όρους & Προϋποθέσεις",
+        "action": "ΑΠΟΔΟΧΗ",
+        "acceptAndContinue": "Accept and continue",
+        "ignoreAndLogout": "Ignore and logout"
+      },
+      "depositTnc": {
+        "confirm": "Επιβεβαίωση",
+        "tnc": "τους Όρους & Προϋποθέσεις",
+        "privacyPolicy": " και την Πολιτική Προστασίας Προσωπικών Δεδομένων",
+        "message1": "Επιβεβαιώνω ότι είμαι άνω των 18 ετών και ότι αποδέχομαι ",
+        "message2": " της Novibet."
+      },
+      "noDepositors": {
+        "welcomeFirstName": "Γεια σου {{firstName}}",
+        "infoMessage": "ΜΠΕΣ ΚΑΙ ΕΣΥ ΣΤΟ ΠΑΙΧΝΙΔΙ ΜΕ 100% BONUS ΤΩΡΑ!",
+        "depositButton": "ΓΡΗΓΟΡΗ ΚΑΤΑΘΕΣΗ",
+        "kycButton": "ΔΙΑΔΙΚΑΣΙΑ ΤΑΥΤΟΠΟΙΗΣΗΣ",
+        "chatButton": "LIVE CHAT",
+        "emailButton": "EMAIL"
+      },
+      "noRealPlayAllowed": {
+        "info": "Δυστυχώς δεν μπορείς να παίξεις κανένα από τα παιχνίδια του καζίνο, καθώς ο λογαριασμός σου δεν έχει επαληθευτεί.",
+        "verificationAction": "Ταυτοποίηση"
+      },
+      "quickLogin": {
+        "title": "σύνδεση - εγγραφή",
+        "username": "Όνομα Χρήστη",
+        "password": "Κωδικός",
+        "login": "Είσοδος",
+        "passwordRecovery": "Ανάκτηση Κωδικού",
+        "registerText": "Νέος πελάτης;",
+        "description": "Για να τοποθετήσεις το ποντάρισμά σου πρέπει πρώτα να συνδεθείς",
+        "registerButton": "Εγγραφή εδώ!"
+      },
+      "registerOrLogin": {
+        "email": "EMAIL",
+        "liveChat": "LIVE CHAT",
+        "login": "ΣΥΝΔΕΣΗ",
+        "loginText": "Έχετε ήδη λογαριασμό;",
+        "register": "ΕΓΓΡΑΦΗ",
+        "registerText": "Δεν έχετε λογαριασμό;"
+      },
+      "registrationRefusal": {
+        "infoPrefix": "Ο λογαριασμός σας έχει απενεργοποιηθεί. Για περισσότερες πληροφορίες, επικοινωνήστε με την ",
+        "infoMessage": "Υποστήριξη Πελατών",
+        "infoSuffix": ".",
+        "actionButton": "OK"
+      },
+      "userVerification": {
+        "contactText1": "Παρακαλούμε επικοινωνήστε με την",
+        "contactText2": "της Novibet, 24 ώρες την ημέρα, 7 ημέρες την εβδομάδα",
+        "contactSupport": " Εξυπηρέτηση Πελατών ",
+        "genericText": "Οι κωδικοί επαλήθευσης επιβεβαιώνουν την ταυτότητά σας και προστατεύουν τον λογαριασμό σας",
+        "genericText2": "Didn’t receive the code? Please check that your phone number is correct to receive your bonus.",
+        "mobileGuideline": "(Enter a valid mobile to receive an activation code)",
+        "question1": "Δεν έλαβα τον κωδικό!",
+        "question2": "Αντιμετωπίζετε κάποιο πρόβλημα;",
+        "resend": "Στείλτε τον ξανά",
+        "textEmail": "Παρακαλούμε πληκτρολογήστε τον κωδικό που λάβατε στο email σας",
+        "textMobile": "Παρακαλούμε πληκτρολογήστε τον κωδικό που λάβατε στο κινητό σας",
+        "title": "Προστατευτείτε!",
+        "verifyButton": "ΕΠΙΒΕΒΑΙΩΣΗ & ΣΥΝΕΧΕΙΑ",
+        "changeNumberButton": "CHANGE NUMBER",
+        "saveNumberButton": "SAVE NUMBER & GET SMS"
+      },
+      "registration": {
+        "shared": {
+          "paymentMethods": "Μέθοδοι πληρωμής",
+          "tncs": "Όροι & Προϋποθέσεις",
+          "generalRules": "Γενικοί Κανόνες"
+        },
+        "intro": {
+          "alreadyMember": "Έχετε ήδη λογαριασμό;",
+          "createAccount": "Δημιουργήστε το λογαριασμό σας!",
+          "login": "Συνδεθείτε",
+          "next": "ΕΠΟΜΕΝΟ",
+          "back": "ΠΙΣΩ",
+          "emailText": "Χρησιμοποιήστε μια έγκυρη διεύθυνση για να λάβετε τον κωδικό ενεργοποίησης",
+          "mobileText": "Χρησιμοποιήστε έναν έγκυρο αριθμό για να λάβετε τον κωδικό ενεργοποίησης"
+        },
+        "firstStep": {
+          "next": "ΕΠΟΜΕΝΟ",
+          "back": "ΠΙΣΩ"
+        },
+        "secondStep": {
+          "openAccount": "ΑΝΟΙΓΜΑ ΛΟΓΑΡΙΑΣΜΟΥ",
+          "back": "ΠΙΣΩ"
+        },
+        "fields": {
+          "gender": {
+            "female": "Γυναίκα",
+            "male": "Άνδρας",
+            "caption": "Φύλο"
+          },
+          "dateOfBirth": {
+            "caption": "Ημερομηνία Γέννησης"
+          },
+          "promoCode": {
+            "caption": "Έχετε Κωδικό Προσφοράς;"
+          },
+          "mobileHelpText": {
+            "mobile30": "69xxxxxxxx",
+            "mobile44": "07xxxxxxxxx"
+          },
+          "receiveNews": {
+            "captionSingleStep": "Θέλω να λαμβάνω αποκλειστικές προσφορές και μπόνους. Γνωρίζω ότι μπορώ να απεγγραφώ όποτε το θελήσω",
+            "caption": "Θέλω να λαμβάνω αποκλειστικές προσφορές και μπόνους. Γνωρίζω ότι μπορώ να απεγγραφώ όποτε το θελήσω",
+            "caption2": "Θέλω να κερδίζω εισιτήρια και δώρα της αγαπημένης μου ομάδας & να λαμβάνω αποκλειστικές προσφορές. Γνωρίζω ότι μπορώ να απεγγραφώ όποτε το θελήσω",
+            "call": "τηλέφωνο",
+            "email": "email",
+            "sms": "SMS"
+          },
+          "tncs": {
+            "captionSingleStep1": "Πατώντας το «Άνοιγμα Λογαριασμού» επιβεβαιώνω ότι είμαι {{age}} ετών και αποδέχομαι τους ",
+            "captionSingleStep2": " & ",
+            "captionSingleStep3": "",
+            "caption": "Πατώντας το «Άνοιγμα Λογαριασμού» επιβεβαιώνω ότι είμαι {{age}} ετών και αποδέχομαι τους ",
+            "tncsLink": "Όρους & Προϋποθέσεις",
+            "privacyPolicyLink": "Πολιτική Προστασίας Προσωπικών Δεδομένων"
+          }
+        },
+        "guidelines": {
+          "password": {
+            "caption": "Πρέπει να περιέχει τουλάχιστον ένα γράμμα κι έναν αριθμό"
+          },
+          "username": {
+            "caption": "Mπορεί να περιέχει αριθμούς αλλά όχι κενά ή σύμβολα"
+          }
+        },
+        "errors": {
+          "common": {
+            "requiredText": "Το πεδίο δεν μπορεί να είναι κενό",
+            "latinError": "Προσοχή! Επιτρέπονται μόνο λατινικοί χαρακτήρες",
+            "serverError": "Δυστυχώς κάτι πήγε στραβά"
+          },
+          "date": {
+            "errorText": "Η ημερομηνία δεν είναι έγκυρη",
+            "invalidDate": "Θα πρέπει να είστε πάνω από {{age}} ετών για να κάνετε εγγραφή στη Novibet!"
+          }
+        }
+      },
+      "bonusBasic": {
+        "title": "Claim your Welcome Bonus",
+        "serverError": "Unfortunately something went wrong",
+        "depositAndClaimBonus": "Deposit & Get your Bonus",
+        "noWelcomeBonus": "I don't want a Welcome Bonus"
+      },
+      "limitsAndBonus": {
+        "errorText": "Ο αριθμός εγγράφου δεν είναι έγκυρος",
+        "greekError": "Επιτρέπονται μόνο ελληνικοί χαρακτήρες",
+        "latinError": "Προσοχή! Επιτρέπονται μόνο λατινικοί χαρακτήρες",
+        "requiredText": "Το πεδίο δεν μπορεί να είναι κενό",
+        "title": "Επιλέξτε Μπόνους Εγγραφής",
+        "documentTypeTitle": "Τύπος εγγράφου",
+        "documentTypeSubTitle": "Ο τύπος και αριθμός εγγράφου πρέπει να είναι έγκυρος",
+        "documentNumber": "Αριθμός εγγράφου",
+        "favouriteTeam": "Αγαπημένη Ομάδα",
+        "receiveNews": "Θέλω να κερδίζω εισιτήρια και δώρα της αγαπημένης μου ομάδας & να λαμβάνω αποκλειστικές προσφορές. Γνωρίζω ότι μπορώ να απεγγραφώ όποτε το θελήσω",
+        "depositLimitsCaption": "Όρια κατάθεσης",
+        "deposit": "ΚΑΤΑΘΕΣΗ",
+        "daily": "Ημερήσιο",
+        "weekly": "Εβδομαδιαίο",
+        "monthly": "Μηνιαίο",
+        "noLimit": "Χωρίς όριο",
+        "serverError": "Δυστυχώς κάτι πήγε στραβά"
+      },
+      "limits": {
+        "title": "Επιλογή Ορίων",
+        "deposit": "Όρια Κατάθεσης",
+        "loss": "Όρια Απωλειών",
+        "time": "Χρονικά Όρια",
+        "depositPrevious": "Εχεις ενεργό όριο καταθέσεων",
+        "lossPrevious": "Εχεις ενεργό όριο απωλειών",
+        "timePrevious": "Εχεις ενεργό χρονικό όριο",
+        "daily": "Ημερήσιο",
+        "dailyLabel": "Τα ημερήσια όρια θα έχουν άμεση εφαρμογή",
+        "dailyLabelSingle": "Το ημερήσιο όριο θα έχει άμεση εφαρμογή",
+        "weekly": "Εβδομαδιαίο",
+        "weeklyLabel": "Τα εβδομαδιαία όρια θα έχουν άμεση εφαρμογή",
+        "weeklyLabelSingle": "Το εβδομαδιαίο όριο θα έχει άμεση εφαρμογή",
+        "monthly": "Μηνιαίο",
+        "monthlyLabel": "Τα μηνιαία όρια θα έχουν άμεση εφαρμογή",
+        "monthlyLabelSingle": "Το μηνιαίο όριο θα έχει άμεση εφαρμογή",
+        "submit": "ΕΠΙΒΕΒΑΙΩΣΗ",
+        "hours": "ώρες",
+        "otherOption": "Άλλο",
+        "noLimits": "No limits",
+        "userSettingsLabel": "Μπορείς να το αλλάξεις από τις <b>ρυθμίσεις λογαριασμού</b>",
+        "serverError": "Δυστυχώς κάτι πήγε στραβά. Παρακαλούμε δοκίμασε ξανά ή επικοινώνησε με την Εξυπηρέτηση Πελατών",
+        "validationErrors": {
+          "empty": "Το πεδίο δεν μπορεί να είναι κενό",
+          "deposit": {
+            "daily": "Το ημερήσιο όριο καταθέσεων δεν μπορεί να είναι μικρότερο από {0} και μεγαλύτερο από {1}",
+            "weekly": "Το εβδομαδιαίο όριο καταθέσεων δεν μπορεί να είναι μικρότερο από {0} και μεγαλύτερο από {1}",
+            "monthly": "Το μηνιαίο όριο καταθέσεων δεν μπορεί να είναι μικρότερο από {0} και μεγαλύτερο από {1}"
+          },
+          "time": {
+            "daily": "Το ημερήσιο χρονικό όριο δεν μπορεί να είναι μικρότερο από {0} και μεγαλύτερο από {1}",
+            "weekly": "Το εβδομαδιαίο χρονικό όριο δεν μπορεί να είναι μικρότερο από {0} και μεγαλύτερο από {1}",
+            "monthly": "Το μηνιαίο χρονικό όριο δεν μπορεί να είναι μικρότερο από {0} και μεγαλύτερο από {1}"
+          },
+          "loss": {
+            "daily": "Το ημερήσιο όριο απωλειών δεν μπορεί να είναι μικρότερο από {0} και μεγαλύτερο από {1}",
+            "weekly": "Το εβδομαδιαίο όριο απωλειών δεν μπορεί να είναι μικρότερο από {0} και μεγαλύτερο από {1}",
+            "monthly": "Το μηνιαίο όριο απωλειών δεν μπορεί να είναι μικρότερο από {0} και μεγαλύτερο από {1}"
+          }
+        }
+      },
+      "cma": {
+        "title": "Πληροφορίες Διαθεσίμων Λογαριασμού",
+        "message": "Ο λογαριασμός σας αποτελείται από <strong>{{money}}</strong> μετρητά (αναλήψιμα) και από <strong>{{bonusMoney}}</strong> μπόνους χρήματα (μη αναλήψιμα).<br/><br/>Αυτή τη στιγμή, είναι ενεργό το μπόνους: <strong>{{bonus}}</strong>.<br/><br/>Iσχύουν Όροι και Προϋποθέσεις:",
+        "tncButton": "T&Cs",
+        "accept": "OK"
+      },
+      "transition": {
+        "before": {
+          "content1": "Αγαπητέ παίκτη,</br></br>Θα θέλαμε να σε ενημερώσουμε ότι με ισχύ από τις _/_/21, ο ιστότοπος Novibet.gr λειτουργεί υπό την Gamart Limited.</br></br>Η GamartLimited είναι μέλος του ομίλου μας, έχει συσταθεί στη Μάλτα, με αριθμό μητρώου C95282, και εδρεύει στη 170, PaterHouse, Level 1 (SuiteA271),  PsailaStreet, Birkirkara, BKR 9077, Malta.</br></br>Η GamartLimited είναι αδειοδοτημένη και ελέγχεται από την Επιτροπή Εποπτείας & Ελέγχου Παιγνίων (αριθμός άδειας ΧΧΧΧ)</br></br>Αυτή η αλλαγή δεν θα επηρεάσει καθόλου τις υπηρεσίες που σου παρέχουμε. Ο λογαριασμός σου, συμπεριλαμβανομένων των υπολοίπων, των ανοικτών στοιχημάτων και bonus σου, θα παραμείνει ο ίδιος.</br></br>Για να συνεχίσεις να χρησιμοποιείς τις υπηρεσίες μας, θα πρέπει να αποδεχθείς τους νέους ",
+          "content2": " και την ",
+          "content3": ". Στο πλαίσιο αυτής της διαδικασίας, τα προσωπικά σου δεδομένα θα διαβιβαστούν από τη LogflexLimited στην GamartLimited.Επιπλέον, θα πρέπει να συμφωνήσεις ότι υπόλοιπό σου θα κατέχεται πλέον από την GamartLimited.</br></br>Παρακαλούμε, τίκαρε το παρακάτω κουτάκι για να επιβεβαιώσεις ότι συμφωνείς με:</br></br>α) Τους Όρους και Προϋποθέσεις και την Πολιτική Απορρήτου</br>β) Τη διαβίβαση των προσωπικών σου δεδομένων</br>γ) Τη μεταφορά του υπολοίπου σου"
+        },
+        "after": {
+          "content1": "Αγαπητέ παίκτη,</br></br>Θα θέλαμε να σε ενημερώσουμε ότι με ισχύ από τις 5/8/21, ο ιστότοπος Novibet.gr λειτουργεί υπό την Gamart Limited.</br></br>Η Gamart Limited έχει συσταθεί στη Μάλτα, με αριθμό μητρώου C95282, και εδρεύει στην 170, Pater House, Level 1 (Suite A271),  Psaila Street, Birkirkara, BKR 9077, Μάλτα.</br></br>Η Gamart Limited είναι αδειοδοτημένη και ελέγχεται από την Επιτροπή Εποπτείας & Ελέγχου Παιγνίων (ΕΕΕΠ) βάσει της άδειας Τύπου 1: HGC-000022-LH και Τύπου 2: HGC-000023-LH με έκδοση την 15η Ιουνίου 2021 και ισχύ έως και την 15η Ιουνίου 2028.</br></br>Ο λογαριασμός σου, συμπεριλαμβανομένων των υπολοίπων, των ανοικτών στοιχημάτων και bonus σου, παραμένει ο ίδιος.</br></br>Για να συνεχίσεις να χρησιμοποιείς τις υπηρεσίες μας, θα πρέπει να αποδεχθείς τη νέα ",
+          "content2": " και την ",
+          "content3": ". Στο πλαίσιο αυτής της διαδικασίας, τα προσωπικά σου δεδομένα θα διαβιβαστούν στην Gamart Limited. Επιπλέον, θα πρέπει να συμφωνήσεις ότι υπόλοιπό σου θα κατέχεται πλέον από την Gamart Limited.</br></br>Παρακαλούμε, τίκαρε το παρακάτω κουτάκι για να επιβεβαιώσεις ότι συμφωνείς με:</br></br>α) Τη Σύμβαση Προσχώρησης (Όροι και Προϋποθέσεις) και την Πολιτική Απορρήτου</br>β) Τη διαβίβαση των προσωπικών σου δεδομένων</br>γ) Τη μεταφορά του υπολοίπου σου",
+          "footer": {
+            "content1": "Εάν δεν συμφωνείς παρακαλούμε επικοινώνησε με την ",
+            "content2": " μας"
+          }
+        },
+        "agree": "Συμφωνώ",
+        "accept": "Αποδοχή",
+        "save": "Αποθήκευση",
+        "remindLater": "Ρωτησέ με αργότερα",
+        "tncsLink": "Σύμβαση Προσχώρησης",
+        "privacyPolicyLink": "Πολιτική Απορρήτου",
+        "support": "Εξυπηρέτηση Πελατών"
+      },
+      "resetPassword": {
+        "reminder": {
+          "title": "Αλλαγή Κωδικού Πρόσβασης",
+          "text": "Ο κωδικός πρόσβασης του λογαριασμού σου λήγει στις ",
+          "button": "Αλλαγή κωδικού"
+        },
+        "form": {
+          "title": "Αλλαγή Κωδικού Πρόσβασης",
+          "text": "Συμπλήρωσε την παρακάτω φόρμα για να τον αλλάξεις",
+          "oldPassword": "Κωδικός Πρόσβασης",
+          "newPassword": "Νέος Κωδικός Πρόσβασης",
+          "repeatPassword": "Επιβεβαίωση Νέου Κωδικού",
+          "button": "Επιβεβαίωση",
+          "success": "Ο κωδικός πρόσβασης άλλαξε με επιτυχία",
+          "errors": {
+            "required": "Το πεδίο δεν μπορεί να είναι κενό",
+            "invalid": "Ο κωδικός δεν είναι έγκυρος",
+            "latin": "Προσοχή! Επιτρέπονται μόνο λατινικοί χαρακτήρες",
+            "sameAsOld": "Ο νέος κωδικός πρέπει να είναι διαφορετικός από τον προηγούμενο",
+            "newMatchRepeat": "Ο νέος κωδικός πρέπει να είναι ο ίδιος και στα δύο πεδία"
+          }
+        }
+      },
+      "rgNotification": {
+        "title": "One hour of continous playing reached",
+        "message": "One hour has elapsed since you logged in and we want to make sure your activity is under control. Learn more about our Responsible Gambling Policy",
+        "rglink": "here",
+        "continue": "Continue Playing",
+        "stop": "Stop Playing"
+      },
+      "allowNotification": {
+        "text": "Θέλω να λαμβάνω αποκλειστικά bonus & προσφορές!",
+        "decline": "Όχι, ευχαριστώ",
+        "accept": "Ναι, θέλω!"
+      }
+    },
+    "cookiesPopup": {
+      "buttonText": "Εντάξει!",
+      "learnMore": "Περισσότερα",
+      "text": "Χρησιμοποιούμε μόνο τα απαραίτητα cookies για την εύρυθμη λειτουργία της ιστοσελίδας και την ασφάλεια της περιήγησής σου. Με τη χρήση της ιστοσελίδας, αποδέχεστε τη χρήση των cookies."
+    },
+    "account": {
+      "newsletter": {
+        "email": "email",
+        "sms": "SMS",
+        "mobile": "τηλέφωνο"
+      }
+    },
+    "errorPage": {
+      "notFound": {
+        "button": "Αρχική Σελίδα",
+        "description": "Λυπούμαστε, αλλά η σελίδα δεν υπάρχει. Παρακαλώ ελέγξτε τη διεύθυνση URL ή μεταβείτε στην αρχική σελίδα.",
+        "subTitleUp": "Λυπούμαστε.",
+        "subTitleDown": "Η σελίδα δεν υπάρχει."
+      }
+    },
+    "selfExcludedPage": {
+      "liveChat": "Live Chat",
+      "email": "Email",
+      "skype": "Skype",
+      "descriptionUp": "Λόγω του αυτοαποκλεισμού σας, δεν επιτρέπεται η πρόσβαση στη Novibet.",
+      "descriptionDown": "Χρειάζεστε βοήθεια; Επικοινωνήστε μαζί μας.",
+      "subTitle": "Αυτοαποκλεισμός σε ισχύ"
+    },
+    "bannedCountryPage": {
+      "liveChat": "Live Chat",
+      "email": "Email",
+      "skype": "Skype",
+      "descriptionUp": "Φαίνεται να προσπαθείτε να συνδεθείτε στη Novibet από μη εγκεκριμένη τοποθεσία.",
+      "descriptionDown": "Δεν ξέρετε γιατί λαμβάνετε αυτό το μήνυμα; Επικοινωνήστε μαζί μας.",
+      "subTitle": "Περιορισμός τοποθεσίας"
+    },
+    "info": {
+      "selfEvaluation": {
+        "title": "Τεστ Αυτοαξιολόγησης",
+        "link": "https://formfaca.de/sm/KxFYbiwu8"
+      },
+      "support": {
+        "defaultSubject": "Customer support working hours.",
+        "timeMessage": "(Ώρες λειτουργίας τμήματος Εξυπηρέτησης Πελατών : 7 ημέρες την εβδομάδα, 24 ώρες το 24ωρο)",
+        "anyTime": "Ώρες λειτουργίας τμήματος Εξυπηρέτησης Πελατών.",
+        "callBetween": "Επικοινωνήστε μαζί μου στο διάστημα μεταξύ:",
+        "categoryPlaceholder": "Επιλέξτε κατηγορία",
+        "phoneNumberPlaceholder": "Παρακαλώ εισάγετε τον αριθμό τηλεφώνου",
+        "callbackButton": "Call Back",
+        "anyTimeMessage": "Ώρες λειτουργίας τμήματος Εξυπηρέτησης Πελατών.",
+        "successMessageGreece": "Το αίτημά σου καταχωρήθηκε επιτυχώς. Στο κινητό {0} θα λάβεις τηλεφωνική κλήση από τα τηλέφωνα : +30 21 1198 5707. Η κλήση θα πραγματοποιηθεί μεταξύ: {1}",
+        "successMessageDefault": "Το αίτημά σου καταχωρήθηκε επιτυχώς. Στο κινητό {0} θα λάβεις τηλεφωνική κλήση από τα τηλέφωνα : +44 141 280 5221. Η κλήση θα πραγματοποιηθεί μεταξύ: {1}",
+        "categories": {
+          "sportsbook": "Στοίχημα",
+          "kycVerification": "Ταυτοποίηση",
+          "transactions": "Συναλλαγές",
+          "casino": "Καζίνο",
+          "technicalIssue": "Τεχνικό Ζήτημα",
+          "loginProblem": "Πρόβλημα Εισόδου",
+          "bonusOffers": "Μπόνους/Προσφορές"
+        },
+        "messagePlaceholder": "Αφήστε μας μήνυμα",
+        "categoryLabel": "Χρειάζομαι βοήθεια για:",
+        "leaveMessageButton": "Αποστολή μηνύματος",
+        "success": {
+          "text": "Το μήνυμά σας στάλθηκε με επιτυχία!"
+        }
+      }
+    }
+  },
+  "account": {
+    "settings": {
+      "common": {
+        "save": "Αποθήκευση",
+        "close": "Κλείσιμο",
+        "cancel": "Ακύρωση",
+        "disable": "Απενεργοποίηση",
+        "activate": "Ενεργοποίηση",
+        "edit": "Επεξεργασία",
+        "enterPassword": "Κωδικός Πρόσβασης",
+        "cancelAndClose": "Κλείσιμο",
+        "loadMore": "Φορτώστε Περισσότερα"
+      },
+      "playerAccount": {
+        "headerTitle": "Ο ΛΟΓΑΡΙΑΣΜΟΣ ΣΟΥ",
+        "headerDescription": "Διαχείριση του Λογαριασμού σου και των Προσωπικών σου Στοιχείων",
+        "title": "Λογαριασμός Χρήστη",
+        "username": "Όνομα Χρήστη",
+        "password": "Κωδικός Πρόσβασης",
+        "newPassword": "Νέος Κωδικός Πρόσβασης",
+        "confirmPassword": "Επιβεβαίωση Νέου Κωδικού",
+        "changePassword": "Αλλαγή Κωδικού Πρόσβασης",
+        "securityQuestion": "Ερώτηση Ασφαλείας",
+        "changePasswordQuestion": "Αλλαγή Ερώτησης Ασφαλείας",
+        "newAnswer": "Νέα Απάντηση",
+        "language": "Γλώσσα",
+        "odds": "Αποδόσεις",
+        "changeLanguage": "Αλλαγή Γλώσσας",
+        "selectLanguage": "Επιλογή Γλώσσας",
+        "passwordRequired": "Ο κωδικός πρόσβασης είναι απαραίτητος",
+        "newPasswordRequired": "Ο Νέος Κωδικός Πρόσβασης είναι απαραίτητος",
+        "repeatPasswordRequired": "Η Επιβεβαίωση Νέου Κωδικού Πρόσβασης είναι απαραίτητη",
+        "newPasswordMinLength": "Ο Νέος Κωδικός Πρόσβασης πρέπει να έχει τουλάχιστον 6 χαρακτήρες",
+        "repeatPasswordNotMatch": "Ο Νέος Κωδικός Πρόσβασης δεν συμφωνεί με τον Κωδικό Πρόσβασης",
+        "passwordChangedCompleted": "Ο κωδικός πρόσβασής σου άλλαξε επιτυχώς!",
+        "languageChangedCompleted": "Η γλώσσα άλλαξε επιτυχώς!",
+        "invalidUntilDate": "Η ημερομηνία δεν μπορεί να είναι προγενέστερη της σημερινής.",
+        "passwordHint": "It's a good idea to use a strong password that you don't use elsewhere"
+      },
+      "personalDetails": {
+        "title": "Προσωπικά Στοιχεία",
+        "gender": "Φύλο",
+        "country": "Χώρα",
+        "firstName": "Όνομα",
+        "lastName": "Επίθετο",
+        "city": "Πόλη",
+        "birthday": "Ημ/νία Γεννήσεως",
+        "address": "Διεύθυνση",
+        "email": "Email",
+        "postCode": "Ταχ. Κώδικας",
+        "mobile": "Κινητό Τηλέφωνο",
+        "taxId": "RFC",
+        "curp": "CURP",
+        "nationality": "Nationality",
+        "jobTitle": "Job Title",
+        "district": "Neighborhood, Quarter or Settlement",
+        "municipality": "Municipality, State"
+      },
+      "accountManagement": {
+        "title": "Διαχείριση Λογαριασμού",
+        "timeOut": "Διάλειμμα από τον στοιχηματισμό",
+        "timeOutDetails": "Εάν επιθυμείτε μια προσωρινή διακοπή από τη στοιχηματική σας δραστηριότητα μπορείτε να κάνετε ένα διάλειμμα από τον στοιχηματισμό.Μόλις ενεργοποιήσετε την επιλογή του διαλείμματος δεν θα μπορείτε πλέον να χρησιμοποιείτε τον λογαριασμό σας. Δεν θα έχετε την δυνατότητα να ενεργοποιήσετε τον λογαριασμό σας πριν τη λήξη της περιόδου που θα επιλέξετε.Για να ξεκινήσει το διάλειμμα, παρακαλούμε επιλέξτε την περίοδο που επιθυμείτε από την παρακάτω λίστα:",
+        "selectTimeOutDuration": "Επιλογή διάρκειας διαλείμματος από τον στοιχηματισμό",
+        "timeOutOptions": [
+          "24 ώρες",
+          "7 μέρες",
+          "30 μέρες",
+          "6 εβδομάδες"
+        ],
+        "bettingTimeoutConfirmText": "Είσαι σίγουρος/η ότι θέλεις να προχωρήσεις σε διάλειμμα από τον στοιχηματισμό;",
+        "selfExclusion": "Αυτο-αποκλεισμός",
+        "selfExclusionDetails": "Ο αυτο-αποκλεισμός αποτελεί μία επίσημη διαδικασία, κατά την οποία αιτείστε την απενεργοποίηση του λογαριασμού σας. Η διαδικασία του αυτο-αποκλεισμού είναι μη αναστρέψιμη, δεν μπορεί να αρθεί για οποιοδήποτε λόγο και δεν μπορείτε να αιτηθείτε δημιουργία νέου λογαριασμού.Κατά το χρονικό διάστημα του αυτο-αποκλεισμού θα καταβάλλουμε την καλύτερη δυνατή προσπάθεια ώστε να αποτρέψουμε το άνοιγμα νέου λογαριασμού. Εάν επιθυμείτε περισσότερες πληροφορίες σχετικά με τον αυτο-αποκλεισμό, παρακαλούμε επικοινωνήστε με την εξυπηρέτηση πελατών και θα χαρούμε να σας βοηθήσουμε.Εάν θέλετε να κλείσετε τον λογαριασμό σας για οποιοδήποτε άλλο λόγο, παρακαλούμε να επιλέξετε από τον λογαριασμό σας την επιλογή «Κλείσιμο Λογαριασμού».Εάν επιθυμείτε να ενεργοποιήσετε αυτο-αποκλεισμό άμεσα, μπορείτε να επιλέξετε την περίοδο που επιθυμείτε από την παρακάτω λίστα:",
+        "selectSelfExclusionDuration": "Επιλογή διάρκειας αυτο-αποκλεισμού",
+        "selectSelfExclusion": "Επιλογή διάρκειας αυτο-αποκλεισμού",
+        "selfExclusionConfirmText": "Είσαι σίγουρος/η ότι θέλεις να προχωρήσεις σε αυτο-αποκλεισμό;",
+        "accountClosure": "Κλείσιμο λογαριασμού",
+        "accountClosureDetailsGR": "Εάν επιθυμείτε να σταματήσετε να παίζετε, μπορείτε να κλείσετε τον λογαριασμό σας.Εάν επιλέξετε να κλείσετε τον λογαριασμό σας δεν θα έχετε πλέον πρόσβαση σε αυτόν. Σε περίπτωση που θελήσετε να ανοίξετε εκ νέου τον λογαριασμό σας, θα σας ζητηθεί να απαντήσετε σε πρόσθετες ερωτήσεις σχετικά με τον λογαριασμό σας, για τη δική σας ασφάλεια.Εάν σας ανησυχεί η στοιχηματική δραστηριότητά σας, εάν είστε προβληματισμένος για τις επιπτώσεις του στοιχηματισμού και χρειάζεστε βοήθεια, παρακαλούμε επιλέξτε «Αυτο-αποκλεισμό» ή επικοινωνήστε με την εξυπηρέτηση πελατών.Για να κλείσετε τον λογαριασμό σας παρακαλούμε επιλέξτε τον κύριο λόγο για το κλείσιμο του λογαριασμού.",
+        "selectAccountClosureDuration": "Επιλογή διάρκειας κλεισίματος λογαριασμού",
+        "accountClosureDurationOptions": [
+          "1 εβδομάδα",
+          "1 μήνα",
+          "3 μήνες",
+          "6 μήνες",
+          "12 μήνες",
+          "Επ αόριστο",
+          "Μέχρι"
+        ],
+        "selectAccountClosureReason": "Επιλογή αιτίας κλεισίματος λογαριασμού",
+        "accountClosureReasonOptions": [
+          "Δεν έχω χρόνο",
+          "Δεν είμαι ικανοποιημένος/η με τη σελίδα/υπηρεσίες σας",
+          "Δεν είμαι ικανοποιημένος/η από τις προσφορές σας",
+          "Προτιμώ να παίζω σε άλλη ιστοσελίδα/πάροχο"
+        ],
+        "closeAccountConfirmText": "Είσαι σίγουρος/η ότι θέλεις να κλείσεις τον λογαριασμό σου;"
+      },
+      "responsibleGambling": {
+        "title": "Υπεύθυνο Παιχνίδι",
+        "depositLimits": "Όρια Κατάθεσης",
+        "depositLimitsDetails": "Για να ορίσετε τα όρια που επιθυμείτε, αρκεί να εισάγετε ένα ποσό στο αντίστοιχο πεδίο, να εισάγετε τον κωδικό πρόσβασης και να πατήσετε αποθήκευση. Μπορείτε να μειώσετε τα όρια κατάθεσης ανά πάσα στιγμή στις ρυθμίσεις λογαριασμού.  Έχετε τη δυνατότητα να αυξήσετε ή να αφαιρέσετε τα όρια κατάθεσης. Για την αφαίρεση/μηδενισμό των ορίων κατάθεσης, θα πρέπει το αντίστοιχο πεδίο να είναι κενό. Ωστόσο, θα χρειαστεί να επιστρέψετε στις ρυθμίσεις λογαριασμού και να επιβεβαιώσετε το αίτημά σας μετά από 7 ημέρες.",
+        "dailyLimit": "Ημερήσιο Όριο",
+        "weeklyLimit": "Εβδομαδιαίο Όριο",
+        "monthlyLimit": "Μηνιαίο Όριο",
+        "newLimit": "Νέο όριο:",
+        "disableLimit": "Κατάργηση Ορίου",
+        "confirmNewLimit": "Επιβεβαιώση νέου ορίου στις:",
+        "changeDepositLimitsCompleted": "Η διαδικασία ολοκληρώθηκε με επιτυχία!",
+        "depositLimitsGreaterThan": "Το ελάχιστο ποσό που μπορείτε να θέσετε είναι {{min}}",
+        "genericError": "Κάτι πήγε στραβά",
+        "depositLimitsConfirmText": "Είσαι σίγουρος/η ότι θέλεις να αλλάξεις τα όρια κατάθεσής σου",
+        "deposit": {
+          "title": "Όρια Κατάθεσης",
+          "details": "Ο ορισμός ορίων κατάθεσης είναι υποχρεωτικός, για τουλάχιστον μία από τις ακόλουθες περιόδους (ημερήσια, εβδομαδιαία, μηνιαία όρια)",
+          "subDetails": "Έχετε τη δυνατότητα να αλλάξετε τα όρια κατάθεσης ανά πάσα στιγμή. Στην περίπτωση αύξησης των ορίων, η αλλαγή θα εφαρμοστεί όταν λήξει το προηγούμενο όριο",
+          "confirmText": "Είσαι σίγουρος/η ότι θέλεις να αλλάξεις τα όρια κατάθεσής σου;",
+          "systemLimit": {
+            "title": "Όριο κατάθεσης: <b>{{value}}</b><br>",
+            "text": "Το Όριο Συστήματος για καταθέσεις έως {{value}} θα είναι ενεργό μέχρι την επιτυχή ταυτοποίηση του λογαριασμού σου."
+          }
+        },
+        "time": {
+          "title": "Χρονικά Όρια",
+          "details": "Ο ορισμός χρονικών ορίων παικτικής συνεδρίας είναι υποχρεωτικός, για τουλάχιστον μία από τις ακόλουθες περιόδους (ημερήσια, εβδομαδιαία, μηνιαία όρια)",
+          "subDetails": "Έχετε τη δυνατότητα να αλλάξετε τα χρονικά όρια ανά πάσα στιγμή. Στην περίπτωση αύξησης των ορίων, η αλλαγή θα εφαρμοστεί όταν λήξει το προηγούμενο όριο",
+          "confirmText": "Είσαι σίγουρος/η ότι θέλεις να αλλάξεις τα χρονικά όριά σου;"
+        },
+        "loss": {
+          "title": "Όρια Απωλειών",
+          "details": "Ο ορισμός ορίων απωλειών είναι υποχρεωτικός, για τουλάχιστον μία από τις ακόλουθες περιόδους (ημερήσια, εβδομαδιαία, μηνιαία όρια)",
+          "subDetails": "Έχετε τη δυνατότητα να αλλάξετε τα όρια απωλειών ανά πάσα στιγμή. Στην περίπτωση αύξησης των ορίων, η αλλαγή θα εφαρμοστεί όταν λήξει το προηγούμενο όριο",
+          "confirmText": "Είσαι σίγουρος/η ότι θέλεις να αλλάξεις τα όρια απωλειών σου;"
+        },
+        "userRequests": {
+          "newLimit": "<b>Νέο Όριο: {{limit}}</b> <br/>στις: {{actionDate}}",
+          "resetLimit": "<b>Κατάργηση Ορίου</b> <br/>στις:  {{actionDate}}",
+          "cancel": "ΑΚΥΡΩΣΗ",
+          "accept": "ΑΠΟΔΟΧΗ",
+          "hoursLabel": "ώρες"
+        },
+        "enforced": {
+          "tag": "Επιβαλλόμενο Όριο:",
+          "info": {
+            "text": "Βάσει της παικτικής σου δραστηριότητας έχει/έχουν επιβληθεί όριο/όρια στον λογαριασμό σου. Σε περίπτωση που ήδη έχεις ορίσει ή θελήσεις να ορίσεις νέο/νέα (για την ίδια χρονική περίοδο), θα ισχύει/ισχύουν πάντα αυτό/αυτά με τη χαμηλότερη τιμή.",
+            "title": "Επιβαλλόμενο Όρια"
+          }
+        },
+        "netDeposit": {
+          "title": "Net Deposit Limits"
+        },
+        "selectionOther": "Άλλο",
+        "daily": "Ημερήσιο",
+        "weekly": "Εβδομαδιαίο",
+        "monthly": "Μηνιαίο",
+        "infoCommon": "Αφού επιλέξετε τα όρια, πληκτρολογήστε τον κωδικό πρόσβασης και πατήστε αποθήκευση",
+        "currentPassword": "Κωδικός Πρόσβασης",
+        "notSet": "Not Set"
+      },
+      "withdraw": {
+        "title": "Ανάληψη",
+        "withdrawalRequestCancelling": "Ακύρωση αιτήματος ανάληψης",
+        "disableWithdrawCancellationDescription": "Η δυνατότητα ακύρωσης αναλήψεων είναι απενεργοποιημένη για τον λογαριασμό σου. Σε περίπτωση που θέλεις να γίνει και πάλι διαθέσιμη, επέλεξε «Ενεργοποίηση».",
+        "enableWithdrawCancellationDescription": "Η δυνατότητα ακύρωσης αναλήψεων είναι ενεργοποιημένη για τον λογαριασμό σου. Εάν όμως το επιθυμείς και πατώντας «Απενεργοποίηση», η δυνατότητα αυτή παύει άμεσα να ισχύει για τον λογαριασμό σου.<br/>Σημείωση: Εφόσον προχωρήσεις σε απενεργοποίηση, η δυνατότητα να την επανενεργοποιήσεις θα είναι και πάλι διαθέσιμη σε μία εβδομάδα.",
+        "remainingCooloffMessage": "Η επανενεργοποίηση της δυνατότητας ακύρωσης αναλήψεων θα είναι εφικτή σε: {{timespan}}",
+        "timespan": {
+          "days": "μέρες",
+          "hours": "ώρες",
+          "minutes": "λεπτά",
+          "seconds": "δευτερόλεπτα",
+          "and": " και "
+        },
+        "responseMessage": {
+          "enable": "Η ακύρωση αναλήψεων ενεργοποιήθηκε επιτυχώς.",
+          "disable": "Η ακύρωση αναλήψεων απενεργοποιήθηκε επιτυχώς.",
+          "sameSettings": "Οι υπάρχουσες ρυθμίσεις και οι νέες ρυθμίσεις είναι ίδιες",
+          "error": "Λυπούμαστε, υπήρξε κάποιο σφάλμα. Παρακαλούμε προσπάθησε ξανά."
+        }
+      },
+      "communicationSettings": {
+        "title": "Ρυθμίσεις Επικοινωνίας",
+        "titleDetails": "Επίλεξε τους τρόπους επικοινωνίας που προτιμάς",
+        "email": "E-mail",
+        "sms": "SMS",
+        "phone": "Τηλεφωνικές κλήσεις",
+        "communicationSettingsChanged": "Οι επιλογές επικοινωνίας άλλαξαν επιτυχώς!"
+      },
+      "additionalPrivacySettings": {
+        "title": "Επιπλέον Ρυθμίσεις Προσωπικών Δεδομένων",
+        "privacySettings": "Ρυθμίσεις Προσωπικών Δεδομένων",
+        "privacySettingsDetails": "Εδώ μπορείς να αλλάξεις τις επιλογές προσωπικών δεδομένων",
+        "marketingProfiling": "Κατάρτιση Προφίλ",
+        "socialMediaCookies": "Cookies Κοινωνικών Δικτύων"
+      },
+      "casinoSettings": {
+        "title": "Ρυθμίσεις Casino",
+        "realityCheckSettings": {
+          "title": "Αλλαγή χρόνου υπενθύμισης",
+          "mtTitle": "Αλλαγή του χρονομέτρου συνεδρίας",
+          "details": "Επιλογή χρόνου υπενθύμισης",
+          "mtDetails": "Ορισμός του χρονομέτρου συνεδρίας σε:",
+          "realityCheckOptions": {
+            "option30": "30'",
+            "option45": "45'",
+            "option60": "60'",
+            "option120": "120'",
+            "option0": "Απεριόριστα"
+          },
+          "successMessage": "Ο χρόνος υπενθύμισης άλλαξε επιτυχώς!",
+          "mtSuccessMessage": "Η αλλαγή του χρονομέτρου συνεδρίας ηταν επιτυχής!",
+          "pnLNegative": "From your activity up till now you have lost {0}. Your new Reality Check option has been enabled.",
+          "pnLPositive": "From your activity up till now you have won {0}. Your new Reality Check option has been enabled."
+        }
+      },
+      "complaintTickets": {
+        "title": "Ιστορικό Παραπόνων",
+        "category": "Κατηγορία",
+        "description": "Περιγραφή",
+        "status": "Κατάσταση",
+        "date": "Ημ/νία/Ώρα",
+        "subject": "Θέμα",
+        "buttonMore": "Περισσότερα",
+        "buttonLess": "Λιγότερα",
+        "loadMore": "Φορτώστε Περισσότερα",
+        "noMoreComplaints": "Δεν υπάρχουν άλλα παράπονα"
+      }
+    },
+    "casinoHistory": {
+      "title": "Casino Bonus",
+      "bonus500": "Bonus 500",
+      "bonusVIP": "Bonus VIP",
+      "prizes": "Έπαθλα",
+      "points": "points",
+      "datepickerTitle": "Ημερομηνίες",
+      "datepickerSearch": "ΑΝΑΖΗΤΗΣΗ",
+      "datesFrom": "Από:",
+      "datesTo": "Έως:",
+      "pointsTitle": "Πόντοι Καζίνο",
+      "monthPoints": "Πόντοι Μήνα: ",
+      "VIPPoints": "VIP",
+      "previousMonthPoints": "Πόντοι Προηγούμενου Μήνα: ",
+      "noResultsFound": "Δεν βρέθηκαν πονταρίσματα για τις επιλεγμένες ημερομηνίες",
+      "durationSearchExceeded": "Τα επιστρεφόμενα αποτελέσματα αφορούν την περίοδο των τελευταίων έξι μηνών",
+      "result": {
+        "title": "Αποτελέσματα",
+        "id": "ID",
+        "date": "Ημ/νία",
+        "game": "Παιχνίδι",
+        "stake": "Ποσό",
+        "returns": "Κέρδη",
+        "casinoPoints": "Πόντοι Καζίνο"
+      },
+      "page": "Σελίδα",
+      "totalOfStake": "Συνολικό Ποσό",
+      "totalOfReturns": "Συνολικά Κέρδη",
+      "totalPoints": "Συνολικοί Πόντοι: ",
+      "total": "Σύνολο"
+    },
+    "betHistory": {
+      "details": "Λεπτομέρειες:",
+      "title": "ΙΣΤΟΡΙΚΟ ΣΤΟΙΧΗΜΑΤΩΝ",
+      "filters": {
+        "type": "Είδος:",
+        "status": "Κατάσταση:",
+        "dates": "Ημερομηνίες",
+        "from": "Από:",
+        "to": "Εώς:",
+        "search": "ΑΝΑΖΗΤΗΣΗ"
+      },
+      "noResults": "Δεν βρέθηκαν αποτελέσματα",
+      "durationExceeded": "Τα επιστρεφόμενα αποτελέσματα αφορούν την περίοδο των τελευταίων έξι μηνών",
+      "id": "ID",
+      "status": "Κατάσταση",
+      "type": "Τύπος",
+      "date": "Ημ/νία",
+      "amount": "Ποσό",
+      "returns": "Επιστροφή",
+      "tax": "Φόρος",
+      "discountTax": "Έκπτωση φόρου",
+      "sum": "Σύνολο:",
+      "page": "Σελίδα",
+      "accumulator": "Παρολί",
+      "single": "Μονό",
+      "multiple": "Συστήματα",
+      "betBuilder": "Bet Builder",
+      "live": "LIVE",
+      "cashout": "Cash Out",
+      "banker": "Σ",
+      "partialWin": "Μερ. Cashout:",
+      "win": "Κέρδη:",
+      "results": {
+        "won": "ΚΕΡΔΙΣΜΕΝΟ",
+        "lost": "ΧΑΜΕΝΟ",
+        "pending": "ΣΕ ΑΝΑΜΟΝΗ",
+        "void": "ΕΠΙΣΤΡΟΦΗ",
+        "partialCashout": "ΜΕΡΙΚΟ Cash out",
+        "cashoutPartial": "ΜΕΡΙΚΟ Cash out",
+        "stopLossCashout": "ΠΕΡΙΟΡΙΣΜΟΣ ΑΠΩΛΕΙΑΣ",
+        "cashedOutStopLoss": "ΠΕΡΙΟΡΙΣΜΟΣ ΑΠΩΛΕΙΑΣ",
+        "cashout": "Cash out",
+        "autoCashout": "ΑΥΤΟΜΑΤΟ Cash out",
+        "cashedOutAuto": "ΑΥΤΟΜΑΤΟ Cash out",
+        "deadHeat": "Dead Heat",
+        "eachWay": "Each Way",
+        "eachWayWin": "Each Way Win",
+        "eachWayPlace": "Each Way Place",
+        "halfLostHalfVoid": "ΜΙΣΟ ΧΑΜΕΝΟ ΜΙΣΟ Void",
+        "halfWonHalfVoid": "ΜΙΣΟ ΚΕΡΔΙΣΜΕΝΟ ΜΙΣΟ Void"
+      },
+      "statuses": {
+        "status0": "Όλα",
+        "status1": "Σε αναμονή",
+        "status2": "Διευθετημένα",
+        "status3": "Κερδισμένα",
+        "status4": "Χαμένα",
+        "status5": "Cashed Out"
+      },
+      "types": {
+        "type0": "Όλα",
+        "type1": "Μονά",
+        "type2": "Συστήματα"
+      }
+    },
+    "walletHistory": {
+      "title": "ΙΣΤΟΡΙΚΟ ΣΥΝΑΛΛΑΓΩΝ",
+      "filters": {
+        "dates": "Ημερομηνίες",
+        "from": "Από:",
+        "to": "Εώς:",
+        "search": "Αναζήτηση"
+      },
+      "noResultsFound": "Δεν βρέθηκαν αποτελέσματα",
+      "durationSearchExceeded": "Τα επιστρεφόμενα αποτελέσματα αφορούν την περίοδο των τελευταίων έξι μηνών",
+      "id": "ID",
+      "date": "Ημ/νία",
+      "type": "Τύπος",
+      "amount": "Ποσό",
+      "description": "Περιγραφή",
+      "page": "Σελίδα",
+      "totalSum": "Σύνολο:",
+      "netDepositsDescription": "Το άθροισμα των καταθέσεών σου μείον το άθροισμα των αναλήψεών σου.",
+      "netDepositsTitle": "Καθαρή Αξία Κινήσεων:",
+      "netDepositsButton": "Υπολογισμός",
+      "walletActionTypes": {
+        "balancetransfer": "Αρχικοποίηση",
+        "bonus": "Προσφορά",
+        "casinobonus": "Προσφορά καζίνο",
+        "deposit": "Κατάθεση",
+        "feesrefundbonus": "Επιστροφή προμήθειας κατάθεσης",
+        "firstdepositbonus": "1η Προσφορά κατάθεσης",
+        "fundsadjust": "Διόρθωση",
+        "seconddepositbonus": "2η Προσφορά κατάθεσης",
+        "thirddepositbonus": "3η Προσφορά κατάθεσης",
+        "transferin": "Εισερχόμενη μεταφορά",
+        "transferout": "Εξερχόμενη μεταφορά",
+        "voidbonus": "Ακύρωση προσφοράς",
+        "voidcasinobonus": "Ακύρωση προσφοράς καζίνο",
+        "voiddeposit": "Ακύρωση κατάθεσης",
+        "voided": "Ακύρωση",
+        "voidfirstdepositbonus": "Ακύρωση 1ης προσφοράς κατάθεσης",
+        "voidwithdraw": "Ακύρωση ανάληψης",
+        "withdraw": "Ανάληψη",
+        "casinotaxationbonus": "Μπόνους Φόρου",
+        "casinotaxation": "Φόρος καζίνο",
+        "casinotaxationbonusrollback": "Μπόνους Φόρου",
+        "casinotaxationrollback": "Φόρος καζίνο",
+        "pokerbonus": "Προσφορά Poker",
+        "voidpokerbonus": "Ακύρωση Προσφοράς Poker"
+      }
+    },
+    "cancelWithdraw": {
+      "title": "ΑΚΥΡΩΣΗ ΑΝΑΛΗΨΗΣ",
+      "info": "In this field you can cancel your withdrawal if the payment is not completed. For more information view ",
+      "infoLink": "withdrawal cancellation settings",
+      "page": "Σελίδα",
+      "amountTitle": "Συνολικό ποσό αναλήψεων",
+      "method": "Τύπος ανάληψης",
+      "amount": "Ποσό",
+      "date": "Ημ/νία",
+      "id": "ID",
+      "cancelWithdrawButton": "Ακύρωση Ανάληψης",
+      "noResults": "Δεν υπάρχουν αναλήψεις σε εκκρεμότητα.",
+      "subTitle": "Σε αυτό το πεδίο μπορείς να ακυρώσεις το αίτημα ανάληψής σου εάν η πληρωμή δεν έχει ολοκληρωθεί.",
+      "coolOffPeriod": "Δεν επιτρέπεται η ακύρωση αναλήψεων βάσει των ρυθμίσεων που επέλεξες στο λογαριασμό σου.",
+      "cancelWithdrawCaptionMethods": {
+        "diasdtm": {
+          "caption": "ΔΙΑΣ"
+        },
+        "diasmybank": {
+          "caption": "Iris"
+        },
+        "envoy": {
+          "caption": "Ανάληψη σε Τράπεζα"
+        },
+        "moneybookers": {
+          "caption": "Skrill"
+        },
+        "pscpaysafecard": {
+          "caption": "paysafecard"
+        },
+        "skrill": {
+          "caption": "Skrill"
+        },
+        "skrill1tap": {
+          "caption": "Skrill"
+        },
+        "visacard": {
+          "caption": "Κάρτα"
+        },
+        "vivabank": {
+          "caption": "Viva Bank"
+        },
+        "vivacash": {
+          "caption": "Viva Cash"
+        },
+        "vivawallet": {
+          "caption": "Viva Wallet"
+        },
+        "openapi": {
+          "caption": "Ανάληψη σε Τράπεζα"
+        }
+      }
+    },
+    "nonKycNotification": {
+      "message": "Δυστυχώς δεν μπορούμε να δεχτούμε κανένα στοίχημα, καθώς ο λογαριασμός σου δεν έχει επαληθευτεί ακόμα.",
+      "ctaButton": "Ολοκλήρωσε τη διαδικασία εδώ."
+    },
+    "kycVerification": {
+      "title": "KYC ΤΑΥΤΟΠΟΙΗΣΗ",
+      "kycStatus": "Κατάσταση KYC:",
+      "kyc": "KYC",
+      "status": {
+        "verified": "Επαληθευμένο",
+        "pending": "Σε εκκρεμότητα",
+        "upload": "Μεταφόρτωση",
+        "temporary": "KYC (min)"
+      },
+      "notification": {
+        "age": "Σύμφωνα με τον κανονισμό της UKGC, υποχρεούμαστε να επαληθεύουμε τους λογαριασμούς των παικτών. Πριν ολοκληρώσετε με επιτυχία αυτή τη διαδικασία, δεν θα μπορείτε να κάνετε κατάθεση ή να χρησιμοποιήσετε τα προϊόντα και τις υπηρεσίες μας. Επαληθεύστε τον λογαριασμό σας, σύμφωνα με τις παρακάτω οδηγίες.",
+        "kyc": "Σύμφωνα με τον κανονισμό της UKGC, υποχρεούμαστε να επαληθεύουμε τους λογαριασμούς των παικτών. Πριν ολοκληρώσετε με επιτυχία αυτή τη διαδικασία, δεν θα μπορέσετε να χρησιμοποιήσετε τα προϊόντα μας. Επαληθεύστε τον λογαριασμό σας, σύμφωνα με τις παρακάτω οδηγίες.",
+        "sowPrefix": "Επιπλέον έγγραφο(α) απαιτούνται για την απόδειξη της δήλωσης εργασίας σας. Παρακαλούμε ανατρέξτε στο email σας για περισσότερες λεπτομέρειες ή ακολουθήστε",
+        "sowLink": "αυτόν τον σύνδεσμο",
+        "sowSuffix": "."
+      },
+      "documentsCaption": "Έγγραφα",
+      "statusCaption": "Κατάσταση",
+      "documents": {
+        "id": "Id",
+        "address": "Διεύθυνση",
+        "sow": "Sow",
+        "otherDocs": "Other Documents",
+        "uploadText": "Please click on the icon above to add a document",
+        "uploadTextPending": "The processing time of KYC verification may be in a few hours to 24 hours in most cases.",
+        "uploadTextDone": "Your identity has been verified.",
+        "uploadTextId": "Upload an official ID, passport, or driving license",
+        "uploadTextAddress": "Upload a utility bill",
+        "uploadTextSow": "Upload statement of work (SOW)",
+        "uploadTextOther": "Upload Other documents"
+      },
+      "cardsCaption": "Κάρτες",
+      "emptyCards": "Δεν υπάρχουν κάρτες συνδεδεμένες στον λογαριασμό σας.",
+      "errorPending": "Σε εκκρεμότητα",
+      "errorVerified": "Επαληθευμένο",
+      "errorFailed": "Η υπηρεσία δεν είναι διαθέσιμη αυτή τη στιγμή. Προσπαθήστε ξανά ή επικοινωνήστε με το τμήμα Εξυπηρέτησης Πελατών.",
+      "jumio": {
+        "documentUpload": "Για να ολοκληρώσετε την ταυτοποίηση του λογαριασμού σας, ανεβάστε και έγγραφο",
+        "documentUploadButton": "Επαλήθευσης Διεύθυνσης",
+        "idUpload": "Για να ολοκληρώσετε την ταυτοποίηση του λογαριασμού σας, ανεβάστε και έγγραφο",
+        "idUploadButton": "Ταυτότητας",
+        "title": "Η αποστολή των εγγράφων σου ήταν επιτυχής!",
+        "description": "Η διαδικασία ταυτοποίησης είναι σε εξέλιξη και θα λάβεις ενημέρωση μόλις ολοκληρωθεί."
+      },
+      "stepVerification": {
+        "step1": "STEP 1",
+        "step1Title": "Enter your personal information and upload a valid document",
+        "step2": "STEP 2",
+        "step2Title": "Enter your address and upload a recent utility bill",
+        "idUploadTitle": "Upload an official ID, passport or driving license",
+        "documentUploadTitle": "Upload a recent utility bill",
+        "uploadButton": "Submit and Upload",
+        "uploadButtonPending": "Pending for verification",
+        "uploadButtonIdCompleted": "Personal information verified",
+        "uploadButtonAddressCompleted": "Personal information verified",
+        "taxIdErrorReq": "Tax ID (RFC) is required.",
+        "nationalityErrorReq": "Nationality is required.",
+        "jobTitleErrorReq": "Job title is required.",
+        "zipCodeErrorReq": "Zip code is required.",
+        "cityErrorReq": "City is required.",
+        "streetNameErrorReq": "Street name is required.",
+        "streetNumberErrorReq": "Street number is required.",
+        "municipalityErrorReq": "Municipality is required.",
+        "districtErrorReq": "District is required.",
+        "infoCaption": "The status will remain in pending mode until the upload of the required document is complete and the file become verified."
+      },
+      "errorGeneric": "Jumio Frame Failed. Something went wrong!"
+    },
+    "inbox": {
+      "messageHeader": "Μηνύματα",
+      "promoHeader": "Προσφορές",
+      "emptyMessage": "Δεν έχετε μηνύματα",
+      "emptyPromo": "Δεν έχετε προσφορές",
+      "notificationInfo": "Προσφορά επόμενης κατάθεσης σε περιμένει!",
+      "freeBetMessage": "Έχεις 1 διαθέσιμο Free Bet {{price}}",
+      "freeBetsMessage": "Έχεις {{count}} διαθέσιμα Free Bets {{price}}"
+    },
+    "deposit": {
+      "ukgc": {
+        "text": "Kindly note that all customers' accounts are subject to a £500 deposit limit and to a £500 loss limit per calendar month, upon registration. These may be changed at the discretion of Novibet, depending on the assessment of any documentation provided. Should you wish to discuss these limits with us, please contact our Customer Support team."
+      },
+      "kycInfo": {
+        "link": "here",
+        "text": "All deposit methods must be verified before any withdrawal requests will be processed. Learn more "
+      },
+      "promocode": {
+        "tag": "BONUS",
+        "infoselect": "Διαθέσιμες προσφορές κατάθεσης",
+        "nobonus": "Δεν θέλω να ενεργοποίησω ακόμα κάποιον κωδικό",
+        "terms": "Όροι & Προυποθέσεις",
+        "notificationinfo": "Προσφορά επόμενης κατάθεσης σε περιμένει!",
+        "bonusfreespins": "Θα λάβεις {0} free Spins στο {1}",
+        "bonusfreebet": "Θα λάβεις bonus {0} σε free bet",
+        "bonus": "<b>+{0}</b> {1}% Bonus",
+        "bonusmindeposit": "Η ελάχιστη κατάθεση για να λάβετε το μπόνους είναι {0}",
+        "bonusTitle": "Βonus κατάθεσης",
+        "bonusSubTitle": "Ενεργοποίησε το μπόνους της επιλογής σου για να επωφεληθείς στην επόμενη σου κατάθεση",
+        "bonusCode": "κωδικός {{code}}",
+        "bonusUntilDate": "έως {{date}}",
+        "bonusMinimumDeposit": "ελάχιστη κατάθεση {{amount}}"
+      },
+      "amounttitle": "Ποσό για Κατάθεση",
+      "banktransfer": {
+        "description": "Επικοινωνήστε με το Τμήμα Εξυπηρέτησης για πληροφορίες",
+        "descriptionnote": "Επιβαρύνεστε με τις κρατήσεις της τράπεζάς σας.",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": ""
+      },
+      "continue": "Συνέχεια",
+      "deposit": "ΚΑΤΑΘΕΣΗ",
+      "depositlimits": "Όρια Κατάθεσης",
+      "description": "Χρηματοδότησε το λογαριασμό σου εύκολα και γρήγορα",
+      "validateDepositLimit": "Το ποσό είναι εκτός ορίων κατάθεσης",
+      "empty": "Το πεδίο δεν μπορεί να είναι κενό",
+      "diasbankinfo": "Πληροφορίες κατάθεσης :",
+      "diasdtm": {
+        "copytoclipboardfail": "Η αντιγραφή του κωδικού σας απέτυχε, παρακαλούμε ανανεώστε τη σελίδα και δοκιμάστε ξανά",
+        "copytoclipboardsuccess": "Επιτυχής αντιγραφή του κωδικού σας!",
+        "description": "Κατάθεση μέσω του προσωπικού σου e-banking. Το ποσό πιστώνεται αυτόματα στο Novibet λογαριασμό σου, χωρίς καμία καθυστέρηση*.<br/>*Σε ελάχιστες περιπτώσεις για τεχνικούς λόγους που αφορούν την τράπεζα η συναλλαγή μπορεί να χρειαστεί 2-3 εργάσιμες ημέρες",
+        "info": "ΠΡΟΣΟΧΗ: Πληρωμές με χρήση κωδικού από εταιρικούς τραπεζικούς λογαριασμούς δεν θα γίνονται αποδεκτές.",
+        "descriptionnote": "",
+        "diasdescription": "Πάτα εδώ για να αντιγράψεις γρήγορα και εύκολα τον προσωπικό σου κωδικό.",
+        "select": "ΕΠΙΛΕΞΤΕ",
+        "title": "",
+        "code": "Κωδικός RF",
+        "titlenexttoimage": "Άμεση Τραπεζική Μεταφορά",
+        "instructions": "Οδηγίες:"
+      },
+      "diasmybank": {
+        "description": "Ασφαλείς πληρωμές μέσω του προσωπικού σου e-banking. Η υπηρεσία Iris σας δίνει τη δυνατότητα να χρησιμοποιήσετε το αξιόπιστο και ασφαλές περιβάλλον της δικής σας τράπεζας για τις online αγορές σας.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": "Άμεση σύνδεση στο e-banking σου!"
+      },
+      "diasuniqueordercode": "Προσωπικός Κωδικός Novibet για άμεση πληρωμή σε τράπεζα",
+      "dineromail": {
+        "description": "Επικοινωνήστε με το Τμήμα Εξυπηρέτησης για πληροφορίες.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": ""
+      },
+      "entercash": {
+        "description": "Κατάθεση μέσω του προσωπικού σου e-banking και άμεση πίστωση του ποσού στο Novibet  λογαριασμό σου.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": ""
+      },
+      "errormessage": "Υπήρξε ένα πρόβλημα με την αίτησή σου!",
+      "envoy": {
+        "description": "Τραπεζική Μεταφορά",
+        "descriptionnote": "",
+        "form": {
+          "accountholdername": "Δικαιούχος",
+          "accountnumber": "Αρ. Λογαριασμού",
+          "bankname": "Τράπεζα",
+          "description": "Παρακαλούμε συμπλήρωσε την παρακάτω φόρμα",
+          "iban": "IBAN",
+          "swiftcode": "Swift",
+          "title": "Τραπεζική Μεταφορά"
+        },
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": ""
+      },
+      "giropay": {
+        "description": "Η υπηρεσία Giropay σας δίνει τη δυνατότητα να χρησιμοποιήσετε το αξιόπιστο και ασφαλές περιβάλλον της δικής σας τράπεζας για τις online αγορές σας.",
+        "descriptionnote": "Επιβαρύνεστε με τις κρατήσεις της τράπεζάς σας.",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": ""
+      },
+      "ideal": {
+        "description": "Επικοινωνήστε με το Τμήμα Εξυπηρέτησης για πληροφορίες",
+        "descriptionnote": "Επιβαρύνεστε με τις κρατήσεις της τράπεζάς σας.",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": ""
+      },
+      "max": "Μέγιστο",
+      "mercadopago": {
+        "description": "Επικοινωνήστε με το Τμήμα Εξυπηρέτησης για πληροφορίες.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": ""
+      },
+      "min": "Ελάχιστο",
+      "moneybookers": {
+        "description": "Η Skrill είναι ο φθηνός και ασφαλής τρόπος για να πληρώνεις και να πληρώνεσαι, με έως και 100 διαφορετικές επιλογές πληρωμής σε 40 νομίσματα. 30 εκατομμύρια χρήστες επιλέγουν ήδη τη Skrill, σε 200 χώρες και επικράτειες του κόσμου.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες",
+        "titlenexttoimage": ""
+      },
+      "paypal": {
+        "description": "Κάντε την κατάθεσή σας άμεσα μέσω του Paypal Novibet λογαριασμού σας.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": "PayPal"
+      },
+      "paypaloneclick": {
+        "description": "Ενεργοποιώντας την υπηρεσία One Touch με Paypal, τα στοιχεία σου αποθηκεύονται σε ασφαλές περιβάλλον και οι συναλλαγές σου με τη Novibet γίνονται ακόμα πιο εύκολα & γρήγορα, χωρίς να απαιτείται επαναλαμβανόμενη πληκτρολόγηση κωδικών για την ολοκλήρωσή τους.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": "PayPal One Touch"
+      },
+      "moneysafe": {
+        "description": "Άμεση κατάθεση μεταφέροντας χρήματα από το ηλεκτρονικό πορτοφόλι της Twiga, εύκολα και με ασφάλεια.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": "Twiga"
+      },
+      "moreinfo": "Πληροφορίες",
+      "maximumnumberofcards": "Maximum number of stored cards has been reached. If you wish to add a new card, please contact <a href='javascript:void(bb.pages.navigation.gotoInfoPage(\"support\"));'>Customer Support</a>.",
+      "neteller": {
+        "confirmation": "Η Συναλλαγή σου ήταν επιτυχής.<br/> Αριθμός αναφοράς: {0}",
+        "description": "Γρήγορος και ασφαλής τρόπος κατάθεσης χωρίς καμία χρέωση, χρησιμοποιώντας το ηλεκτρονικό πορτοφόλι της Neteller.",
+        "descriptionnote": "",
+        "titlenexttoimage": "Neteller",
+        "frame": {
+          "description": "Εύκολη και άμεση μεταφορά χρημάτων από το e-wallet της Neteller. Σε περίπτωση που δεν έχεις λογαριασμό Neteller, μπορείς εύκολα να δημιουργήσεις έναν δωρεάν, αφού μπεις στο <a href='http://www.neteller.com/el' target='_blank' > http://www.neteller.com</a>",
+          "email": "Neteller Account Email",
+          "emailoraccountiddescription": "Email ή ID λογαριασμού",
+          "emailoraccountidplaceholder": "Email ή ID λογαριασμού Neteller",
+          "emailoraccountidrequired": "Το Email ή το ID είναι απαραίτητο",
+          "invalidemailoraccountid": "Λανθασμένο Email ή ID λογαριασμού",
+          "emailrequired": "Το Email είναι απαραίτητο",
+          "invalidemail": "Λανθασμένο Email",
+          "secureid": "Neteller Secure Id",
+          "secureiddescription": "Κωδικός ασφαλείας Neteller",
+          "secureidplaceholder": "6ψήφιο ID Ασφαλείας Neteller ή 2-Step Authentication Code",
+          "secureidrequired": "Ο κωδικός ασφαλείας Neteller είναι απαραίτητος",
+          "submit": "Συνέχεια"
+        },
+        "title": "Πληροφορίες:"
+      },
+      "okto": {
+        "description": "Επιλέγεις ποσό κατάθεσης, λαμβάνεις QR κωδικό και τον παρουσιάζεις εντός 24ώρου στο πλησιέστερο κατάστημα του <a href='https://www.oktopay.eu/el/store-locator/' target='_blank'>δικτύου της ΟΚΤΟ</a>. Πληρώνεις με μετρητά και ο Novibet λογαριασμός σου πιστώνεται αυτόματα το αντίστοιχο ποσό.",
+        "descriptionnote": "Πατώντας \"Συνέχεια\" αποδέχεστε τους <a href='https://www.oktopay.eu/el/terms-of-use/' target='_blank'>Όρους Χρήσης</a> της υπηρεσίας.",
+        "title": "Πληροφορίες:",
+        "oktoclosestspot": "Βρείτε το πλησιέστερο σημείο",
+        "oktoclosestspotlink": "<a href='https://www.oktopay.eu/el/store-locator/' target='_blank'>Βρείτε το πλησιέστερο σημείο</a>",
+        "titlenexttoimage": "Okto",
+        "frame": {
+          "successtitle": "Επιτυχημενη ενεργεια",
+          "title": "Ο παρακάτω QR κωδικός θα είναι ενεργός και μπορεί να χρησιμοποιηθεί για τις επόμενες 24 ώρες.<br><br>Παρουσίασε τον QR κωδικό σε ένα από τα καταστήματα του <a href='https://www.oktopay.eu/el/store-locator/' target='_blank'>δικτύου της OKTO</a>. Κατάθεσε με μετρητά το ποσό που έχεις επιλέξει και η συναλλαγή θα ολοκληρωθεί απλά και γρήγορα, με την άμεση πίστωση του Novibet λογαριασμού σου.",
+          "sendqr": "Αποστολή QR στο ",
+          "downloadqr": "Λήψη QR",
+          "paymentcode": "Κωδικος πληρωμης",
+          "scanerror": "Αν, για οποιονδήποτε λόγο, ο κωδικός QR δεν μπορεί να σκαναριστεί, η κατάθεσή σου μπορεί να ολοκληρωθεί δίνοντας τον αριθμό."
+        }
+      },
+      "nonkycnotification": {
+        "ctabutton": "Ταυτοποίηση",
+        "infomessage": "Δες τα απαραίτητα έγγραφα ",
+        "infomessagelink": "εδώ.",
+        "infomessageend": "",
+        "message": "Προς ενημέρωσή σου, ενώ μπορείς να κάνεις κατάθεση, δεν θα μπορείς να τοποθετήσεις στοιχήματα ή να παίξεις παιχνίδια καζίνο, μέχρι να επαληθεύσεις τον λογαριασμό σου."
+      },
+      "oxxo": {
+        "description": "Επικοινωνήστε με το Τμήμα Εξυπηρέτησης για πληροφορίες.<br/>OXXO is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXO as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXO store and pay the owing amount in cash.",
+        "descriptionnote": "Important: Please note that deposits via OXXO require a minimum of 48 hours to be processed.",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": "Oxxo"
+      },
+      "password": "Κωδικός Πρόσβασης",
+      "paysafecard": {
+        "description": "Η paysafecard είναι μία γρήγορη και εύκολη μέθοδος 'προπληρωμής' που μπορείς να χρησιμοποιήσεις για πληρωμή υπηρεσιών.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες",
+        "titlenexttoimage": "Paysafe"
+      },
+      "pendingwithdraws": {
+        "textStart": "Έχεις εκκρεμείς αναλήψεις και υπάρχει η δυνατότητα να προχωρήσεις σε ακύρωση ανάληψης, αντί νέας κατάθεσης. Αν επιθυμείς να ακυρώσεις ανάληψη, παρακαλούμε πάτησε ",
+        "textLink": "εδώ",
+        "textEnd": "."
+      },
+      "pscpaysafecard": {
+        "description": "Η paysafecard είναι μία γρήγορη και εύκολη μέθοδος 'προπληρωμής' που μπορείς να χρησιμοποιήσεις για πληρωμή υπηρεσιών!",
+        "descriptionnote": "",
+        "title": "Πληροφορίες",
+        "titlenexttoimage": "Paysafe"
+      },
+      "safetypay": {
+        "description": "safetypay is an electronic payment method for predominantly online money transactions and is based on a pre-pay system!",
+        "descriptionnote": "",
+        "title": "Information:",
+        "titlenexttoimage": "SafetyPay"
+      },
+      "rapidtransfer": {
+        "description": "Γρήγορη και ασφαλής πληρωμή μέσω του προσωπικού σου e-banking.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": ""
+      },
+      "rapipago": {
+        "description": "Επικοινωνήστε με το Τμήμα Εξυπηρέτησης για πληροφορίες.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": ""
+      },
+      "servererror": "Unfortunately something went wrong. Please try later or contact our Customer Support for details.",
+      "skrill": {
+        "description": "Η Skrill είναι ο φθηνός και ασφαλής τρόπος για να πληρώνεις και να πληρώνεσαι, με έως και 100 διαφορετικές επιλογές πληρωμής σε 40 νομίσματα. 30 εκατομμύρια χρήστες επιλέγουν ήδη τη Skrill, σε 200 χώρες και επικράτειες του κόσμου.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες",
+        "titlenexttoimage": "Skrill"
+      },
+      "skrillonetap": {
+        "description": "Η Skrill 1-Tap σου επιτρέπει να κάνεις γρήγορες πληρωμές με κατάθεση με ένα κλικ από οποιαδήποτε συσκευή, χωρίς να χρειάζεται να εισάγετε στοιχεία σύνδεσης. Κατά την πρώτη χρήση, θα πρέπει να εισάγεις τα στοιχεία σύνδεσης ως συνήθως, επιβεβαιώνοντας έτσι ότι θέλεις να ενεργοποιήσεις την Skrill 1-Tap για μελλοντικές καταθέσεις.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": "Skrill 1-Tap"
+      },
+      "sofort": {
+        "description": "Κατάθεση μέσω του προσωπικού σου e-banking. Το ποσό πιστώνεται αυτόματα στο Novibet λογαριασμό σου.",
+        "descriptionnote": "Επιβαρύνεστε με τις κρατήσεις της τράπεζάς σας.",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": ""
+      },
+      "systemlimitbutton": "Μάθε περισσότερα",
+      "systemlimittext": "Ενημέρωση: Tο ανώτατο όριο συνολικών καταθέσεων για μη ταυτοποιημένους λογαριασμούς είναι τα 800€. Προκειμένου να απολαμβάνεις το παιχνίδι χωρίς περιορισμούς, ολοκλήρωσε άμεσα την ταυτοποίηση του λογαριασμού σου.",
+      "title": "ΚΑΤΑΘΕΣΗ",
+      "trustly": {
+        "description": "Η Trustly είναι μια γρήγορη, εύκολη και ασφαλής μέθοδος για να κάνετε κατάθεση και ανάληψη χρημάτων απευθείας από τον ηλεκτρονικό τραπεζικό λογαριασμό σας.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": "Άμεση Τραπεζική Μεταφορά"
+      },
+      "ukash": {
+        "description": "Επικοινωνήστε με το Τμήμα Εξυπηρέτησης για πληροφορίες.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": ""
+      },
+      "visacard": {
+        "description": "Πίστωσε το στοιχηματικό σου λογαριασμό απευθείας από την κάρτα σου. (Visa Credit, Visa Debit, Visa Electron, MasterCard, Prepaid).",
+        "descriptionnote": "",
+        "dropdowntitle": "Διαθέσιμες κάρτες",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": "Credit-Debit-Prepaid card"
+      },
+      "purplepay": {
+        "description": "Πίστωσε το στοιχηματικό σου λογαριασμό απευθείας από την κάρτα σου. (Visa Credit, Visa Debit, Visa Electron).",
+        "descriptionnote": "",
+        "dropdowntitle": "Διαθέσιμες κάρτες",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": ""
+      },
+      "vivabank": {
+        "description": "Κάνε κατάθεση στη Novibet μέσω e-banking από όλες τις Ελληνικές τράπεζες. H Novibet αναλαμβάνει τα τραπεζικά έξοδα για εσένα. Χρησιμοποίησε τον κωδικό συναλλαγής στην αιτιολογία της κατάθεσης. Το ποσό θα πιστωθεί στο λογαριασμό σου σε 1-2 εργάσιμες ημέρες. Θα πρέπει να είσαι ο δικαιούχος του λογαριασμού τραπέζης, σε αντίθετη περίπτωση η κατάθεσή σου θα σου επιστραφεί άμεσα ενώ ενδέχεται να χρεωθείς με έξοδα μεταφοράς.",
+        "descriptionnote": "",
+        "title": "Τραπεζική Μεταφορά με e-banking",
+        "titlenexttoimage": ""
+      },
+      "vivacash": {
+        "description": "Κάνε κατάθεση με μετρητά στη Novibet . Η διαδικασία είναι απλή και απολύτως ασφαλής. Το μόνο που θα χρειαστεί να κάνεις είναι να επισκεφθείς ένα από τα 2000 και πλέον συνεργαζόμενα <a target='_blank' href='https://members.vivawallet.com/el-gr/network' style='text-decoration:underline;'>σημεία της Viva</a> και να πληρώσεις δίνοντας τον κωδικό συναλλαγής.<br/>Δεν χρεώνουμε προμήθεια στις καταθέσεις σου με μετρητά.",
+        "descriptionnote": "",
+        "title": "Μετρητά - Αντί για paysafecard",
+        "titlenexttoimage": "Vivaspot",
+        "code": "Viva Code"
+      },
+      "vivauniqueordercode": "Προσωπικός Κωδικός Novibet για άμεση κατάθεση",
+      "vivauniqueordercodedescription": "Κάνε κατάθεση με μετρητά στη Novibet. Το μόνο που θα χρειαστεί να κάνεις είναι να επισκεφθείς ένα από τα 2000 και πλέον συνεργαζόμενα σημεία της Viva και να πληρώσεις δίνοντας τον κωδικό συναλλαγής. ΠΡΟΣΟΧΗ: Η διαδικασία αυτή κοστίζει 1€ ανά συναλλαγή. Η Novibet αναλαμβάνει το κόστος για σένα, ο λογαριασμός σου θα πιστωθεί κανονικά με το συνολικό ποσό που πλήρωσες!",
+      "vivawallet": {
+        "description": "Η κατάθεση με Viva Wallet στη Novibet είναι εύκολη και γρήγορη. Το Viva Wallet είναι ένα ηλεκτρονικό πορτοφόλι στο οποίο μπορείς να καταθέτεις αλλά και να λαμβάνεις τα κέρδη σου αυθημερόν, με ασφάλεια και χωρίς επιβάρυνση. Αν δεν έχεις λογαριασμό Viva Wallet μπορείς να αποκτήσεις σε λιγότερο από 5 λεπτά και εντελώς δωρεάν <a target='_blank' href='http://www.vivawallet.com/el-gr/personal' style='text-decoration:underline;>εδώ</a> ",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": "Viva Wallet"
+      },
+      "withdrawlimits": {
+        "text": "Όρισε ",
+        "link": "εδώ",
+        "textEnd": " τα όρια κατάθεσης που επιθυμείς."
+      },
+      "citizen": {
+        "description": "Citizen is the ideal cardless payment method that makes payments easier than ever before. Payments and Account verification via Open Banking. Faster Payments and Great Customer Experience.",
+        "descriptionnote": "",
+        "title": "Information:",
+        "titlenexttoimage": "Άμεση Τραπεζική Μεταφορά"
+      },
+      "applepay": {
+        "description": "Εύκολη, γρήγορη, άμεση και ασφαλής κατάθεση, χωρίς μετρητά. Διατίθεται σε συσκευές iOS (iPhone, iPad, Apple Watch) ή Mac που το υποστηρίζουν, κάνοντας χρήση του Safari.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:",
+        "titlenexttoimage": "Apple Pay"
+      },
+      "paysafecash": {
+        "title": "Πληροφορίες:",
+        "description": "Με το Novicash πραγματοποιείς πληρωμές σε μετρητά στο διαδίκτυο με ασφάλεια και άνεση. Επιλέγοντας αυτή τη μέθοδο κατάθεσης δημιουργείται αυτόματα ένα barcode. Το επιδεικνύεις σε ένα από τα σημεία πληρωμής Paysafecash, πληρώνεις με μετρητά και το αντίστοιχο ποσό πιστώνεται στον Novibet λογαριασμό σου.",
+        "descriptionnote": "",
+        "titlenexttoimage": "Novi Cash",
+        "userConsentedText": "Για την εγγραφή μου στο Novicash, συναινώ να κοινοποιήσει η Novibet στην Paysafe τα εξής προσωπικά μου στοιχεία: ονοματεπώνυμο, διεύθυνση, αριθμό τηλεφώνου, email & ημ/νία γέννησης."
+      },
+      "stpmex": {
+        "title": "Information:",
+        "description": "STPMex is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select STPMex as the payment method in checkout. You will receive a barcode which you need to present at your nearest STPMex store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "STPMex"
+      },
+      "oxxopay": {
+        "title": "Information:",
+        "description": "OXXOPAY is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "OxxoPay"
+      },
+      "ecopayz": {
+        "title": "Information:",
+        "description": "EcoPayz is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "EcoPayz"
+      },
+      "astropay": {
+        "title": "Information:",
+        "description": "AstroPay is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "AstroPay"
+      },
+      "boletorapido": {
+        "title": "Information:",
+        "description": "Boleto Rapido is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "Boleto Rapido"
+      },
+      "pix": {
+        "title": "Information:",
+        "description": "Pix is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "Pix"
+      },
+      "pagoefectivo": {
+        "title": "Information:",
+        "description": "PagoEfectivo is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "PagoEfectivo"
+      },
+      "webpay": {
+        "title": "Information:",
+        "description": "WebPay is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": "",
+        "titlenexttoimage": "WebPay"
+      }
+    },
+    "depositConfirmation": {
+      "gbcButton_text": "KYC Verification",
+      "gbgAlert": "Please notice that you have reached or exceeded the 2000 GBP in deposits. Proceed with fully verifying your account in order to place any further bets.",
+      "gbgTitle": "Your account has not been verified",
+      "gbgWarning": "Please notice that you are about to exceed the 2000 GBP in deposits. After that you will have to fully verify your account.",
+      "lblAmount": "Ποσό",
+      "lblConfirmation": "Αυτή είναι η απόδειξη της συναλλαγής σου. Μπορείς να την εκτυπώσεις για μελλοντική χρήση.",
+      "lblFailureCancel": "H Συναλλαγή σου ακυρώθηκε.",
+      "lblFailureDeclined": "H Συναλλαγή σου δεν έγινε αποδεκτή.",
+      "lblFailureDeclinedPaypal": "Your transaction was Declined! Check if you already have a PayPal account connected to your account",
+      "lblFailureDescription": "Σφάλμα συναλλαγής ({{code}}). Παρακαλούμε προσπάθησε ξανά και αν το προβλημα παραμένει επικοινώνησε με το Τμήμα Εξυπηρέτησης Πελατών",
+      "lblFailureFailed": "Η συναλλαγή  απέτυχε. Μήνυμα σφάλματος: {{message}}",
+      "lblFailurePending": "Η Συναλλαγή σου διεκπεραιώνεται. Παρακαλούμε έλεγξε το υπόλοιπό σου για επιβεβαίωση.",
+      "lblFailureStatus": "Κατάσταση Συναλλαγής",
+      "lblFailureTitle": "Αποτυχία Συναλλαγής.",
+      "lblOref": "Κωδικός συναλλαγής",
+      "lblSuccessDescription": "Η κατάθεσή σου ολοκληρώθηκε επιτυχώς",
+      "lblSuccessTitle": "Συγχαρητήρια!",
+      "mbAmount": "Ποσό:",
+      "mbDate": "Ημερομηνία:",
+      "mbFailure": "Η Συναλλαγή σου απέτυχε!",
+      "mbOref": "Αριθμός αναφοράς:",
+      "mbReturn": "Επιστροφή",
+      "mbSuccess": "Η Συναλλαγή σου ήταν επιτυχής!",
+      "ms025": "Η συναλλαγή δεν μπορεί να ολοκληρωθεί αυτή τη στιγμή. Παρακαλώ δοκιμάστε αργότερα.",
+      "ms552": "Η πίστωση στο συγκεκριμένο λογαριασμό δεν ήταν επιτυχής.",
+      "msGeneric": "Η συναλλαγή  απέτυχε. Παρακαλώ επικοινωνήστε με το τμήμα εξυπηρέτησης πελατών  ",
+      "msS2": "Το επιλεγμένο νόμισμα δεν υποστηρίζεται.",
+      "msT9": "H Συναλλαγή σου ακυρώθηκε.",
+      "providers": {
+        "paysafecash": "Πηγαίνετε στο σημείο πληρωμής και ολοκληρώστε τη συναλλαγή.",
+        "paysafecashFail": "Η συναλλαγή σας δεν ήταν δυνατό να ολοκληρωθεί. Παρακαλούμε δοκιμάστε ξανά."
+      }
+    },
+    "withdraw": {
+      "amounttitle": "Ποσό για Ανάληψη",
+      "continue": "Συνέχεια",
+      "description": "Ανάληψη από το Λογαριασμό μου",
+      "disablecancellationsettings": "Ακύρωση αιτήματος ανάληψης",
+      "withdrawable": "Αναλήψιμο ποσό:",
+      "walletDetails": {
+        "rolloverWarningAccept": "Ναι, θέλω να προχωρήσω σε ανάληψη",
+        "rolloverWarningCancel": "Όχι, θα συνεχίσω τον τζίρο μου!",
+        "rolloverWarningQuestion": "Είσαι σίγουρος/η πως θες να προχωρήσεις σε ανάληψη;",
+        "rolloverWarningText": "Δεν έχεις ολοκληρώσει τον τζίρο του μπόνους ακόμα! Αν προχωρήσεις σε ανάληψη θα χάσεις {{bonusMoney}}"
+      },
+      "entercash": {
+        "description": "Τραπεζική Μεταφορά",
+        "descriptionnote": "",
+        "formeur": {
+          "beneficiaryname": "Δικαιούχος",
+          "bic": "BIC",
+          "iban": "IBAN",
+          "title": "Entercash"
+        },
+        "formsweeden": {
+          "accountnumber": "Αρ. Λογαριασμού",
+          "beneficiaryname": "Δικαιούχος",
+          "clearingnumber": "Clearing Number",
+          "title": "Entercash"
+        },
+        "title": "Πληροφορίες:"
+      },
+      "envoy": {
+        "description": "Τραπεζική Μεταφορά",
+        "descriptionnote": "",
+        "form": {
+          "accountholdername": "Δικαιούχος",
+          "accountnumber": "Αρ. Λογαριασμού",
+          "bankname": "Τράπεζα",
+          "description": "Παρακαλούμε συμπλήρωσε την παρακάτω φόρμα",
+          "iban": "IBAN",
+          "swiftcode": "Swift",
+          "title": "Τραπεζική Μεταφορά"
+        },
+        "title": "Πληροφορίες:"
+      },
+      "giropay": {
+        "description": "Giropay",
+        "descriptionnote": "",
+        "form": {
+          "description": "Παρακαλούμε συμπλήρωσε την παρακάτω φόρμα",
+          "ibantitle": "IBAN",
+          "title": "Giropay"
+        },
+        "title": "Πληροφορίες:"
+      },
+      "ideal": {
+        "description": "iDeal",
+        "descriptionnote": "",
+        "form": {
+          "description": "Παρακαλούμε συμπλήρωσε την παρακάτω φόρμα",
+          "ibantitle": "IBAN",
+          "title": "iDeal"
+        },
+        "title": "Πληροφορίες:"
+      },
+      "kycrequest": {
+        "button": "ΤΑΥΤΟΠΟΙΗΣΗ",
+        "text": "Για να προχωρήσει το αίτημα ανάληψης, πρέπει πρώτα να ταυτοποιήσεις τον λογαριασμό σου.",
+        "title": "Ο λογαριασμός σου δεν έχει ταυτοποιηθεί",
+        "kyctempalerttext": "Please notice that you have reached or exceeded the 2000 GBP in withdrawals. Your account must be fully verified in order to proceed with your request."
+      },
+      "max": "Μέγιστο",
+      "min": "Ελάχιστο",
+      "moneybookers": {
+        "description": "Skrill",
+        "descriptionnote": "",
+        "form": {
+          "description": "Παρακαλούμε συμπλήρωσε την παρακάτω φόρμα",
+          "emailtitle": "Email",
+          "title": "Skrill"
+        },
+        "title": "Πληροφορίες:"
+      },
+      "moneysafe": {
+        "description": "Συμπλήρωσε τον αριθμό του κινητού τηλεφώνου που χρησιμοποιείς στην Twiga, και στον οποίο θα αποσταλεί ο κωδικός επιβεβαίωσης.",
+        "descriptionnote": "",
+        "disclaimer": "Οι συναλλαγές υπόκεινται στους Όρους και τις προϋποθέσεις της UCS Group και μπορείτε να τις κατεβάσετε στη διεύθυνση: <a href='https://twigawallet.com' target='_blank'>www.twigawallet.com</a>. Όλοι οι χρήστες πρέπει να είναι εγγεγραμμένοι και ταυτοποιημένοι με την Twiga Wallet, έχοντας επαληθευμένο αριθμό κινητού τηλεφώνου με την Twiga για να ολοκληρώσουν τη συναλλαγή πληρωμής από αυτόν τον ιστότοπο. Όλες οι συναλλαγές υπόκεινται σε επαλήθευση κατόπιν αιτήματος του διαχειριστή της σελίδας ή του UCS. Για τυχόν ασυμφωνίες ή καταγγελίες, παρακαλούμε επικοινωνήστε μαζί μας στη διεύθυνση: <a href='mailto:support@twigawallet.com'>support@twigawallet.com</a>",
+        "form": {
+          "description": "Παρακαλούμε συμπλήρωσε την παρακάτω φόρμα",
+          "phone": "Τηλέφωνο",
+          "placeholder": "πχ. +306987777777",
+          "title": "Twiga"
+        },
+        "popup": {
+          "continue": "Συνέχεια",
+          "description": "Παρακαλώ εισάγετε τον κωδικό επιβεβαίωσης που έχει αποσταλεί στο κινητό σας.",
+          "title": "Κωδικός Ανάληψης",
+          "verificationcodevalidationmessage": "Ο κωδικός επιβεβαίωσης είναι απαραίτητος!"
+        },
+        "title": "Πληροφορίες:"
+      },
+      "neteller": {
+        "description": "Neteller",
+        "descriptionnote": "",
+        "form": {
+          "description": "Παρακαλούμε συμπλήρωσε την παρακάτω φόρμα",
+          "emailtitle": "Email ή ID λογαριασμού",
+          "title": "Neteller"
+        },
+        "title": "Πληροφορίες:"
+      },
+      "password": "Κωδικός Πρόσβασης",
+      "pscpaysafecard": {
+        "description": "Ανάληψη μέσω paysafecard μπορεί να πραγματοποιηθεί είτε μέσω τραπέζης είτε μέσω ATM, κάνοντας χρήση της προπληρωμένης πλαστικής κάρτας Paysafe Mastercard.",
+        "descriptionnote": "",
+        "form": {
+          "accounttitle": "Λογαριασμός",
+          "description1": "Παρακαλούμε επίλεξε από τη λίστα των myPaysafecard λογαριασμού σου!",
+          "description2": "Παρακαλούμε συμπλήρωσε τα στοιχεία του myPaysafecard λογαριασμού σου!",
+          "emailtitle": "Email",
+          "firstnametitle": "Όνομα",
+          "lastnametitle": "Επίθετο",
+          "pscidtitle": "Αριθμός Λογαριασμού",
+          "title": "paysafecard"
+        },
+        "title": "Πληροφορίες:"
+      },
+      "paypal": {
+        "description": "Πίστωσε τον PayPal λογαριασμό σου.",
+        "descriptionnote": "",
+        "form": {
+          "cardtitle": "PayPal",
+          "description": "Παρακαλούμε συμπλήρωσε την παρακάτω φόρμα",
+          "emailtitle": "Paypal Email",
+          "title": "PayPal"
+        },
+        "title": "Πληροφορίες:"
+      },
+      "rapidtransfer": {
+        "description": "Skrill",
+        "descriptionnote": "",
+        "form": {
+          "description": "Παρακαλούμε συμπλήρωσε την παρακάτω φόρμα",
+          "transaction": "Κατάθεση",
+          "title": "Skrill"
+        },
+        "title": "Πληροφορίες:"
+      },
+      "servererror": "Unfortunately something went wrong. Please try later or contact our Customer Support for details.",
+      "sofort": {
+        "description": "Klarna",
+        "descriptionnote": "",
+        "form": {
+          "description": "Παρακαλούμε συμπλήρωσε την παρακάτω φόρμα",
+          "ibantitle": "IBAN",
+          "title": "Klarna"
+        },
+        "title": "Πληροφορίες:"
+      },
+      "submit": "Ανάληψη",
+      "title": "Ανάληψη:",
+      "visacard": {
+        "description": "Πίστωσε την κάρτα σου. (Visa Credit, Visa Debit, Visa Electron).",
+        "descriptionnote": "",
+        "form": {
+          "cardtitle": "Κάρτα",
+          "description": "Παρακαλούμε συμπλήρωσε την παρακάτω φόρμα",
+          "title": "Κάρτες"
+        },
+        "title": "Πληροφορίες:"
+      },
+      "vivawallet": {
+        "description": "Πίστωσε το Viva Wallet σου",
+        "descriptionnote": "",
+        "form": {
+          "description": "Παρακαλούμε συμπλήρωσε την παρακάτω φόρμα",
+          "title": "Όνομα χρήστη (κινητό τηλέφωνο)",
+          "vivawalletid": "Όνομα χρήστη (κινητό τηλέφωνο)"
+        },
+        "title": "Πληροφορίες:"
+      },
+      "trustly": {
+        "description": "Η Trustly είναι μια γρήγορη, εύκολη και ασφαλής μέθοδος για να κάνετε κατάθεση και ανάληψη χρημάτων απευθείας από τον ηλεκτρονικό τραπεζικό λογαριασμό σας.",
+        "descriptionnote": "",
+        "title": "Πληροφορίες:"
+      },
+      "citizen": {
+        "description": "Citizen is the ideal cardless payment method that makes payments easier than ever before. Payments and Account verification via Open Banking. Faster Payments and Great Customer Experience.",
+        "descriptionnote": "",
+        "title": "Information:"
+      },
+      "applepay": {
+        "description": "Πίστωσε την ApplePay κάρτα σου.",
+        "descriptionnote": "",
+        "form": {
+          "cardtitle": "Κάρτα",
+          "description": "Παρακαλούμε συμπλήρωσε την παρακάτω φόρμα",
+          "title": "Κάρτες"
+        },
+        "title": "Πληροφορίες:"
+      },
+      "stpmex": {
+        "title": "Information:",
+        "description": "STPMex is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select STPMex as the payment method in checkout. You will receive a barcode which you need to present at your nearest STPMex store and pay the owing amount in cash.",
+        "descriptionnote": ""
+      },
+      "astropay": {
+        "title": "Information:",
+        "description": "AstroPay is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select OXXOPAY as the payment method in checkout. You will receive a barcode which you need to present at your nearest OXXOPAY store and pay the owing amount in cash.",
+        "descriptionnote": ""
+      },
+      "pix": {
+        "description": "Pix is the ideal cardless payment method that makes payments easier than ever before. Payments and Account verification via Open Banking. Faster Payments and Great Customer Experience.",
+        "descriptionnote": "",
+        "title": "Information:"
+      },
+      "payretailerspayouts": {
+        "description": "PayRetailersPayouts is the ideal cardless payment method that makes payments easier than ever before. Payments and Account verification via Open Banking. Faster Payments and Great Customer Experience.",
+        "descriptionnote": "",
+        "title": "Information:"
+      },
+      "ecopayz": {
+        "title": "Information:",
+        "description": "EcoPayz is a safe, voucher payment method that facilitates online transactions in case you do not have a bank account, debit card, or credit card. To complete a transaction, select STPMex as the payment method in checkout. You will receive a barcode which you need to present at your nearest STPMex store and pay the owing amount in cash.",
+        "descriptionnote": ""
+      },
+      "warningmessage": "Παρακαλούμε η ανάληψή σου να πραγματοποιηθεί με τη μέθοδο που έχεις επιλέξει για κατάθεση.",
+      "withdrawtext": "Ανάληψη"
+    },
+    "withdrawResult": {
+      "amountTitle": "Ποσό:",
+      "description": "Αυτή είναι η απόδειξη της συναλλαγής σου. Μπορείς να την εκτυπώσεις για μελλοντική χρήση.",
+      "oref": "Κωδικός Συναλλαγής:",
+      "successFalse": "Το αίτημα ανάληψής σου απέτυχε!",
+      "successTrue": "Το αίτημα ανάληψής σου έχει καταχωρηθεί επιτυχώς.",
+      "mbReturn": "Επιστροφή",
+      "title": "ΑΠΟΔΕΙΞΗ ΑΝΑΛΗΨΗΣ",
+      "titleFalse": "H Συναλλαγή Απέτυχε!",
+      "titleTrue": "Συγχαρητήρια!"
+    },
+    "doWithdraw": {
+      "delete": "Διαγραφή",
+      "addNew": "Νέο ΙΒΑΝ",
+      "wrongIban": "Λάθος IBAN"
+    },
+    "limits": {
+      "daily": "Ημερήσιο",
+      "weekly": "Εβδομαδιαίο",
+      "monthly": "Μηνιαίο",
+      "netDeposit": "Net Deposit Limit:"
+    },
+    "inactiveAccount": {
+      "intro": {
+        "title": "Αποτυχία Κατάθεσης"
+      },
+      "ok": "OK",
+      "liveChat": "Live Chat",
+      "email": "Email"
+    }
+  },
+  "casino": {
+    "common": {
+      "promotions": "Προσφορές",
+      "providers": "ΠΑΡΟΧΟΙ",
+      "selectProviders": "ΕΠΙΛΕΞΕ ΠΑΡΟΧΟ",
+      "applyFilters": "ΕΠΙΒΕΒΑΙΩΣΗ",
+      "clearFilters": "ΚΑΘΑΡΙΣΜΟΣ",
+      "allGames": "Όλα",
+      "jackpotsSum": "Σύνολο Jackpots",
+      "search": "ΑΝΑΖΗΤΗΣΗ",
+      "searchPlaceholder": "Αναζήτηση",
+      "playNow": "ΠΑΙΧΝΙΔΙ",
+      "noGames": "Δεν υπάρχουν παιχνίδια σε αυτό το φίλτρο <br />Δοκιμάστε άλλη αναζήτηση ή ένα από τα δημοφιλή παιχνίδια μας!",
+      "otherCategories": "Άλλες κατηγορίες",
+      "searchText": "Αναζήτηση Παιχνιδιού..."
+    },
+    "mysteryJackpot": {
+      "title": "Mystery Jackpot",
+      "subTitle": "ΚΑΘΗΜΕΡΙΝΕΣ ΑΝΤΑΜΟΙΒΕΣ*",
+      "tsCs": "*Ισχύουν όροι και προϋποθέσεις"
+    },
+    "tournaments": {
+      "previousButton": "Πρόσφατο Ιστορικό",
+      "moreButton": "Λεπτομέρειες"
+    },
+    "roadmap": {
+      "play": "Παιχνίδι",
+      "previousButton": "Πρόσφατο Ιστορικό",
+      "moreButton": "Λεπτομέρειες"
+    },
+    "dailyOffers": {
+      "tnCs": "T&Cs"
+    },
+    "promotions": {
+      "all": "ΟΛΕΣ"
+    },
+    "game": {
+      "addGame": "Προσθήκη Παιχνιδιού",
+      "searchGame": "Search game...",
+      "backToLobby": "Back to lobby",
+      "fullScreen": "Full screen",
+      "toggleDemo": "DEMO",
+      "toggleReal": "REAL",
+      "liveChat": "LIVE CHAT",
+      "deposit": "ΚΑΤΑΘΕΣΗ",
+      "demoHeaderLabel": "Εικονικό Παιχνίδι",
+      "recentGames": "Πρόσφατα Παιχνίδια",
+      "confirmation": {
+        "message": {
+          "demo": "Μετάβαση σε παιχνίδι με εικονικά χρήματα",
+          "real": "Μετάβαση σε παιχνίδι με κανονικά χρήματα"
+        },
+        "button": "Επιβεβαίωση"
+      }
+    },
+    "miniGames": "Mini παιχνίδια"
+  },
+  "sportsbook": {
+    "common": {
+      "statisticsSeo": {
+        "stats": "Στατιστικά Αγώνων για Στοίχημα",
+        "live": "Live Scores"
+      },
+      "sports": {
+        "all": "Όλα",
+        "open": "Ανοιχτά",
+        "football": "Ποδόσφαιρο",
+        "basket": "Μπάσκετ",
+        "tennis": "Τένις",
+        "virtuals": {
+          "basketball": "Μπάσκετ",
+          "footballCup": "Κύπελλο Ποδοσφαίρου",
+          "footballLeague": "Ποδόσφαιρο",
+          "horseRacing": "Ιπποδρομίες",
+          "tennis": "Τένις"
+        }
+      },
+      "favoriteMarkets": "Αγαπημένες Αγορές",
+      "scoreIntervals": {
+        "periodShortcut": "Π",
+        "halfTimeShortcut": "ΗΜ",
+        "frameShortcut": "F",
+        "overtimeShortcut": "ΠΑ",
+        "set": "Σετ",
+        "game": "Γκέιμ",
+        "frame": "Frame",
+        "inning": "Inning"
+      },
+      "sidebar": {
+        "title": "ΣΤΟΙΧΗΜΑ ONLINE",
+        "bettingTools": {
+          "betRadio": "Bet Radio",
+          "blog": "Blog",
+          "livescores": "Αποτελέσματα",
+          "statistics": "Στατιστικά",
+          "title": "ΕΡΓΑΛΕΙΑ"
+        },
+        "virtuals": {
+          "basketball": "Μπάσκετ",
+          "casino": "Virtual Games",
+          "footballCup": "Κύπελλο Ποδοσφαίρου",
+          "footballLeague": "Πρωτάθλημα Ποδοσφαίρου",
+          "horseRacing": "Ιπποδρομίες",
+          "tennis": "Τένις",
+          "title": "VIRTUALS"
+        }
+      },
+      "home": {
+        "liveNow": "Live αγώνες",
+        "liveNowTooltip": "Στοίχημα σε Live Αθλητικά γεγονότα. Live scores με γρήγορο cash out και κορυφαίες αποδόσεις.",
+        "liveSchedule": "Live πρόγραμμα",
+        "liveScheduleTooltip": "Στοίχημα σε αγώνες που ξεκινούν σύντομα. Κορυφαίες αποδόσεις με γρήγορο cash out και live scores.",
+        "topSoccer": "Δημοφιλή ποδοσφαίρου",
+        "topSoccerTooltip": "Κορυφαίες αποδόσεις στοιχηματισμού στους πιο δημοφιλείς ποδοσφαιρικούς αγώνες.",
+        "topBasket": "Δημοφιλή μπάσκετ",
+        "topBasketTooltip": "Στοιχηματικές Επιλογές για κορυφαίους αγώνες Μπάσκετ NBA, ευρωπαϊκών πρωταθλημάτων, Euroleague κι άλλων δημοφιλών αγώνων.",
+        "topTennis": "Δημοφιλή τένις",
+        "topTennisTooltip": "Στοίχημα σε δημοφιλείς αγώνες τένις όπως Ρολάν Γκαρός, Γουίμπλεντον κι άλλων τουρνουά.",
+        "allLiveGames": "Όλοι οι live αγώνες",
+        "allSoccerGames": "Όλοι οι αγώνες ποδοσφαίρου",
+        "allBasketGames": "Όλοι οι αγώνες μπάσκετ",
+        "allTennisMatches": "Όλοι οι αγώνες τένις",
+        "allUpcomingGames": "Όλο το live πρόγραμμα",
+        "allVirtualGames": "Όλα τα virtuals"
+      },
+      "marketsConfiguration": {
+        "reset": "Αρχικές επιλογές",
+        "close": "Κλείσιμο",
+        "noMarkets": "Οι επιλογές δεν είναι διαθέσιμες"
+      }
+    },
+    "goalmap": {
+      "play": "Παιχνίδι",
+      "previousButton": "Πρόσφατο Ιστορικό",
+      "moreButton": "Λεπτομέρειες"
+    },
+    "pushNotifications": {
+      "title": "Λάβετε ειδοποιήσεις",
+      "description": "Eπιλέξτε ειδοποιήσεις για αυτό το παιχνίδι",
+      "info": "Χρειάζεται να επιτρέψετε τις ειδοποιήσεις στη συσκευή σας",
+      "ok": "OK",
+      "cancel": "Κλείσιμο"
+    },
+    "search": {
+      "placeholder": "Αναζήτηση",
+      "placeholderSearchInput": "Αναζήτηση αγώνα, διοργάνωσης, χώρας...",
+      "noResults": "Δεν βρέθηκαν αποτελέσματα",
+      "moreChar": "Πληκτρολόγησε παραπάνω χαρακτήρες",
+      "popularGames": "Δημοφιλείς αγώνες"
+    },
+    "live": {
+      "schedule": "Πρόγραμμα",
+      "liveStreaming": "Live Streaming",
+      "liveNow": "Live Now",
+      "live": "Live",
+      "noEvents": "Δεν υπάρχουν διαθέσιμοι αγώνες, για τα επιλεγμένα φίλτρα",
+      "scheduleNoEvents": "Δεν βρέθηκαν αποτελέσματα με βάση τα επιλεγμένα φίλτρα",
+      "marketsSelection": {
+        "title": "Διαμόρφωση Αγορών"
+      },
+      "legalInfo": {
+        "header": "Σημείωση για τις εμφανιζόμενες πληροφορίες",
+        "body": "Στη Novibet προσπαθούμε πάντα να εξασφαλίζουμε ότι οι πληροφορίες που εμφανίζονται στο site μας σχετικά με έναν αγώνα είναι ακριβείς. Παρόλα αυτά, θα πρέπει να χρησιμοποιούνται μόνο ως οδηγός. Σε περίπτωση που κάποια από τις πληροφορίες (σκορ, ώρα του αγώνα, κ.λπ.) δεν είναι σωστή, δεν δεχόμαστε καμιά ευθύνη."
+      }
+    },
+    "prelive": {
+      "zeroOdds": "0% ΓΚΑΝΙΟΤΑ",
+      "zero": "0%",
+      "odds": "ΓΚΑΝΙΟΤΑ",
+      "zeroOddsMessage": "Η Αγορά 'Τελικό αποτέλεσμα 0%' / 'Νικητής Αγώνα 0%' δεν συνδυάζεται με άλλη προσφορά",
+      "topBets": "Κορυφαίοι Αγώνες της Ημέρας",
+      "topGames": "TOP ΑΓΩΝΕΣ",
+      "allMatches": "Όλοι οι αγώνες",
+      "popular": "Δημοφιλή",
+      "learnMore": "Μάθε περισσότερα",
+      "nativeSteps": {
+        "androidTitle": "ΕΦΑΡΜΟΓΗ ANDROID",
+        "description": "Κατέβασε τώρα την εφαρμογή της Novibet στην Android συσκευή σου, γρήγορα, απλά και με απόλυτη ασφάλεια",
+        "attention": "Προσοχή: ",
+        "attentionText": "H επίσημη Android εφαρμογή της Novibet διατίθεται μόνο από την ιστοσελίδα μας! Μην εμπιστεύεσαι οποιαδήποτε άλλη τοποθεσία για τη λήψη της εφαρμογής.",
+        "rows": [
+          {
+            "title": "Κατέβασε την εφαρμογή",
+            "description": "Πάτησε το κουμπί \"Κατέβασε την εφαρμογή\" ώστε να ξεκινήσει η λήψη του Novibet App.",
+            "download": "ΚΑΤΕΒΑΣΕ ΤΗΝ ΕΦΑΡΜΟΓΗ"
+          },
+          {
+            "title": "Ενεργοποίησε την εγκατάσταση άγνωστων πηγών",
+            "descriptions1": "Όταν πατήσεις το αρχείο που κατέβηκε, θα λάβεις ειδοποίηση ότι οι εφαρμογές τέτοιου τύπου μπορεί να βλάψουν τη συσκευή σου.",
+            "descriptions2Prefix": "Επίλεξε",
+            "descriptions2": " «Ρυθμίσεις» ",
+            "descriptions2Suffix": "ώστε να επιτρέψεις την εγκατάσταση εφαρμογών από άλλες πηγές εκτός του Google Play Store.",
+            "descriptions3Prefix": "Σημείωση: ",
+            "descriptions3": "Εάν έχεις πάνω από ένα παράθυρο ανοιχτό στον Chrome, δεν θα μπορείς να κατεβάσεις το App"
+          },
+          {
+            "title": "Εγκατάσταση της εφαρμογής",
+            "description1": "Επίλεξε το αρχείο Novibet.apk (από τις Λήψεις ή τα Αρχεία της συσκευής σου) και πάτησε το κουμπί \"Eγκατάσταση\".",
+            "description2": "Τέλος, εμφανίζεται η οθόνη επιβεβαίωσης εγκατάστασης."
+          }
+        ]
+      },
+      "home": {
+        "casinoData": {
+          "jackpots": {
+            "title": "Casino Jackpots",
+            "totalText": "Σύνολο Jackpots"
+          }
+        }
+      }
+    },
+    "dailyCoupon": {
+      "title": "Κουπόνι ημέρας",
+      "filter": "Βάσει ώρας έναρξης",
+      "allBets": "Όλοι οι αγώνες",
+      "close": "ΚΛΕΙΣΙΜΟ",
+      "empty": "Δεν υπάρχουν αγώνες με αυτά τα κριτήρια",
+      "filters": {
+        "byStartTime": "Χρονικά πρώτα",
+        "byCompetition": "Δημοφιλή πρώτα"
+      },
+      "oddRange": "Εύρος αποδόσεων",
+      "timeFilters": {
+        "filter0": "24 ώρες",
+        "filter1": "1 ώρα",
+        "filter3": "3 ώρες",
+        "filter6": "6 ώρες",
+        "filter12": "12 ώρες"
+      },
+      "to": "εώς"
+    },
+    "liveSchedule": {
+      "title": "Live πρόγραμμα",
+      "allBets": "Όλοι οι αγώνες"
+    },
+    "couponDefault": {
+      "title": "Φτιάξε το Κουπόνι σου",
+      "back": "Επιστροφή",
+      "clear": "Καθαρισμός",
+      "show": "Προβολή",
+      "competitions": "Διοργανώσεις",
+      "couponBtn": "Κουπόνι",
+      "newCoupon": "Νέο Κουπόνι",
+      "coupon": "ΤΟ ΚΟΥΠΟΝΙ ΜΟΥ",
+      "editCoupon": "Επεξεργασία",
+      "search": "Χώρα ή διοργάνωση",
+      "itemAdded": "Προστέθηκε στο κουπόνι μου",
+      "errorMaxBetItems": "Δεν μπορείς να προσθέσεις περισσότερες από {{maxBetItems}} επιλογές στο κουπόνι σου!",
+      "popular": "Δημοφιλείς διοργανώσεις",
+      "allCompetitions": "Όλες οι διοργανώσεις",
+      "results": "Αποτελέσματα",
+      "noResults": "Δεν βρέθηκαν αποτελέσματα",
+      "removeLeague": "Αφαίρεση;",
+      "marketDropdownLabel": "Διαμόρφωση αγορών"
+    },
+    "couponHorses": {
+      "age": "Ηλικία",
+      "breeder": "Εκτροφέας",
+      "by": "by",
+      "cancel": "Ακύρωση",
+      "class": "Τάξη",
+      "comments": "Σχόλια",
+      "conditions": "Συνθήκες",
+      "country": "Χώρα",
+      "distance": "Απόσταση",
+      "form": "Φόρμα",
+      "going": "Κατάσταση",
+      "horse": "Άλογο",
+      "horseAge": "Ηλικία Αλόγου",
+      "info": "Info",
+      "jockey": "Αναβάτης",
+      "jockeyLetter": "Α:",
+      "lastRun": "Προηγούμενος Αγώνας",
+      "place": {
+        "first": "1ος",
+        "second": "2ος",
+        "third": "3ος"
+      },
+      "position": "Ταξινόμιση",
+      "previousPrice": "Προηγούμενη Τιμή",
+      "price": "Τιμή",
+      "prizeMoney": "Έπαθλο",
+      "quantum_FundsText": "Παρακαλούμε χρηματοδοτήστε το λογαριασμό σας.",
+      "quantum_LoginText": "Παρακαλούμε συνδεθείτε στο λογαριασμό σας.",
+      "quantum_RestrictionTitle": "Ζωντανό Βίντεο διαθέσιμο.",
+      "quantum_Title": "Ιπποδρομίες",
+      "raceDistance": "Απόσταση Αγώνα",
+      "raceType": {
+        "HURDLE": "Hurdle",
+        "CHASE": "Chase",
+        "FLAT": "Flat",
+        "NATIONALHUNTFLAT": "National Hunt Flat"
+      },
+      "run": "run",
+      "recentRace": "Πρόσφατη κούρσα",
+      "runners": "runners",
+      "runnersTitle": "Runners",
+      "results": "Results",
+      "startsAt": "Starts at",
+      "time": "Ώρα",
+      "title": "Ιπποδρομίες",
+      "trainer": "Εκπαιδευτής",
+      "trainerLetter": "Ε:",
+      "verdict": "Verdict",
+      "weather": {
+        "CLOUDY": "Συννεφιά",
+        "RAINY": "Βροχή",
+        "SNOW": "Χιόνι",
+        "SUNNY": "Ήλιος"
+      },
+      "weatherTitle": "Καιρός",
+      "weight": "Βάρος",
+      "weightAbbreviated": "Βάρος",
+      "close": "Κλείσιμο"
+    },
+    "noviLeague": {
+      "header": {
+        "home": "Αρχική",
+        "history": "Ιστορικό",
+        "howTo": "Πώς παίζεται",
+        "tncs": "Όροι",
+        "leaderboard": "Κατάταξη",
+        "tncsFull": "Όροι και προϋποθέσεις",
+        "weeklyLeaderboard": "Έπαθλο εβδομάδας",
+        "totalLeaderboard": "Μεγάλο έπαθλο"
+      },
+      "anonymous": {
+        "registerText": "Δεν έχεις λογαριασμό;",
+        "register": "Εγγραφή",
+        "login": "Είσοδος"
+      },
+      "authenticated": {
+        "score": "ΤΟ ΣΚΟΡ<br />ΜΟΥ",
+        "periodScore": "ΑΚΡΙΒΕΣ<br /> ΣΚΟΡ {{round}}η<br /> Περ.",
+        "scorer": "ΣΚΟΡΕΡ {{round}}η<br /> Περ.",
+        "totalScore": "ΣΥΝΟΛΟ<br /> ΑΚΡΙΒΕΣ<br /> ΣΚΟΡ",
+        "yourScore": "Σκορ",
+        "rank": "Κατάταξη",
+        "rank2": "Η ΘΕΣΗ ΜΟΥ"
+      },
+      "howItWorks": {
+        "title": "ΠΩΣ ΠΑΙΖΕΤΑΙ",
+        "bets": "Προβλέψεις",
+        "prizes": "Έπαθλα"
+      },
+      "tncs": {
+        "title": "ΌΡΟΙ"
+      },
+      "yourAnswers": {
+        "overall": "ΑΝΑ ΗΜΕΡΑ",
+        "prediction": "ΠΡΟΒΛΕΨΗ",
+        "score": "ΣΚΟΡ",
+        "title": "ΙΣΤΟΡΙΚΟ",
+        "titleScore": "ΒΑΘΜΟΛΟΓΙΑ ΑΚΡΙΒΕΣ ΣΚΟΡ",
+        "titleTotalScore": "ΙΣΤΟΡΙΚΟ ΑΚΡΙΒΕΣ ΣΚΟΡ (100 Αγωνιστικές)",
+        "titleScorer": "ΙΣΤΟΡΙΚΟ ΣΚΟΡΕΡ ({{round}}η Περίοδος)"
+      },
+      "leaderBoards": {
+        "bet": "Πρ/ψη",
+        "scorer": "Σκορερ",
+        "date": "Ημ/νία",
+        "game": "Παιχνίδι",
+        "hour": "Ώρα",
+        "result": "Απ/μα",
+        "monthTopTitle": "Η ΒΑΘΜΟΛΟΓΙΑ ΤΟΥ ΜΗΝΑ",
+        "topTitle": "ΣΥΝΟΛΙΚΗ ΒΑΘΜΟΛΟΓΙΑ",
+        "scoreTopTitle": "ΒΑΘΜΟΛΟΓΙΑ ΑΚΡΙΒΕΣ ΣΚΟΡ ({{round}}η Περίοδος)",
+        "scoreTotalTopTitle": "ΒΑΘΜΟΛΟΓΙΑ ΑΚΡΙΒΕΣ ΣΚΟΡ (100 Αγωνιστικές)",
+        "scorerTopTitle": "ΒΑΘΜΟΛΟΓΙΑ ΣΚΟΡΕΡ ({{round}}η Περίοδος)",
+        "noLeaderBoard": "Η βαθμολογία δεν έχει διαμορφωθεί ακόμα."
+      },
+      "overview": {
+        "playNow": "Παίξε τώρα!",
+        "score": "ΣΚΟΡ",
+        "league": "ΠΡΩΤΑΘΛΗΜΑ",
+        "game": "ΑΓΩΝΕΣ"
+      },
+      "question": {
+        "submit": "Πρόβλεψε",
+        "submitInfo": "ΤΟ ΑΚΡΙΒΕΣ ΣΚΟΡ ΤΟΥ ΑΓΩΝΑ",
+        "update": "ΑΛΛΑΓΗ",
+        "text": "Ποιο θα είναι το τελικό σκορ του αγώνα",
+        "edit": "Αλλαγή πρόβλεψης",
+        "addCoupon": "Προσθήκη στο δελτίο",
+        "isInCoupon": "Προστέθηκε"
+      },
+      "scorerQuestion": {
+        "submit": "ΠΡΟΒΛΕΨΕ",
+        "update": "ΑΛΛΑΓΗ",
+        "text": "Παίκτης που θα σκοράρει στον αγώνα"
+      },
+      "message": {
+        "error": "<b>ΩΧ!</b> Κάτι πήγε στραβά, προσπάθησε ξανά",
+        "info": "<b>Το πρωτάθλημα</b> αρχίζει σύντομα!",
+        "noHistory": "Ακόμα δεν έχεις κάνει κάποια πρόβλεψη!",
+        "success": "<b>Καλή τύχη!</b> Η πρόβλεψή σου καταχωρήθηκε με επιτυχία!",
+        "successScore": "<b>Καλή τύχη!</b> Η πρόβλεψή “Ακριβές σκορ του αγώνα” τοποθετήθηκε με επιτυχία!",
+        "successScorer": "<b>Καλή τύχη!</b> Η πρόβλεψή “Παίκτης που θα σκοράρει” τοποθετήθηκε με επιτυχία!",
+        "allSubmitted": "Καλή τύχη! Όλες οι προβλέψεις των αγώνων τοποθετήθηκαν με επιτυχία!",
+        "submitted": "Η ΠΡΟΒΛΕΨΗ ΤΟΠΟΘΕΤΗΘΗΚΕ ΜΕ ΕΠΙΤΥΧΙΑ!",
+        "predictionsClosed": "Οι προβλέψεις έκλεισαν",
+        "noPrediction": "Δεν έχετε κάνει καμία πρόβλεψη.",
+        "myNovileague": "My Novileague"
+      },
+      "new": {
+        "extra": "EXTRA",
+        "match": "MATCH",
+        "first": "FIRST",
+        "scorer": "SCORER",
+        "noPrediction": "Δεν εχει γίνει επιλογή",
+        "extraQuestion": {
+          "primary": "ΜΑΝΤΕΨΕ ΣΩΣΤΑ ΤΟ ΑΚΡΙΒΕΣ ΣΚΟΡ &",
+          "secondary": "ΔΙΠΛΑΣΙΑΣΕ ΤΟ ΧΡΗΜΑΤΙΚΟ ΕΠΑΘΛΟ!"
+        },
+        "submitting": "Αποστολή πρόβλεψης..."
+      }
+    },
+    "betslip": {
+      "title": "Δελτίο",
+      "clear": "Καθαρισμός",
+      "empty": "Το δελτίο σου είναι άδειο",
+      "return": "Επιστροφή",
+      "maxreturn": "Μέγιστη επιστροφή",
+      "columns": "Στήλες",
+      "accumulator": "Παρολί",
+      "boost": "Ενίσχυση",
+      "bet": "Ποντάρισμα",
+      "submit": "Τοποθέτηση",
+      "acceptChanges": "Αποδοχή Αλλαγών",
+      "multiples": "Συστήματα",
+      "accept": "Αποδοχή",
+      "reject": "Απόρριψη",
+      "keepSelections": "Διατήρηση Επιλογών",
+      "continue": "Συνέχεια",
+      "placing": "Τα στοιχήματά σου τοποθετούνται...",
+      "banker": "Σ",
+      "placed": "Επιτυχής ολοκλήρωση",
+      "more": "ακόμα",
+      "taxation": {
+        "info": "*H novibet καλύπτει το {0}% του φόρου των πιθανών κερδών σου",
+        "tax": "Φόρος",
+        "taxBonus": "Φόρος μπόνους",
+        "taxBonusMessage": "H Νovibet καλύπτει το {0}% ({1}) του φόρου των πιθανών κερδών σου"
+      },
+      "acceptOdds": {
+        "anyTitle": "Αποδοχή κάθε αλλαγής αποδόσεων",
+        "anyText": "Με την επιλογή «Αποδοχή κάθε αλλαγής αποδόσεων», γίνεται αυτόματα αποδοχή όλων των πιθανών αυξήσεων ή μειώσεων στην απόδοση, από τη στιγμή της τοποθέτησης του στοιχήματος μέχρι την επιβεβαίωση αποδοχής του. Συνεπώς, τα πιθανά κέρδη σου ενδέχεται να αλλάξουν. Πατώντας «Τοποθέτηση» αποδέχεσαι τον όρο αυτό.",
+        "higherTitle": "Αποδοχή υψηλότερων αποδόσεων",
+        "higherText": "Με την επιλογή «Αποδοχή υψηλότερων αποδόσεων», γίνεται αυτόματα αποδοχή όλων των πιθανών αυξήσεων στην απόδοση, από τη στιγμή της τοποθέτησης του στοιχήματος μέχρι την επιβεβαίωση αποδοχής του. Συνεπώς, τα πιθανά κέρδη σου ενδέχεται να αλλάξουν. Πατώντας «Τοποθέτηση» αποδέχεσαι τον όρο αυτό.",
+        "unauthenticatedFooterText": "Συνδέσου στον λογαριασμό σου για να μπορείς να επιλέξεις.",
+        "buttonText": "Επιστροφή"
+      },
+      "bonusProjection": "Πρόσθεσε άλλη μια αγορά με ελάχιστη απόδοση {0} για να πάρεις ενίσχυση <span>{1}%</span>",
+      "freebet": {
+        "expiration": "Λήξη",
+        "notCombinableError": "Τα Free Bet δεν είναι διαθέσιμα σε μη συνδυαζόμενα στοιχήματα"
+      }
+    },
+    "bets": {
+      "title": "Στοιχήματα",
+      "selections": "Επιλογές",
+      "open": "Ανοιχτά",
+      "closed": "Κλειστά",
+      "cashedOut": "Cashed Out",
+      "oneDay": "24 Ώρες",
+      "twoDays": "48 Ώρες",
+      "timeFrame": "Χρονικό εύρος",
+      "from": "απο",
+      "freeBet": "Free bet",
+      "cashoutAmountText": "Ποσό Cash Out",
+      "stake": "Ποσό",
+      "date": "Ημερομηνία",
+      "time": "Ώρα",
+      "dateFrom": "απο",
+      "dateTo": "εως",
+      "empty": "Δεν υπάρχουν ανοιχτά στοιχήματα",
+      "emptyCashedOut": "Δεν υπάρχουν cashed out στοιχήματα",
+      "emptyClosed": "Δεν βρέθηκε κάποιο στοίχημα",
+      "previousHistory": "Ιστορικό προηγούμενων ημερών",
+      "betsButton": "Όλα τα στοιχήματα",
+      "loading": "Παρακαλώ περιμένετε",
+      "details": "Λεπτομέρειες",
+      "returns": "Επιστροφή",
+      "tax": "Φόρος",
+      "taxation": {
+        "info": "*H novibet καλύπτει το 100% του φόρου των πιθανών κερδών σου",
+        "tax": "Φόρος",
+        "taxBonus": "Έκπτωση φόρου Novibet",
+        "taxBonusMessage": "H Νovibet καλύπτει το {0}% ({1}) του φόρου των πιθανών κερδών σου"
+      },
+      "all": "Όλα",
+      "single": "Μονό",
+      "singles": "Μονά",
+      "won": "Κερδισμένο",
+      "wonMultiple": "Κερδισμένα",
+      "lost": "Χαμένο",
+      "lostMultiple": "Χαμένα",
+      "pending": "Σε Αναμονή",
+      "void": "Επιστροφή",
+      "partialCashout": "Μερικό Cash Out",
+      "partialCashoutAmountText": "Ποντάρισμα που χρησιμοποιήθηκε",
+      "stopLossCashout": "Περιορισμός απώλειας",
+      "cashout": "Cash Out",
+      "cashoutReceipt": "Ολοκληρώθηκε",
+      "cashoutSuccess": "Επιτυχές Cash out",
+      "cashoutChanged": "Το Cash Out άλλαξε",
+      "deadHeat": "Dead Heat",
+      "eachWayWin": "Each Way Win",
+      "eachWayPlace": "Each Way Place",
+      "continue": "Συνέχεια",
+      "confirm": "Επιβεβαίωση",
+      "confirmCashOut": "Επιβεβαίωση Cash Out",
+      "cancel": "Άκυρο",
+      "cashoutAmount": "CASH OUT  {{amount}}",
+      "cashoutNotAvailable": "Cash out μη διαθέσιμο",
+      "cashoutNotAvailableTxt": "Μη διαθέσιμο",
+      "currentCashout": "Τρέχον cash out",
+      "cashoutOptions": {
+        "autoCashout": {
+          "title": "Αυτόματο Cash Out",
+          "message": "Αν η επιστροφή φτάσει",
+          "info": {
+            "title": "Τι είναι το Auto Cash Out",
+            "description": "Δυνατότητα να γίνει αυτόματο Cash Out στο στοίχημά σου, όταν η αξία του φτάσει στο ποσό που θα έχεις προεπιλέξει."
+          }
+        },
+        "stopLoss": {
+          "title": "Περιορισμός απώλειας",
+          "message": "Αν η επιστροφή πέσει κάτω από",
+          "info": {
+            "title": "Τι είναι το Stop-Loss Cash Out",
+            "description": "Δυνατότητα να γίνει αυτόματο Cash Out στο στοίχημά σου, όταν η αξία του πέσει κάτω από το χαμηλότερο όριο που θα έχεις προεπιλέξει."
+          }
+        },
+        "partialCashout": {
+          "title": "Μερικό Cash Out",
+          "message": "Επιλέξτε το ποσό που θα κάνετε cash out",
+          "stake": " του πονταρίσματός σας",
+          "remaining": "Υπόλοιπο πονταρίσματος",
+          "return": "Επιστροφή υπολοίπου",
+          "info": {
+            "title": "Τι είναι το Partial Cash Out",
+            "description": "Δυνατότητα να κάνεις Cash Out μέρος του στοιχήματός σου, αφήνοντας ενεργό το υπόλοιπο ποσό."
+          }
+        },
+        "button": {
+          "apply": "Εφαρμογή",
+          "applyWithPrice": "Μερικό cash out",
+          "confirm": "Επιβεβαίωση",
+          "acceptChanges": "Αποδοχή αλλαγών",
+          "removeRule": "Αφαίρεση κανόνα",
+          "close": "Κλείσιμο"
+        },
+        "error": {
+          "generic": "Κάτι πήγε στραβά",
+          "invalidMax": "Η επιστροφή είναι μεγαλύτερη της μέγιστης δυνατής",
+          "invalidMin": "Η επιστροφή είναι μικρότερη της ελάχιστης δυνατής",
+          "profitChanged": "To κέρδος σας άλλαξε!"
+        },
+        "min": "Ελάχ.",
+        "max": "Μέγ."
+      },
+      "upperCase": {
+        "won": "ΚΕΡΔΙΣΜΕΝΟ",
+        "lost": "ΧΑΜΕΝΟ",
+        "pending": "ΣΕ ΑΝΑΜΟΝΗ",
+        "void": "ΑΚΥΡΩΜΕΝΟ",
+        "partialCashout": "ΜΕΡΙΚΟ CASH OUT",
+        "stopLossCashout": "ΠΕΡΙΟΡΙΣΜΟΣ ΑΠΩΛΕΙΑΣ",
+        "cashout": "CASH OUT",
+        "autoCashout": "ΑΥΤΟΜΑΤΟ CASH OUT",
+        "deadHeat": "DEAD HEAT",
+        "eachWayWin": "EACH WAY WIN",
+        "eachWayPlace": "EACH WAY PLACE",
+        "selections": "ΕΠΙΛΟΓΕΣ"
+      },
+      "stoiximata": "Στοιχήματα",
+      "liveNow": "Live now",
+      "placementTime": "Ώρα τοποθέτησης",
+      "highestBet": "Μεγ. ποντάρισμα",
+      "highestReturn": "Μεγ. επιστροφή"
+    },
+    "betBuilder": {
+      "new": "NEW",
+      "info": {
+        "question1": "Τι είναι το Bet Builder",
+        "question2": "Πώς χρησιμοποιώ το Bet Builder",
+        "answer1": "Είναι η δυνατότητα να δημιουργείς το δικό σου μοναδικό στοίχημα, επιλέγοντας από 2 έως 7 αγορές του ίδιου αγώνα",
+        "answer2": "Αφού επιλέξεις τον αγώνα που σε ενδιαφέρει, πατάς (όπου είναι διαθέσιμη) τη ρύθμιση Bet Builder. Μπορείς να συνδυάσεις από 2 έως 7 αγορές, για να δημιουργήσεις το δικό σου παρολί από τον ίδιο αγώνα",
+        "tncsTitle": "Όροι και Προϋποθέσεις",
+        "tncsText": "Tincidunt integer eu augue augue nunc elit dolor, luctus placerat scelerisque euismod, iaculis eu lacus nunc mi elit, vehicula ut laoreet ac, aliquam sit amet justo nunc tempor, metus vel"
+      },
+      "notification": {
+        "message": "Θα χάσεις τα τρέχοντα πονταρίσματά σου. </br>Είσαι βέβαιος/η ότι θέλεις να αλλάξεις τη λειτουργία;",
+        "yes": "Ναι",
+        "no": "Όχι"
+      },
+      "title": "Bet Builder",
+      "text": "Συνδύασε μέχρι 7 αγορές του ίδιου αγώνα σε ένα στοίχημα!"
+    },
+    "betradio": {
+      "title": "Πρόγραμμα",
+      "bannerTitle": "Άκου τώρα bet",
+      "radio": "radio",
+      "chatPlaceholder": "Πληκτρολογήστε εδώ το μήνυμά σας..."
+    },
+    "captions": {
+      "americanFootball": {
+        "periodScore0": "1",
+        "periodScore1": "2",
+        "periodScore2": "ΗΜ",
+        "periodScore3": "3",
+        "periodScore4": "4",
+        "periodScore5": "ΠΑ"
+      },
+      "basketball": {
+        "quarterScore0": "1",
+        "quarterScore1": "2",
+        "quarterScore2": "HΜ",
+        "quarterScore3": "3",
+        "quarterScore4": "4",
+        "quarterScore5": "ΠΑΡ"
+      },
+      "iceHockey": {
+        "periodScore0": "1",
+        "periodScore1": "2",
+        "periodScore2": "3",
+        "periodScore3": "ΠΑ"
+      },
+      "volleyball": {
+        "setScore0": "1",
+        "setScore1": "2",
+        "setScore2": "3",
+        "setScore3": "4",
+        "setScore4": "5",
+        "set": "Σετ"
+      }
+    },
+    "rightSection": {
+      "allLiveEvents": "Όλα τα live"
+    }
+  },
+  "seo": {},
+  "poker": {
+    "rules": {
+      "pageTitle": "Κανόνες Πόκερ",
+      "header": "Πόκερ Κανόνες - Πως παίζεται το Πόκερ - Συνδυασμοί & Στρατηγική",
+      "primaryText": "Αν αρχίσουμε να γράφουμε λεπτομερώς τους κανόνες του πόκερ, τότε ίσως να χρειαστεί ένα ολόκληρο βιβλίο. Ειδικά αν συμπεριλάβουμε τις παραλλαγές για το πως παίζεται το πόκερ στα διάφορα μέρη του πλανήτη, όπως πχ στην περίπτωση της πόκας στην Ελλάδα ή του Chinese Poker, που είναι σούπερ - δημοφιλές στην Ασία. Οι συνδυασμοί και η στρατηγική διαφέρουν επίσης ανάλογα με το πού παίζεται και με ποιους, αλλά η διαφορετικότητα και η ποικιλία που προσφέρει το πόκερ είναι ο κύριος λόγος για τον οποίον είναι τόσο αγαπητό στον κόσμο. Στη βάση του πάντως, το παιχνίδι έχει κάποιες βασικές αρχές και κανόνες που θα χρειαστεί να γνωρίζετε, ανεξαρτήτως από την παραλλαγή που θα παίξετε.",
+      "pokerIntroductionTitle": "Πως παίζεται το Poker",
+      "pokerIntroductionText": "Μελετώντας πως παίζεται το Poker στις διάφορες παραλλαγές του θα διαπιστώσουμε πως υπάρχουν κάποιες βασικές αρχές. Αρχές που δεν αλλάζουν, ανεξαρτήτως γεωγραφίας ή ονόματος παιχνιδιού. Για παράδειγμα, το πόκερ παίζεται πάντα με μια τράπουλα, είτε παίζετε Hold’Em είτε παίζετε Omaha. Και η κατάταξη των φύλλων με βάση τη δύναμη τους είναι σχεδόν παντού η ίδια. Αν και σε κάποιες ελάχιστες εξαιρέσεις έχουμε βρεθεί σε τραπέζια που είχαν ασυνήθιστους κανόνες, ειδικά για την ισοπαλία, την ισχύ του φύλλου Kicker και το νικητή με βάση τη δύναμη του φύλλου. Το μεγάλο debate πάντως, και ένας από τους λόγους που οι νομοθέτες το αντιμετωπίζουν διαφορετικά από χώρα σε χώρα, είναι αν το πόκερ είναι παιχνίδι τύχης ή όχι. Αναμφίβολα υπάρχουν παίκτες καλύτεροι από άλλους, που σε βάθος χρόνου αποκομίζουν κέρδη από το παιχνίδι. Και αυτό από μόνο του λέει πολλά για τη φύση του πόκερ και το πόσο καθοριστική είναι η τύχη σε αυτό. Ελπίζουμε πως διαβάζοντας τις παρακάτω παραγράφους για τους κανόνες και τη φύση του παιχνιδιού θα μπορέσετε να σχηματίσετε τη δική σας άποψη για το τι είναι τελικά το πόκερ.",
+      "pokerRulesTitle": "Κανόνες Poker",
+      "pokerRulesText1": "Αν πιάσουμε τους κανόνες πόκερ για όλες τις παραλλαγές του, δε θα τελειώσουμε ποτέ. Γι’ αυτό και θα πάρουμε σαν βασική υπόθεση τους κανόνες του Texas Hold’Em, του πιο δημοφιλούς είδους πόκερ, για να σας εξηγήσουμε τα στοιχειώδη του παιχνιδιού.",
+      "pokerRulesText2": "Αρχικά, στο τραπέζι μπορούν να κάτσουν μέχρι και 10 άτομα. Αν και τα περισσότερα τραπέζια τόσο στα καζίνο όσο και στο online poker είναι των 6 ή 8 ατόμων. Ενώ δε λείπουν και τα Heads-up τραπέζια, όπου δύο παίκτες παίζουν αντίπαλοι ο ένας με τον άλλον.",
+      "pokerRulesText3": "Σκοπός του παιχνιδιού είναι ο παίκτης να σχηματίσει ένα δυνατό φύλλο, το οποίο να είναι δυνατότερο από οποιοδήποτε άλλο στο τραπέζι. Το τι είναι δυνατό φύλλο θα το δούμε λίγο παρακάτω στο κείμενό μας. Για να σχηματιστεί το φύλλο του παίκτη (αλλιώς και «χέρι»), εκείνος θα λάβει πρώτα δύο κλειστά φύλλα από τον ντίλερ και θα χρειαστεί να χρησιμοποιήσει και κάποια (ή ακόμα και όλα) από τα φύλλα που είναι κοινά και μοιράζονται ανοικτά στο τραπέζι (Community Cards).",
+      "pokerRulesText4": "Το παιχνίδι ξεκινάει με τον ντίλερ να μοιράζει φύλλα ξεκινώντας από τον παίκτη στα δεξιά του. Ο παίκτης αυτός έχει τοποθετήσει ένα μικρό στοίχημα (Small Blind), ενώ ο δίπλα του προς τα δεξιά το διπλάσιο (Big Blind). Ο ρόλος των Blinds στο πόκερ είναι για να μην πάνε όλοι πάσο και να υπάρχει κάποια δράση σε όλες τις παρτίδες. Μόλις οι παίκτες πάρουν από δύο κλειστά φύλλα έκαστος, ξεκινάει ο πρώτος γύρος πονταρίσματος. Ανάλογα με το είδος του πόκερ που παίζουμε (Limit ή No-Limit), ο κάθε παίκτης μπορεί να επιλέξει:",
+      "pokerRulesFold": "Να πάει πάσο (Fold)",
+      "pokerRulesCheck": "Ντούκου (Check)",
+      "pokerRulesRaise": "Ρελάνς (Raise)",
+      "pokerRulesReraise": "Ρελάνς στη ρελάνς (Re-raise)",
+      "pokerRulesText5": "Για τα επίπεδα πονταρίσματος στη φάση πριν ανοίξουν τα φύλλα (που ονομάζεται και φάση pre-flop), πρέπει να δείτε τους κανόνες του τραπεζιού, καθώς διάφορες παραλλαγές επιτρέπουν πονταρίσματα ίσα με το blind αλλά και πολλαπλάσιά του ή χωρίς κανένα όριο. Μόλις έχουν κάνει την κίνησή τους όλοι οι παίκτες, έρχεται η σειρά του ντίλερ να αρχίσει να μοιράζει τα κοινά χαρτιά, αυτά που ονομάζονται Community Cards. Τα φύλλα αυτά μπορούν να τα χρησιμοποιήσουν οι παίκτες ανάλογα με το τι έχουν στο χέρι τους, ώστε να σχηματίσουν δυνατά φύλλα. Τα κοινά φύλλα θα ανοίξουν σε τρία στάδια, με κάθε ένα να ακολουθείται από έναν αντίστοιχο γύρο πονταρίσματος. Τα στάδια αυτά είναι:",
+      "pokerRulesFlop": "Flop – 3 κοινά φύλλα",
+      "pokerRulesTurn": "Turn – 1 κοινό φύλλο",
+      "pokerRulesRiver": "River – 1 κοινό φύλλο",
+      "pokerRulesText6": "Μόλις έχει ολοκληρωθεί και το River, οι παίκτες ξέρουν πόσα χαρτιά θα χρειαστούν από τα Community ώστε σε συνδυασμό με τα δύο που έχουν από χέρι να φτιάξουν ένα δυνατό φύλλο. Σε κάποιες περιπτώσεις, δεν είναι απίθανο τα χαρτιά στο χέρι να είναι τόσο κακά που οι παίκτες να χρειάζεται να χρησιμοποιήσουν τα 5 ανοικτά του τραπεζιού. Ακολουθεί ένας τελικός γύρος πονταρίσματος. Εδώ οι παίκτες, έχοντας δει τα φύλλα που παίζουν στο τραπέζι και έχοντας μελετήσει τη συμπεριφορά των αντιπάλων τους, καλούνται να αποφασίσουν αν θα μπουν στο ποτ πιο δυναμικά. Αν κάποιος παίκτης μείνει μόνος στο τραπέζι, δηλαδή αν όλοι οι άλλοι πάνε πάσο, τότε αυτός κερδίζει όλο το ποτ. Αν έχουν μείνει όμως κι άλλοι παίκτες, τότε οι εναπομείναντες θα πρέπει να δείξουν τα φύλλα τους. Ξεκινώντας από αυτόν που «μίλησε» πρώτος σε αυτή την παρτίδα. Αν οι υπόλοιποι που «μιλάνε» μετά από εκείνον δουν πως έχουν χάσει την παρτίδα, μπορούν να μην ανοίξουν καν τα φύλλα τους και να παραδεχτούν ήττα. Το ίδιο ισχύει και γι αυτόν που κερδίζει ενώ όλοι οι άλλοι στο τραπέζι έχουν πάει πάσο. Όπως και να ‘χει, ο παίκτης που κερδίζει και στη μία και στην άλλη περίπτωση θα καρπωθεί εξ ολοκλήρου το ποτ που είχε συγκεντρωθεί.",
+      "pokerCombinationsTitle": "Συνδυασμοί Πόκερ",
+      "pokerCombinationsText1": "Σε οποιαδήποτε παραλλαγή του παιχνιδιού οι συνδυασμοί πόκερ είναι το κλειδί για τη νίκη του παίκτη. Στο πόκερ συμμετέχουν όλα τα φύλλα της τράπουλας και το παιχνίδι παίζεται πάντα με μια τράπουλα. Πάμε να δούμε την κατάταξη των συνδυασμών, ξεκινώντας από τον καλύτερο και πηγαίνοντας προς τα κάτω.",
+      "pokerCombinationsFlushRoyalTitle": "Flush Royal (Φλος Ρουαγιάλ)",
+      "pokerCombinationsFlushRoyalText": "Το δυνατότερο χαρτί στο πόκερ, που δεν το κερδίζει τίποτα. Πολλοί παίκτες που παίζουν χρόνια δεν το έχουν συναντήσει ποτέ live. Αν το σχηματίσετε πάντως είστε πολύ τυχεροί, καθώς δεν υπάρχει καμιά περίπτωση να χάσετε. Είναι η κέντα στον Α (TJQKA), με τα φύλλα να είναι ίδιου χρώματος.",
+      "pokerCombinationsStraightFlushTitle": "Straight Flush (Κέντα – Χρώμα)",
+      "pokerCombinationsStraightFlushText": "5 φύλλα στη σειρά, από το ίδιο χρώμα, μας δίνουν την πανίσχυρη κέντα - χρώμα. Χάνει μόνο από το Φλος Ρουαγιάλ ή από κέντα χρώμα που τελειώνει ψηλότερα.",
+      "pokerCombinationsFourOfaKindTitle": "Four of a Kind (Καρέ)",
+      "pokerCombinationsFourOfaKindText": "Τέσσερα φύλλα ίδιας αξίας. Από τα καλύτερα φύλλα στο πόκερ. Το γνωστό καρέ.",
+      "pokerCombinationsFullHouseTitle": "Full House (Φουλ)",
+      "pokerCombinationsFullHouseText": "Ένα ζευγάρι και μια τριάδα. Στην πιάτσα προφέρεται ως «Φουλ της Ντάμας με δεκάρια» (όταν ο παίκτης έχει τρεις Ντάμες και δυο δεκάρια)",
+      "pokerCombinationsFlushTitle": "Flush (Χρώμα)",
+      "pokerCombinationsFlushText": "Πέντε φύλλα του ίδιου χρώματος. Συχνός συνδυασμός και αγαπημένος.",
+      "pokerCombinationsStraightTitle": "Straight (Κέντα)",
+      "pokerCombinationsStraightText": "5 φύλλα σε σειρά, ανεξαρτήτως χρώματος. Για παράδειγμα 6,7,8,9,10. Αν τα φύλλα είναι του ίδιου χρώματος τότε μιλάμε για την Κέντα – Χρώμα που είδαμε παραπάνω.",
+      "pokerCombinationsThreeOfaKindTitle": "Three of a Kind (Τριάδα ή Τρία Όμοια)",
+      "pokerCombinationsThreeOfaKindText": "Τρία φύλλα ίδιας αξίας, Αρκετά κοινό φύλλο, δυνατό και υπεύθυνο για ωραία στοιχήματα στο τραπέζι.",
+      "pokerCombinationsTwoPairsTitle": "Two Pairs (Δύο Ζεύγη)",
+      "pokerCombinationsTwoPairsText": "Χέρι με δύο ζευγάρια.",
+      "pokerCombinationsPairTitle": "Pair (Ζεύγος ή Ζευγάρι)",
+      "pokerCombinationsPairText": "Δύο ίδια φύλλα.",
+      "pokerCombinationsHighCardTitle": "High Card (Καλύτερο φύλλο)",
+      "pokerCombinationsHighCardText": "Αν δεν υπάρχει κανένας συνδυασμός στο τραπέζι, τότε μπορεί να κερδίσει αυτός που κρατούσε το δυνατότερο φύλλο. Χρησιμοποιείται και ως kicker, δηλαδή το καθοριστικό φύλλο αν στο τραπέζι υπάρχουν παίκτες που κρατούν ακριβώς τους ίδιους συνδυασμούς και ως εκ τούτου ανακηρύσσεται ισοπαλία.",
+      "pokerCombinationsText2": "Ιδού και ένα χρήσιμο διάγραμμα με την κατάταξη των χεριών, ώστε να το αποθηκεύσετε και να το έχετε πάντα μαζί σας.",
+      "pokerNoviTitle": "Παιχνίδια Πόκερ στη Novibet",
+      "pokerNoviText1": "Όταν λέμε για παιχνίδια πόκερ φυσικά δεν εννοούμε μόνο το Hold’Em. Απλώς ασχολούμαστε περισσότερο με αυτό, καθώς είναι το πιο εύκολο και το πιο διαδεδομένο στον κόσμο. Οι Έλληνες φυσικά έχουμε να καυχιόμαστε για την Πόκα, δηλαδή τις παραλλαγές του Πόκερ που απαντώνται μόνο στη χώρα μας. Και οι οποίες τείνουν να γίνουν εξαιρετικά ευφάνταστες και διασκεδαστικές.",
+      "pokerNoviText2": "Πέραν της πόκας όμως, δεν μπορούμε να παραγνωρίσουμε πως στις υπόλοιπες χώρες ο κόσμος έχει συνηθίσει (και αγαπήσει) μερικά ακόμα είδη πόκερ.",
+      "pokerNoviOmahaTitle": "Omaha (Κανονικό και Hi/Lo)",
+      "pokerNoviOmahaText": "Παραλλαγή κατά την οποία μοιράζονται 4 φύλλα στο χέρι και όχι δύο. Αρκετά δημιουργικό και με τη δική του φιλοσοφία στα πονταρίσματα. Όχι τυχαία το δεύτερο πιο δημοφιλές παιχνίδι πόκερ στον κόσμο.",
+      "pokerNoviStudTitle": "Stud Poker (ή 7 Card Stud)",
+      "pokerNoviStudText": "Κάτι από τα παλιά. Στο Stud οι παίκτες παίρνουν 7 φύλλα έκαστος και κανένα στη μέση για όλους. Το χέρι πρέπει να φτιαχτεί με 5 φύλλα, εκ των οποίων τα 2 είναι κρυφά και τα 5 ανοιχτά.",
+      "pokerNoviRazzTitle": "Razz ή Lowball",
+      "pokerNoviRazzText": "Παραλλαγή του Stud, που σκοπός είναι όμως να κερδίσει το χαμηλότερο φύλλο. Αν και περίεργο έχει τους φανατικούς του. Λέγεται αλλιώς και lowball poker.",
+      "pokerNoviFiveCardDrawTitle": "5 Card Draw",
+      "pokerNoviFiveCardDrawText": "Το πόκερ που βλέπαμε στα Western. 5 φύλλα στον καθένα με διαδοχικούς γύρους πονταρίσματος και αλλαγές φύλλου κατά το δοκούν. Αρκετά συναρπαστικό και παλιό αγαπημένο, πριν την ολοκληρωτική επικράτηση του Texas Hold’em.",
+      "pokerNoviEightOrBetterTitle": "Eight or Better",
+      "pokerNoviEightOrBetterText": "Σε αυτό το παράξενο πόκερ θα πρέπει να φτιάξετε το καλύτερο χαμηλό χέρι, με χαρτιά που είναι κάτω του 8. Άγνωστο ποιος το σκέφτηκε, πάντως έχει και αυτό κάποιους πιστούς ανά τον κόσμο.",
+      "pokerNoviHorseTitle": "Horse",
+      "pokerNoviHorseText": "Έκδοση που συνδυάζει τα Hold’em, Omaha, Razz, Seven Card Stud και Eight or Better.",
+      "pokerDictionaryTitle": "Λεξικό Πόκερ",
+      "pokerDictionaryText1": "To να συγγραφεί ένα",
+      "pokerDictionaryLink": "πλήρες Λεξικό Πόκερ",
+      "pokerDictionaryText2": "μοιάζει με πραγματικά τιτάνιο έργο. Κι αυτό γιατί οι πολλές παραλλαγές του παιχνιδιού, η χρήση τοπικών ιδιωμάτων αλλά και η μελέτη γύρω από το πόκερ έχουν γεννήσει ορισμούς πέραν από κάθε φαντασία. Παρόλα αυτά, εμείς έχουμε συντάξει έναν πολύ περιεκτικό και κατατοπιστικό οδηγό για τον κόσμο του λεξιλογίου του δημοφιλούς παιχνιδιού. Αν και δεν πιστεύουμε πως το θέμα θα εξαντληθεί σε μερικές σελίδες, είμαστε αισιόδοξοι πως η δουλειά που έχει γίνει θα σας βοηθήσει ακόμα και αν είστε προχωρημένος παίκτης του πόκερ.",
+      "pokerStrategyTitle": "Πόκερ Στρατηγική",
+      "pokerStrategyText": "Η βασική πόκερ στρατηγική έχει γίνει αντικείμενο συγγραφής χιλιάδων βιβλίων και ιστοσελίδων. Ενώ δεν είναι λίγες οι τηλεοπτικές και ιντερνετικές παραγωγές που προσφέρουν μια βαθιά μελέτη του παιχνιδιού. Ιδιαίτερα στις παραλλαγές του Hold’Em και της Omaha, που είναι άλλωστε οι πιο δημοφιλείς παγκοσμίως. Για να σας βοηθήσουμε θα σας δώσουμε μερικά σημεία που μπορούν να σας καθοδηγήσουν και μπορούν να σας κατευθύνουν προς την υιοθέτηση μιας λογικής και σωστής στρατηγικής. Πιο αναλυτικά:",
+      "pokerStrategyOption1": "Χρησιμοποιήστε τα εργαλεία που είναι διαθέσιμα στο ίντερνετ. Αν είναι προφίλ παικτών, τράκερ παρτίδων, υπολογιστές πιθανοτήτων ή κάτι άλλο, απλά σιγουρευτείτε πως παίρνετε το 100% από ότι έχει να προσφέρει το διαδίκτυο, αλλά και τα στατιστικά που παρουσιάζονται live στο τραπέζι σου, στο σημερινό παίκτη του πόκερ.",
+      "pokerStrategyOption2": "Διαβάστε τα καλύτερα βιβλία/άρθρα ή παρακολουθήστε εκπαιδευτικά βίντεο για το πόκερ. Είναι κοινό μυστικό πως οι καλοί παίκτες του πόκερ, αυτοί που παίζουν συστηματικά με σκοπό τα μακροχρόνια κέρδη, περνούν πολύ χρόνο μελετώντας. Αν το κάνουν αυτοί, δεν θα έπρεπε να το κάνετε κι εσείς;",
+      "pokerStrategyOption3": "Εξασκηθείτε σε τραπέζια χωρίς χρήματα (ή με εικονικά λεφτά). Είτε παίζετε σε κάποιο φιλικό τραπέζι είτε στο ίντερνετ, έχετε πάντα την επιλογή να παίξετε χωρίς αληθινά χρήματα. Ειδικά στο online poker, η εμπειρία του παιχνιδιού με εικονικές μάρκες είναι εντελώς ίδια με αυτήν των αληθινών χρημάτων. Και αποτελεί έτσι ένα άριστο πεδίο εκπαίδευσης, πριν μπείτε για τα καλά στο παιχνίδι.",
+      "pokerStrategyOption4": "Μάθετε το poker face. Την τεχνική της απόκρυψης ή της διαχείρισης των εκφράσεών σας, που είναι άλλωστε και το καλύτερο εργαλείο που έχουν οι αντίπαλοί σας για να σας κερδίσουν. Σαφώς η εφαρμογή της τεχνικής/τακτικής αυτής βρίσκει πεδίο μόνο στο ζωντανό παιχνίδι.",
+      "pokerStrategyOption5": "Κατανοήστε τη θεωρία του bankroll management (Διαχείρισης χρημάτων). Πέραν των μαθηματικών και των πιθανοτήτων για τα διάφορα φύλλα, οι καλοί παίκτες είναι άριστοι και στο να διαχειρίζονται τα κεφάλαιά τους. Μιμηθείτε τους!",
+      "pokerOddsTitle": "Πόκερ Πιθανότητες",
+      "pokerOddsText": "Η κατανόηση της λίστας με τις Πόκερ Πιθανότητες δεν είναι ιδιαίτερα δύσκολη. Τουλάχιστον αν είστε ένας μεθοδικός παίκτης, που θέλετε σε βάθος χρόνου να παίζετε σωστά και να βελτιώνετε τις επιδόσεις σας στα τραπέζια. Αυτό που θέλετε να μελετήσετε είναι τόσο οι πιθανότητες που έχετε να κερδίσετε με βάση τα πρώτα δύο φύλλα που σας μοιράζονται (pre-flop) αλλά και τις πιθανότητές σας μετά το σχηματισμό του τελικού σας φύλλου. Στη διάθεσή σας, τουλάχιστον στο online poker, υπάρχουν αρκετά είδη λογισμικού που κάνουν αυτό ακριβώς το πράγμα: σας δίνουν ανά πάσα στιγμή τις πιθανότητες νίκης. Στο Novibet Ποκερ οι πιθανότητες -εσάς και του αντιπάλους σας- εμφανίζονται πάντοτε κατά τη διάρκεια ενός showdown.",
+      "pokerChipsTitle": "Μάρκες Πόκερ",
+      "pokerChipsText1": "Το παιχνίδι διεξάγεται πάντα με ειδικές μάρκες πόκερ. Σε αντίθεση με τις μάρκες στη Ρουλέτα και στο Blackjack, στο πόκερ οι παίκτες παίρνουν ο καθένας από μάρκες διαφορετικού χρώματος και αξίας. Και αυτό γιατί τα ποτ μπορεί να παρουσιάζουν σημαντικές αυξομειώσεις και δεν είναι εύκολο να γίνει παιχνίδι αν υιοθετηθεί η πρακτική των μαρκών ίδιου χρώματος και αξίας.",
+      "pokerChipsText2": "Οι μάρκες από μόνες τους έχουν γίνει αντικείμενο μελέτης και συγγραφής αρκετών πονημάτων, καθώς η διαχείρισή τους κατά τη διάρκεια του παιχνιδιού απαιτεί αρκετή εμπειρία και δεξιοτεχνία. Το Bankroll Management, όπως ονομάζεται χαρακτηριστικά η συγκεκριμένη στρατηγική, θα σας επιτρέψει να παίρνετε καλύτερες και πιο ορθολογικές αποφάσεις, τόσο για τα πονταρίσματα όσο και για τα ποσά που διατηρείτε στο τραπέζι και στον λογαριασμό σας.",
+      "pokerHistoryTitle": "Ιστορία Πόκερ",
+      "pokerHistoryText1": "Για την ιστορία Πόκερ έχουν γραφτεί διάφορες εκδοχές. Κάποια πράγματα ανταποκρίνονται στην πραγματικότητα κάποια άλλα όμως ανήκουν στη σφαίρα της φαντασίας. Το σίγουρο είναι πως το πόκερ δεν ήταν πάντα το λαμπερό παιχνίδι που εισέβαλε στις ζωές μας μέσω των τηλεοπτικών παραγωγών των αρχών της δεκαετίας του 2000.",
+      "pokerHistoryText2": "Οι ρίζες του παιχνιδιού βρίσκονται στην Ευρώπη της Αναγέννησης. Αν και κάποιοι πιστεύουν πως ομοιότητες υπάρχουν και με κάποια πιο παλιά παιχνίδια, στην Κίνα και στην Περσία. Ως επικρατέστεροι πρόγονοι του πόκερ εμφανίζονται το Ισπανικό Primero (Πριμέρο), το Γαλλικό Pocque (Ποκέ) και το Γερμανικό Pochen (Πόχεν). Όλα τα παιχνίδια παίζονταν με τρία κρυφά χαρτιά που μοιράζονταν αρχικά σε κάθε παίκτη, ενώ ήταν έντονο το στοιχείο της μπλόφας σε κάθε παρτίδα. Οι Ευρωπαίοι που μετανάστευσαν στην Αμερική το μετέφεραν στο Νέο Κόσμο, για να φτάσει να κυριεύει τα καζίνο και το ίντερνετ από τον 20ο αιώνα και έπειτα.",
+      "faqTitle": "FAQs για το Πόκερ",
+      "faq": [
+        {
+          "question": "Είναι δύσκολο να μάθω πόκερ;",
+          "answer": "Όχι, το να παίξετε πόκερ δεν είναι δύσκολο! Χρειάζεται απλά να γνωρίζετε τους βασικούς κανόνες για να ξεκινήσετε να παίζετε, ενώ οι κανόνες των περισσοτέρων παραλλαγών του παιχνιδιού είναι επίσης απλοί. Το να μάθετε να παίζετε καλό πόκερ είναι το περίπλοκο κομμάτι της υπόθεσης αλλά δε χρειάζεται να ανησυχείτε γι’ αυτό αν σκοπεύετε να παίζετε απλά για διασκέδαση."
+        },
+        {
+          "question": "Είναι το παν στο πόκερ τα φύλλα που μου μοιράζονται στην αρχή;",
+          "answer": "Όχι απόλυτα. Φυσικά τα φύλλα αυτά παίζουν βασικό ρόλο στον καθορισμό του ποιος κερδίζει και ποιος χάνει αλλά το πόκερ δεν είναι μόνο αυτά τα φύλλα. Οι αποφάσεις των παικτών, συμπεριλαμβανομένης και της στρατηγικής πονταρίσματος, είναι εξίσου σημαντικό μέρος του παιχνιδιού. Τα καλά φύλλα θα σας βοηθήσουν να κερδίσετε, αλλά οι ικανοί παίκτες μπορούν να βρουν τρόπους για να κερδίσουν ακόμα και αν δεν έχουν καλό πρώτο φύλλο."
+        },
+        {
+          "question": "Ποιό είναι το καλύτερο είδος πόκερ για να παίξετε;",
+          "answer": "Υπάρχουν αρκετές διαφορετικές εκδοχές του πόκερ και καμιά από αυτές δεν μπορεί να χαρακτηριστεί ως «η καλύτερη». Πάντως, οι περισσότεροι αρχάριοι ξεκινούν να παίζουν Texas Hold’em. Την πιο δημοφιλή μορφή του παιχνιδιού στις μέρες μας και μία από τις ευκολότερες για να μάθει κανείς. Μόλις εξοικειωθείτε με το Texas Hold’em, μπορείτε εύκολα να ξεκινήσετε να μαθαίνετε και τις υπόλοιπες."
+        },
+        {
+          "question": "Ποια είναι η διαφορά μεταξύ fixed limit και no limit;",
+          "answer": "Τα Limit και No Limit είναι δύο διαφορετικοί τύποι δομής πονταρίσματος στο πόκερ. Υπάρχουν μερικές ακόμα παραλλαγές αλλά οι συγκεκριμένες δύο δεσπόζουν στο χώρο. Η δομή πονταρίσματος θεσπίζει ουσιαστικά τα όρια στοιχήματος για κάθε παίκτη όταν έρχεται η σειρά του στο τραπέζι. Στο fixed limit poker, ο παίκτης μπορεί να ποντάρει ή να κάνει raise μόνο ένα ορισμένο ποσό. Στο no - limit όμως ο παίκτης μπορεί να ποντάρει ή να κάνει raise οποιοδήποτε ποσό θέλει, που φυσικά όμως του επιτρέπει η μπάνκα του."
+        },
+        {
+          "question": "Ποια παιχνίδια πόκερ είναι διαθέσιμα στο διαδίκτυο;",
+          "answer": " Όλες οι δημοφιλείς παραλλαγές του πόκερ είναι διαθέσιμες διαδικτυακά. Το Texas Hold’em είναι φυσικά το πιο διαδεδομένο, και μάλιστα με διαφορά. Αλλά στα περισσότερα σάιτ θα βρείτε πληθώρα επιλογών. Τα Omaha, Razz, Seven Card Stud και μερικά ακόμα μεικτά format μπορείτε να τα βρείτε σχετικά εύκολα."
+        }
+      ]
+    },
+    "home": {
+      "pageTitle": "Poker",
+      "header": {
+        "title": "Καλωσήρθες στο online Πόκερ της Novibet",
+        "secondaryText": "Καλωσήρθες στα πιο συναρπαστικά τραπέζια online Πόκερ. Παίξε Texas Holdem & Omaha & επωφελήσου από τις νέες προσφορές.",
+        "onlineTables": "Online Tables",
+        "activeTournaments": "Active Tournaments",
+        "onlinePlayers": "Online Players",
+        "onlineGame": "Παιχνίδι Online",
+        "clientApp": "Εφαρμογή Πόκερ"
+      },
+      "offers": {
+        "caption": "Προσφορές Πόκερ"
+      },
+      "categories": {
+        "caption": "Κατηγορίες Πόκερ"
+      },
+      "tournaments": {
+        "caption": "Τουρνουά Πόκερ",
+        "sections": {
+          "lateRegistration": "Late Registration",
+          "buyIn": "Buy-In",
+          "players": "Players",
+          "prizePool": "Prize Pool"
+        }
+      }
     }
   }
+}
