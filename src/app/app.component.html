@@ -1,11 +1,20 @@
+<div style="margin:2rem; padding:1rem; border: 2px solid gray">
+  <h1>transiflex native</h1>
+  <div>{{'Enter your user name' | translate}}</div>
+  <div>{{'Password here' | translate}}</div>
 
+  <!-- with params -->
+  <T str="Number of apples in the basket: {apples}" [vars]="{ apples: 2 }"></T>
 
-<h1>{{'welcomeMessage' | translate : {firstName: 'Theo'} }}</h1>
+  <!-- with keys -->
+  <div><T str="Hello world" key="welcome.string"></T></div>
+  <div><T key="welcome.string"></T></div>
 
-<div translate="login.username"></div>
-<div translate="login.password"></div>
-<br><br><br>
-  <select #langSelect (change)="translate.use(langSelect.value)">
-    <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
-  </select>
+    <!-- with keys 2 -->
+    <div><T  str="Good morining" key="goodmorning"></T></div>
+    <div><T str="Good morining" key="goodmorning"></T></div>
 
+  <div style="margin-top:1rem; padding: 1rem border-top: 1px solid lightgray">
+    <tx-language-picker class="languagePicker"></tx-language-picker>
+  </div>
+</div>

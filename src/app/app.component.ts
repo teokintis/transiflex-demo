@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TranslateService } from '@ngx-translate/core';
+import { TranslationService } from '@transifex/angular';
 
 @Component({
   selector: 'app-root',
@@ -9,9 +9,14 @@ import { TranslateService } from '@ngx-translate/core';
 export class AppComponent {
   title = 'transiflex-demo';
 
-  constructor(public translate: TranslateService) {
-    translate.addLangs(['en', 'el']);
-    translate.setDefaultLang('en');
-    translate.use('en');
+  constructor( private translationService: TranslationService) {
+    // translate.addLangs(['en', 'el']);
+    // translate.setDefaultLang('en');
+    // translate.use('en');
+
+    //TRANSIFLEX
+    translationService.init({
+        token: '1/1e6782cd4ed707c2fcf6425f543b909a08af9871',
+    });
   }
 }
