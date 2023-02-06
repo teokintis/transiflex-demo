@@ -1,0 +1,6 @@
+filters:
+  - filter_type: file
+    source_file: src/assets/i18n/en.json
+    file_format: KEYVALUEJSON
+    source_language: en
+    translation_files_expression: src/assets/i18n/<lang>.json
