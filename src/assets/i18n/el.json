@@ -1,5 +1,5 @@
 {
-    "welcomeMessage": "Καλωσήρθες, {{ firstName }}!",
+    "welcomeMessage": "Καλωσήρθες, {{ firstName }} φίλε!",
     "login": {
       "username": "Πληκτρολόγησε το όνομα χρήστη",
       "password": "Πληκτρολόγησε τον κωδικό"
