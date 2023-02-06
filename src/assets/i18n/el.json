@@ -1,9 +1,10 @@
 {
     "welcomeMessage": "Καλωσήρθες, {{ firstName }}!",
     "login": {
-      "username": "όνομα χρήστη22222",
-      "password": "Κωδικός",
-      "forgotPassword": "Ξέχασες τον κωδικό σου?",
-      "changePasswrd": "Αλλαγή κωδικού!!!"
+        "username": "όνομα χρήστη22222",
+        "password": "Κωδικός",
+        "forgotPassword": "Ξέχασες τον κωδικό σου?",
+        "changePasswrd": "Αλλαγή κωδικού!!!",
+        "test": "τεσττττ567"
     }
-  }
+}
