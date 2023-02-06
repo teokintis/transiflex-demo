@@ -4,6 +4,7 @@
       "username": "Enter your user name",
       "password": "Password here",
       "forgotPassword": "Forgot Your Password?",
-      "changePasswrd": "Change password"
+      "changePasswrd": "Change password",
+      "empty": ""
     }
   }
