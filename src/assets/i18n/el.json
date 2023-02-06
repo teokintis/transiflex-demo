@@ -1,0 +1,7 @@
+{
+    "welcomeMessage": "Καλωσορισες, {{ firstName }}!",
+    "login": {
+      "username": "όνομα χρήστη",
+      "password": "Κωδικός"
+    }
+  }
