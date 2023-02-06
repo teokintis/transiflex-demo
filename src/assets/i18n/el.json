@@ -5,6 +5,8 @@
         "password": "Κωδικός",
         "forgotPassword": "Ξέχασες τον κωδικό σου?",
         "changePasswrd": "Αλλαγή κωδικού!!!",
-        "test": "τεσττττ567"
+        "test": {
+            "updatekey": "τεσττττ567"
+        }
     }
 }

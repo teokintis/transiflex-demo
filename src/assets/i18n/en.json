@@ -5,6 +5,8 @@
         "password": "Password here",
         "forgotPassword": "Forgot Your Password?",
         "changePasswrd": "Change password",
-        "test": "test"
+        "test": {
+            "updatekey": "test"
+        }
     }
 }
