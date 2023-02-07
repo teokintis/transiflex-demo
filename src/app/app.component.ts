@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { TranslationService } from '@transifex/angular';
+import { TranslateService } from '@ngx-translate/core';
+import { TransifexApi, transifexApi } from '@transifex/api';
 
 @Component({
   selector: 'app-root',
@@ -9,14 +10,17 @@ import { TranslationService } from '@transifex/angular';
 export class AppComponent {
   title = 'transiflex-demo';
 
-  constructor( private translationService: TranslationService) {
-    // translate.addLangs(['en', 'el']);
-    // translate.setDefaultLang('en');
-    // translate.use('en');
+  constructor( public translate: TranslateService) {
+    translate.addLangs(['en', 'el']);
+    translate.setDefaultLang('en');
+    translate.use('en');
 
-    //TRANSIFLEX
-    translationService.init({
-        token: '1/1e6782cd4ed707c2fcf6425f543b909a08af9871',
-    });
+  }
+
+  ngOnInit(){
+    // this.transifexApi.setup({host:'', auth: "1/af0b194c4a5f3b45e0e5d6b113d9f90eadb82901" });
+    // this.transifexApi.Organization.get("1").then((res) =>{
+    //   debugger;
+    // });
   }
 }
