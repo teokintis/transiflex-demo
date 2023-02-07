@@ -1,14 +1,9 @@
 
-
-
-
   <div style="margin:2rem; padding:1rem; border: 2px solid lightgray">
     <h1>ngx-translate</h1>
-    <h3>{{'welcomeMessage' | translate : {firstName: 'Theo'} }}</h3>
-    <div translate="login.username"></div>
-    <div translate="login.password"></div>
+    <div>{{'common.days.monday' | translate}}</div>
+    <div>{{'account.settings.responsibleGambling.depositLimitsGreaterThan' | translate:  {min: '10'} }}</div>
     <br>
-    <div translate="login.changePasswrd"></div>
     <select #langSelect (change)="translate.use(langSelect.value)">
       <option *ngFor="let lang of translate.getLangs()" [value]="lang" [selected]="lang === translate.currentLang">{{ lang }}</option>
     </select>
