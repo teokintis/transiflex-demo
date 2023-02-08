@@ -14,23 +14,7 @@ export class AppComponent {
     translate.addLangs(['en', 'el']);
     translate.setDefaultLang('en');
     translate.use('en');
-
   }
-
-  // ngOnInit(){
-  //   this.translationService.init({ token: '1/1e6782cd4ed707c2fcf6425f543b909a08af9871'}).then((res) =>{
-  //     this.translationService.translationsFetched.subscribe((res: boolean) =>{
-  //       console.warn('translationsFetched', res);
-  //     });
-  //     const instance = this.translationService.getInstance();
-  //     if(instance) instance.fetchTranslations('el');
-
-  //     setTimeout(() => {
-  //       console.warn('5000', instance.cache.translationsByLocale.el);
-  //     }, 5000);
-  //   });
-  // }
-
 
   async ngOnInit(){
     await this.translationService.init({ token: '1/1e6782cd4ed707c2fcf6425f543b909a08af9871'});
