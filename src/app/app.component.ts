@@ -15,11 +15,4 @@ export class AppComponent {
     translate.setDefaultLang('en');
     translate.use('en');
   }
-
-  async ngOnInit(){
-    await this.translationService.init({ token: '1/1e6782cd4ed707c2fcf6425f543b909a08af9871'});
-    const instance = this.translationService.getInstance();
-    await instance.fetchTranslations('el');
-    console.warn('5000', instance.cache.translationsByLocale.el);
-  }
 }

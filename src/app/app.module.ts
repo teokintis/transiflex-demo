@@ -6,7 +6,8 @@ import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TxNativeModule } from '@transifex/angular';
+import { TranslationService, TxNativeModule } from '@transifex/angular';
+import { translationsLoaderFactory } from './translations.loader';
 
 
 export function HttpLoaderFactory(http: HttpClient) {
@@ -24,12 +25,15 @@ export function HttpLoaderFactory(http: HttpClient) {
     TranslateModule.forRoot({
       loader: {
         provide: TranslateLoader,
-          useFactory: HttpLoaderFactory,
-          deps: [HttpClient]
+          // useFactory: HttpLoaderFactory,
+          useFactory: translationsLoaderFactory,
+          deps: [TranslationService]
       }
     }),
   ],
-  providers: [[TxNativeModule.forRoot().providers]],
+  providers: [[TxNativeModule.forRoot().providers],
+
+],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
