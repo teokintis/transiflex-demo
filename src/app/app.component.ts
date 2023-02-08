@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
-import { TransifexApi, transifexApi } from '@transifex/api';
+import { TranslationService } from '@transifex/angular';
 
 @Component({
   selector: 'app-root',
@@ -10,17 +10,32 @@ import { TransifexApi, transifexApi } from '@transifex/api';
 export class AppComponent {
   title = 'transiflex-demo';
 
-  constructor( public translate: TranslateService) {
+  constructor( public translate: TranslateService, private translationService: TranslationService) {
     translate.addLangs(['en', 'el']);
     translate.setDefaultLang('en');
     translate.use('en');
 
   }
 
-  ngOnInit(){
-    // this.transifexApi.setup({host:'', auth: "1/af0b194c4a5f3b45e0e5d6b113d9f90eadb82901" });
-    // this.transifexApi.Organization.get("1").then((res) =>{
-    //   debugger;
-    // });
+  // ngOnInit(){
+  //   this.translationService.init({ token: '1/1e6782cd4ed707c2fcf6425f543b909a08af9871'}).then((res) =>{
+  //     this.translationService.translationsFetched.subscribe((res: boolean) =>{
+  //       console.warn('translationsFetched', res);
+  //     });
+  //     const instance = this.translationService.getInstance();
+  //     if(instance) instance.fetchTranslations('el');
+
+  //     setTimeout(() => {
+  //       console.warn('5000', instance.cache.translationsByLocale.el);
+  //     }, 5000);
+  //   });
+  // }
+
+
+  async ngOnInit(){
+    await this.translationService.init({ token: '1/1e6782cd4ed707c2fcf6425f543b909a08af9871'});
+    const instance = this.translationService.getInstance();
+    await instance.fetchTranslations('el');
+    console.warn('5000', instance.cache.translationsByLocale.el);
   }
 }
